@@ -1,0 +1,30 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Hurt_000",
+    "atlas": "",
+    "rect": {
+      "x": 61,
+      "y": 122,
+      "width": 497,
+      "height": 457
+    },
+    "offset": {
+      "x": -10.5,
+      "y": -50.5
+    },
+    "originalSize": {
+      "width": 640,
+      "height": 600
+    },
+    "rotated": false,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "texture": "fba35ade-33c5-476c-ba67-03ddcbe0339d@6c48a",
+    "packable": true
+  }
+}

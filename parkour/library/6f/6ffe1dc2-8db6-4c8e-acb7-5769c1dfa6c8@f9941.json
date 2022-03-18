@@ -1,0 +1,30 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Right Upper Arm",
+    "atlas": "",
+    "rect": {
+      "x": 7,
+      "y": 11,
+      "width": 42,
+      "height": 97
+    },
+    "offset": {
+      "x": -2,
+      "y": 0.5
+    },
+    "originalSize": {
+      "width": 60,
+      "height": 120
+    },
+    "rotated": false,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "texture": "6ffe1dc2-8db6-4c8e-acb7-5769c1dfa6c8@6c48a",
+    "packable": true
+  }
+}

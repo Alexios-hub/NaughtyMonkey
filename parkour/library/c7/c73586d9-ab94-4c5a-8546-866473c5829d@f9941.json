@@ -1,0 +1,30 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Face 03",
+    "atlas": "",
+    "rect": {
+      "x": 22,
+      "y": 16,
+      "width": 119,
+      "height": 127
+    },
+    "offset": {
+      "x": 1.5,
+      "y": 0.5
+    },
+    "originalSize": {
+      "width": 160,
+      "height": 160
+    },
+    "rotated": false,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "texture": "c73586d9-ab94-4c5a-8546-866473c5829d@6c48a",
+    "packable": true
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Smoke_004",
+    "atlas": "",
+    "rect": {
+      "x": 55,
+      "y": 42,
+      "width": 273,
+      "height": 258
+    },
+    "offset": {
+      "x": -8.5,
+      "y": -11
+    },
+    "originalSize": {
+      "width": 400,
+      "height": 320
+    },
+    "rotated": false,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "texture": "6573c23e-f844-40bc-a2c3-926b09c555fd@6c48a",
+    "packable": true
+  }
+}

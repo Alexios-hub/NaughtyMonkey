@@ -1,0 +1,30 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Right Wing",
+    "atlas": "",
+    "rect": {
+      "x": 5,
+      "y": 3,
+      "width": 70,
+      "height": 94
+    },
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "originalSize": {
+      "width": 80,
+      "height": 100
+    },
+    "rotated": false,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "texture": "89d34bbe-938d-44d3-a566-171bfc8b2d9d@6c48a",
+    "packable": true
+  }
+}

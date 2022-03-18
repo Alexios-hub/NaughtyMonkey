@@ -1,0 +1,30 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "tree3up",
+    "atlas": "",
+    "rect": {
+      "x": 929,
+      "y": 0,
+      "width": 282,
+      "height": 2048
+    },
+    "offset": {
+      "x": 464.5,
+      "y": 0
+    },
+    "originalSize": {
+      "width": 1211,
+      "height": 2048
+    },
+    "rotated": false,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "texture": "e898a62e-bf2f-4d61-8f51-30a4cec91e00@6c48a",
+    "packable": true
+  }
+}

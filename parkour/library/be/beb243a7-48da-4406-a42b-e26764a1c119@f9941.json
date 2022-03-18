@@ -1,0 +1,30 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Dying_002",
+    "atlas": "",
+    "rect": {
+      "x": 54,
+      "y": 172,
+      "width": 534,
+      "height": 424
+    },
+    "offset": {
+      "x": 1,
+      "y": -84
+    },
+    "originalSize": {
+      "width": 640,
+      "height": 600
+    },
+    "rotated": false,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "texture": "beb243a7-48da-4406-a42b-e26764a1c119@6c48a",
+    "packable": true
+  }
+}

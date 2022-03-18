@@ -1,0 +1,30 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Idle_007",
+    "atlas": "",
+    "rect": {
+      "x": 6,
+      "y": 52,
+      "width": 294,
+      "height": 221
+    },
+    "offset": {
+      "x": -17,
+      "y": -2.5
+    },
+    "originalSize": {
+      "width": 340,
+      "height": 320
+    },
+    "rotated": false,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "texture": "5cf668e2-5c58-4459-9bcc-3445e726507a@6c48a",
+    "packable": true
+  }
+}

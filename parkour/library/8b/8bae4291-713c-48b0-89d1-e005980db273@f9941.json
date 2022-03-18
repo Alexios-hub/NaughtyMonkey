@@ -1,0 +1,30 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Left Lower Arm",
+    "atlas": "",
+    "rect": {
+      "x": 9,
+      "y": 5,
+      "width": 42,
+      "height": 89
+    },
+    "offset": {
+      "x": 0,
+      "y": 0.5
+    },
+    "originalSize": {
+      "width": 60,
+      "height": 100
+    },
+    "rotated": false,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "texture": "8bae4291-713c-48b0-89d1-e005980db273@6c48a",
+    "packable": true
+  }
+}

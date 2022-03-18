@@ -1,0 +1,30 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Throwing_005",
+    "atlas": "",
+    "rect": {
+      "x": 113,
+      "y": 129,
+      "width": 474,
+      "height": 451
+    },
+    "offset": {
+      "x": 30,
+      "y": -54.5
+    },
+    "originalSize": {
+      "width": 640,
+      "height": 600
+    },
+    "rotated": false,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "texture": "9e9214e9-0333-4a7c-923b-462f45474f73@6c48a",
+    "packable": true
+  }
+}

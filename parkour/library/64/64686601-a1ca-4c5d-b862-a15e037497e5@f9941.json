@@ -1,0 +1,30 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "tree2",
+    "atlas": "",
+    "rect": {
+      "x": 0,
+      "y": 0,
+      "width": 283,
+      "height": 2048
+    },
+    "offset": {
+      "x": -464,
+      "y": 0
+    },
+    "originalSize": {
+      "width": 1211,
+      "height": 2048
+    },
+    "rotated": false,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "texture": "64686601-a1ca-4c5d-b862-a15e037497e5@6c48a",
+    "packable": true
+  }
+}

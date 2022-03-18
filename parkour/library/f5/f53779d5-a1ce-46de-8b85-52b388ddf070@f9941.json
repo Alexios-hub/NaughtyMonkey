@@ -1,0 +1,30 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Running_013",
+    "atlas": "",
+    "rect": {
+      "x": 65,
+      "y": 103,
+      "width": 471,
+      "height": 474
+    },
+    "offset": {
+      "x": -19.5,
+      "y": -40
+    },
+    "originalSize": {
+      "width": 640,
+      "height": 600
+    },
+    "rotated": false,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "texture": "f53779d5-a1ce-46de-8b85-52b388ddf070@6c48a",
+    "packable": true
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Idle Blinking_008",
+    "atlas": "",
+    "rect": {
+      "x": 10,
+      "y": 3,
+      "width": 381,
+      "height": 313
+    },
+    "offset": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "originalSize": {
+      "width": 400,
+      "height": 320
+    },
+    "rotated": false,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "texture": "a4055cab-3ff1-4d96-8473-cada4c52e256@6c48a",
+    "packable": true
+  }
+}

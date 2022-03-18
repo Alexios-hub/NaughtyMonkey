@@ -1,0 +1,30 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Jumping_000",
+    "atlas": "",
+    "rect": {
+      "x": 49,
+      "y": 95,
+      "width": 468,
+      "height": 477
+    },
+    "offset": {
+      "x": -37,
+      "y": -33.5
+    },
+    "originalSize": {
+      "width": 640,
+      "height": 600
+    },
+    "rotated": false,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "texture": "b76d9d18-1209-4237-8fb9-f25043d634fd@6c48a",
+    "packable": true
+  }
+}

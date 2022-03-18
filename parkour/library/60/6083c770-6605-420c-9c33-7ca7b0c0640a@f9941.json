@@ -1,0 +1,30 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Walking_008",
+    "atlas": "",
+    "rect": {
+      "x": 10,
+      "y": 5,
+      "width": 381,
+      "height": 313
+    },
+    "offset": {
+      "x": 0.5,
+      "y": -1.5
+    },
+    "originalSize": {
+      "width": 400,
+      "height": 320
+    },
+    "rotated": false,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "texture": "6083c770-6605-420c-9c33-7ca7b0c0640a@6c48a",
+    "packable": true
+  }
+}

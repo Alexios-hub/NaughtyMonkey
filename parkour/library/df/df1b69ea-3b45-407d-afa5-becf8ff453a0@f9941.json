@@ -1,0 +1,30 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "rtree",
+    "atlas": "",
+    "rect": {
+      "x": 928,
+      "y": 0,
+      "width": 283,
+      "height": 2048
+    },
+    "offset": {
+      "x": 464,
+      "y": 0
+    },
+    "originalSize": {
+      "width": 1211,
+      "height": 2048
+    },
+    "rotated": false,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "texture": "df1b69ea-3b45-407d-afa5-becf8ff453a0@6c48a",
+    "packable": true
+  }
+}
