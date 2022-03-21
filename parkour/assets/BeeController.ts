@@ -1,5 +1,6 @@
 
-import {v2, _decorator, Component, Node, RigidBody2D, find } from 'cc';
+import {Animation,v2, _decorator, Component, Node, RigidBody2D, find, Collider2D, IPhysics2DContact, Contact2DType } from 'cc';
+import { monkey_controller } from './monkey_controller';
 const { ccclass, property } = _decorator;
 
 /**
@@ -13,6 +14,12 @@ const { ccclass, property } = _decorator;
  * ManualUrl = https://docs.cocos.com/creator/3.4/manual/zh/
  *
  */
+
+enum BEESTATE{
+    ALIVE,
+    DEAD
+}
+
  
 @ccclass('BeeController')
 export class BeeController extends Component {
@@ -22,10 +29,19 @@ export class BeeController extends Component {
     // [2]
     // @property
     // serializableDummy = 0;
-    @property(Number)
-    y:number
     judge_time = 3;//10s
     during_time = 0;
+    state:BEESTATE = BEESTATE.ALIVE;
+
+  
+
+    @property(Number)
+    y:number
+    @property(monkey_controller)
+    mk_controller:monkey_controller;
+    @property(Number)
+    speed:number
+
     judge(){
         for(var i =1;i<5;i++){
             var node = find("Canvas/Hedgehog"+i);
@@ -33,7 +49,26 @@ export class BeeController extends Component {
         }
         return true;
     }
+    onBeginContact (selfCollider: Collider2D, otherCollider: Collider2D, contact: IPhysics2DContact | null) {
+   
+        // 只在两个碰撞体开始接触时被调用一次
+       
+
+        if(otherCollider.tag==2){
+        this.state=BEESTATE.DEAD;
+        let ani = this.node.getComponent(Animation);
+        ani.play("Bee_Smoke");
+        }
+
+
+
+
+    }
     start () {
+        let collider = this.getComponent(Collider2D);
+        if(collider){
+            collider.on(Contact2DType.BEGIN_CONTACT, this.onBeginContact, this);
+        }
 
         let ifreset = Math.random();
         if(ifreset<0.15&&this.judge())this.reset();
@@ -44,6 +79,14 @@ export class BeeController extends Component {
     }
 
     reset(){
+
+        let ani = this.node.getComponent(Animation);
+        ani.play("Bee_Idle");
+        this.state=BEESTATE.ALIVE;
+     
+        let ltree = find("Canvas/ltree");
+        let ltree_rgd = ltree.getComponent(RigidBody2D);
+  
         this.node.setPosition(Math.random()*(200+186)-186,this.y,0);
         let dir = Math.random();
         if(dir<0.5){
@@ -56,19 +99,19 @@ export class BeeController extends Component {
         if(ifmove>0.5){
             let rgd = this.node.getComponent(RigidBody2D);
             if(dir<0.5){
-               
-                rgd.linearVelocity=v2(-5,-15);
+                rgd.linearVelocity=v2(-5,this.speed);
             }
             else{
-                rgd.linearVelocity=v2(5,-15);
+                rgd.linearVelocity=v2(5,this.speed);
 
             }
         }
         else{
             let rgd = this.node.getComponent(RigidBody2D);
-            rgd.linearVelocity=v2(0,-15);
+            rgd.linearVelocity=v2(0,this.speed);
 
         }
+
 
     }
 
@@ -77,6 +120,16 @@ export class BeeController extends Component {
 
 
     update (deltaTime: number) {
+        if(this.mk_controller.mk_state == 0){
+
+            let ltree = find("Canvas/ltree");
+            let ltree_rgd = ltree.getComponent(RigidBody2D);
+            let rgd = this.getComponent(RigidBody2D);
+        this.speed = ltree_rgd.linearVelocity.y;
+        rgd.linearVelocity=v2(rgd.linearVelocity.x,this.speed);
+     
+
+     
         this.during_time +=deltaTime;
         // [4]
         if(this.during_time>this.judge_time&&this.node.getPosition().y<-870){
@@ -84,18 +137,25 @@ export class BeeController extends Component {
      
             let ifreset = Math.random();
             if(ifreset<0.5&&this.judge())
-            this.reset()
-        
+            this.reset();
     }
-       
-            let rgd = this.node.getComponent(RigidBody2D);
+       let ani = this.node.getComponent(Animation);
+
+    if(this.state == BEESTATE.DEAD&&ani.getState("Bee_Smoke").isPlaying==false){
+        this.state=BEESTATE.ALIVE;
+        this.node.setPosition(0,-1000,0);
+    }
+           
+
+           
             if(this.node.getPosition().x<=-186||this.node.getPosition().x>=200){
             rgd.linearVelocity = v2(-rgd.linearVelocity.x,rgd.linearVelocity.y);
             this.node.setScale(-this.node.getScale().x,this.node.getScale().y,this.node.getScale().z);
         
     }
-
+        
     }
+}
 }
 
 /**

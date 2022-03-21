@@ -1,5 +1,7 @@
 
-import { Animation,_decorator, Component, Node, find, RigidBody2D, v2 } from 'cc';
+import { Animation,_decorator, Component, Node, find, RigidBody2D, v2, TypeScript, Collider2D, IPhysics2DContact, Contact2DType, director } from 'cc';
+import { CanvasController } from './CanvasController';
+import { monkey_controller } from './monkey_controller';
 const { ccclass, property } = _decorator;
 
 /**
@@ -13,10 +15,20 @@ const { ccclass, property } = _decorator;
  * ManualUrl = https://docs.cocos.com/creator/3.4/manual/zh/
  *
  */
+enum HedgehogSTATE{
+    UPRUNNING,
+    DOWNRUNNING,
+    IDLE,
+    DEAD
+}
  
 @ccclass('HedgehogController')
 export class HedgehogController extends Component {
     during_time:number=0;
+    state:HedgehogSTATE = HedgehogSTATE.IDLE;
+
+  
+
     @property(Number)
     y:number
     @property(Number)
@@ -27,6 +39,14 @@ export class HedgehogController extends Component {
     up_possibility:number;
     @property(Number)
     revert_possibility:number;
+
+    @property(monkey_controller)
+    mk_controller:monkey_controller;
+
+    @property(Number)
+    speed:number
+
+
    
 
     
@@ -37,19 +57,28 @@ export class HedgehogController extends Component {
     // @property
     // serializableDummy = 0;
     moveway(){
+    
+
         let ifrun = Math.random();
         let ani = this.getComponent(Animation);
         let rgd = this.getComponent(RigidBody2D);
         if(ifrun<this.run_possibility){
 
-            if(this.node.getScale().x<0)
-            rgd.linearVelocity=v2(0,-18);
-            else  rgd.linearVelocity=v2(0,-12);
+            if(this.node.getScale().x<0){
+                rgd.linearVelocity=v2(0,this.speed-3);
+                this.state = HedgehogSTATE.DOWNRUNNING;
+            }
+            
+            else  {
+                rgd.linearVelocity=v2(0,this.speed+3);
+                this.state=HedgehogSTATE.UPRUNNING;
+            }
             ani.play("Hedgehog_Walking");
 
         }
         else{
-            rgd.linearVelocity=v2(0,-15);
+            rgd.linearVelocity=v2(0,this.speed);
+            this.state=HedgehogSTATE.IDLE;
             ani.play("Hedgehog_Idle");
 
         }
@@ -97,11 +126,31 @@ export class HedgehogController extends Component {
                 this.node.setPosition(-326,this.y,0);
             }
             this.moveway();
-            console.log("set");
+
+
+    }
+    onBeginContact (selfCollider: Collider2D, otherCollider: Collider2D, contact: IPhysics2DContact | null) {
+   
+        // 只在两个碰撞体开始接触时被调用一次
+        if(otherCollider.tag == 2){
+        this.state = HedgehogSTATE.DEAD;
+        let rgd = this.node.getComponent(RigidBody2D);
+        rgd.linearVelocity = v2(0,this.speed);
+        let ani = this.node.getComponent(Animation);
+        ani.play("Hedgehog_Smoke");
+        }
+       
 
     }
 
+
+
+
     start () {
+        let collider = this.getComponent(Collider2D);
+        if(collider){
+            collider.on(Contact2DType.BEGIN_CONTACT, this.onBeginContact, this);
+        }
         let ifup = Math.random();
         if(ifup<this.up_possibility){
             this.reset();
@@ -113,11 +162,58 @@ export class HedgehogController extends Component {
     }
 
     update (deltaTime: number) {
+        
+      if(this.mk_controller.mk_state == 0){
+        let ltree = find("Canvas/ltree");
+        let ltree_rgd = ltree.getComponent(RigidBody2D);
+       
+      
+
         this.during_time+=deltaTime;
-        console.log(this.during_time);
+        let rgd = this.getComponent(RigidBody2D);
+        this.speed = ltree_rgd.linearVelocity.y;
+      
+
+        //update speed
+        switch(this.state){
+            case  HedgehogSTATE.DOWNRUNNING:
+                rgd.linearVelocity = v2(0,this.speed-3);
+                break;
+            case HedgehogSTATE.UPRUNNING:
+                rgd.linearVelocity = v2(0,this.speed+3);
+                break;
+            case  HedgehogSTATE.IDLE:
+                rgd.linearVelocity = v2(0,this.speed);
+                break;
+            case HedgehogSTATE.DEAD:
+                let ani = this.node.getComponent(Animation);
+               
+                if(ani.getState("Hedgehog_Smoke").isPlaying==false){
+              
+
+                    this.state = HedgehogSTATE.IDLE;
+                    rgd.linearVelocity = v2(0,this.speed);
+                    this.node.setPosition(340,-1000,0);
+                   
+                }
+                break;
+
+
+
+
+        }
+
+
+
+    
+
+
+
+
+
         if(this.during_time>this.judge_time&& this.node.getPosition().y<-870&&this.judge())
         {
-            console.log("update!");
+
             this.during_time = 0;
             let ifrevert = Math.random();
             if(ifrevert<this.revert_possibility){
@@ -125,21 +221,34 @@ export class HedgehogController extends Component {
             }
         }
         let ani = this.getComponent(Animation);
+
         if(ani.getState("Hedgehog_Walking").isPlaying == true){
+          
+           
             if(this.judgerun()==false){
-                let rgd = this.getComponent(RigidBody2D);
-                if(rgd.linearVelocity.y==-18){
+               
+                if(this.state == HedgehogSTATE.DOWNRUNNING){
+                    this.state=HedgehogSTATE.UPRUNNING;
                     this.node.setScale(0.25,this.node.getScale().y,this.node.getScale().z);
-                    rgd.linearVelocity = v2(0,-12);
+                
+                    rgd.linearVelocity = v2(0,this.speed+3);
                 }
-                else {
+                else if(this.state == HedgehogSTATE.UPRUNNING){
+                    this.state = HedgehogSTATE.DOWNRUNNING;
                     this.node.setScale(-0.25,this.node.getScale().y,this.node.getScale().z);
-                    rgd.linearVelocity = v2(0,-18);
+                   
+                    rgd.linearVelocity = v2(0,this.speed-3);
 
                 }
             }
+
         }
-        
+    
+
+
+
+
+      }
         // [4]
     }
 }

@@ -20,6 +20,7 @@ const { ccclass, property } = _decorator;
  
 @ccclass('monkey_controller')
 export class monkey_controller extends Component {
+    mk_state:monkey_state
     @property(Number)
     NumOfHedgehogs:number
     // [1]
@@ -28,7 +29,7 @@ export class monkey_controller extends Component {
     // [2]
     // @property
     // serializableDummy = 0;
-    mk_state:monkey_state
+   
 
     onBeginContact (selfCollider: Collider2D, otherCollider: Collider2D, contact: IPhysics2DContact | null) {
         // 只在两个碰撞体开始接触时被调用一次

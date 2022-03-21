@@ -780,7 +780,7 @@
     "time": 1646980406894.7122
   },
   "/Users/liuhongbo/parkour/assets/BeeController.ts": {
-    "time": 1647500352827.648,
+    "time": 1647868553780.0474,
     "uuid": "f39ca659-3bca-465d-9e0a-7bccfa479020",
     "missing": false
   },
@@ -790,7 +790,7 @@
     "missing": false
   },
   "/Users/liuhongbo/parkour/assets/Bee_Smoke.anim": {
-    "time": 1647430435921.3484,
+    "time": 1647866263804.1646,
     "uuid": "65491c41-018b-4c59-ad82-5718712d2674",
     "missing": false
   },
@@ -815,7 +815,7 @@
     "missing": false
   },
   "/Users/liuhongbo/parkour/assets/Hedgehog_Idle.anim": {
-    "time": 1647256030536.23,
+    "time": 1647852360241.1094,
     "uuid": "0fabae97-d125-412e-9997-1081e2284620",
     "missing": false
   },
@@ -830,22 +830,22 @@
     "missing": false
   },
   "/Users/liuhongbo/parkour/assets/CanvasController.ts": {
-    "time": 1647498736194.5383,
+    "time": 1647864166987.2263,
     "uuid": "7686de7d-b4be-4264-a6e7-a76bfb1da3b8",
     "missing": false
   },
   "/Users/liuhongbo/parkour/assets/HedgehogController.ts": {
-    "time": 1647582427864.1978,
+    "time": 1647864554384.9478,
     "uuid": "70304e2d-ac44-4508-9e28-b3b7536e09e5",
     "missing": false
   },
   "/Users/liuhongbo/parkour/assets/TreeController.ts": {
-    "time": 1647219121175.292,
+    "time": 1647869035397.149,
     "uuid": "83fbc867-da7f-4e91-ac56-a782e4271da2",
     "missing": false
   },
   "/Users/liuhongbo/parkour/assets/monkey_controller.ts": {
-    "time": 1647500426946.1313,
+    "time": 1647753217929.7168,
     "uuid": "1f9f6b59-7d89-4590-b13c-b5d27fd69ae0",
     "missing": false
   },
@@ -865,17 +865,17 @@
     "missing": false
   },
   "/Users/liuhongbo/parkour/assets/monkey_jumpingtoright.anim": {
-    "time": 1647276175686.5703,
+    "time": 1647831162355.9407,
     "uuid": "195bbd13-c083-4569-b526-8400df62496b",
     "missing": false
   },
   "/Users/liuhongbo/parkour/assets/resources": {
-    "time": 1647416555592.8794,
+    "time": 1647832396651.8765,
     "uuid": "a4e7ab85-38bd-4ee3-822f-f69cd27f819d",
     "missing": false
   },
   "/Users/liuhongbo/parkour/assets/monkey_jumpingtoleft.anim": {
-    "time": 1647276169044.135,
+    "time": 1647831158184.499,
     "uuid": "50b9f232-7007-47a8-ad41-38304ec896b0",
     "missing": false
   },
@@ -900,7 +900,7 @@
     "missing": false
   },
   "/Users/liuhongbo/parkour/assets/scene.scene": {
-    "time": 1647582959694.7888,
+    "time": 1647865347731.8525,
     "uuid": "e52f7624-4d19-49ca-976f-667c16768c2b",
     "missing": false
   },
@@ -2077,6 +2077,46 @@
   "/Users/liuhongbo/parkour/assets/resources/Monkey/PNG Sequences/Throwing/Throwing_008.png": {
     "time": 1646980405843.439,
     "uuid": "afdd8252-4205-4d00-9ab1-67fcf0a0ecec",
+    "missing": false
+  },
+  "/Users/liuhongbo/parkour/assets/resources/stone.png.meta": {
+    "time": 1647832396741.448
+  },
+  "/Users/liuhongbo/parkour/assets/resources/stone.png": {
+    "time": 1647832340354.545,
+    "uuid": "3f4ea568-7f5f-44b6-b28e-4cd9f9426296",
+    "missing": false
+  },
+  "/Users/liuhongbo/parkour/assets/StoneController.ts.meta": {
+    "time": 1647847747168.2124
+  },
+  "/Users/liuhongbo/parkour/assets/StoneController.ts": {
+    "time": 1647865257718.9697,
+    "uuid": "c09c2666-0233-4eb7-805e-1177f513a19f",
+    "missing": false
+  },
+  "/Users/liuhongbo/parkour/assets/Hedgehog_Smoke.anim.meta": {
+    "time": 1647849182961.055
+  },
+  "/Users/liuhongbo/parkour/assets/Hedgehog_Smoke.anim": {
+    "time": 1647864641730.634,
+    "uuid": "649d90af-39e7-4235-ae63-c90196e3abdd",
+    "missing": false
+  },
+  "/Users/liuhongbo/parkour/assets/stone_rolling_right.anim.meta": {
+    "time": 1647862196245.249
+  },
+  "/Users/liuhongbo/parkour/assets/stone_rolling_right.anim": {
+    "time": 1647846986989.5684,
+    "uuid": "f44bf21f-e16a-4cbf-8e5b-7c6aee3e8226",
+    "missing": false
+  },
+  "/Users/liuhongbo/parkour/assets/stone_rolling_left.anim.meta": {
+    "time": 1647862203652.8171
+  },
+  "/Users/liuhongbo/parkour/assets/stone_rolling_left.anim": {
+    "time": 1647847208950.5745,
+    "uuid": "d2c3a7b8-b0f8-4919-9eba-46c81008e40e",
     "missing": false
   }
 }

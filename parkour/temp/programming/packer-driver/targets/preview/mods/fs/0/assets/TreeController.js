@@ -1,14 +1,15 @@
 System.register(["cc"], function (_export, _context) {
   "use strict";
 
-  var _cclegacy, _decorator, Component, Vec3, _dec, _class, _crd, ccclass, property, TreeController;
+  var _cclegacy, find, _decorator, Component, RigidBody2D, _dec, _class, _crd, ccclass, property, TreeController;
 
   return {
     setters: [function (_cc) {
       _cclegacy = _cc.cclegacy;
+      find = _cc.find;
       _decorator = _cc._decorator;
       Component = _cc.Component;
-      Vec3 = _cc.Vec3;
+      RigidBody2D = _cc.RigidBody2D;
     }],
     execute: function () {
       _crd = true;
@@ -41,8 +42,31 @@ System.register(["cc"], function (_export, _context) {
         }
 
         update(dt) {
-          if (this.node.getPosition().y <= -1730.02) {
-            this.node.setPosition(new Vec3(this.node.getPosition().x, 1757, 0));
+          var ltree = find("Canvas/ltree");
+          var ltree_rgd = ltree.getComponent(RigidBody2D);
+          var speed = ltree_rgd.linearVelocity.y;
+
+          if (this.node.getPosition().y <= -1865.937) {
+            var name = this.node.name;
+
+            switch (name) {
+              case "ltree":
+                this.node.setPosition(this.node.getPosition().x, find("Canvas/ltree2").getPosition().y + 2000, 0);
+                break;
+
+              case "ltree2":
+                this.node.setPosition(this.node.getPosition().x, find("Canvas/ltree").getPosition().y + 2000, 0);
+                break;
+
+              case "rtree":
+                this.node.setPosition(this.node.getPosition().x, find("Canvas/rtree2").getPosition().y + 2000, 0);
+                break;
+
+              case "rtree2":
+                this.node.setPosition(this.node.getPosition().x, find("Canvas/rtree").getPosition().y + 2000, 0);
+                break;
+            } // this.node.setPosition(new Vec3(this.node.getPosition().x,1850+speed*dt,0));
+
           }
         } // update (deltaTime: number) {
         //     // [4]

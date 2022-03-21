@@ -55,11 +55,16 @@ System.register(["cc"], function (_export, _context) {
         constructor() {
           super(...arguments);
 
-          _initializerDefineProperty(this, "NumOfHedgehogs", _descriptor, this);
-
           _defineProperty(this, "mk_state", void 0);
+
+          _initializerDefineProperty(this, "NumOfHedgehogs", _descriptor, this);
         }
 
+        // [1]
+        // dummy = '';
+        // [2]
+        // @property
+        // serializableDummy = 0;
         onBeginContact(selfCollider, otherCollider, contact) {
           // 只在两个碰撞体开始接触时被调用一次
           var ani = this.node.getComponent(Animation);

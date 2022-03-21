@@ -1,5 +1,5 @@
 
-import { _decorator, Component, Node, Sprite, Vec3 } from 'cc';
+import { find,_decorator, Component, Node, Sprite, Vec3, RigidBody, RigidBody2D } from 'cc';
 const { ccclass, property } = _decorator;
 
 /**
@@ -31,9 +31,31 @@ export class TreeController extends Component {
 
 
     update(dt){
+        let ltree = find("Canvas/ltree")
+        let ltree_rgd = ltree.getComponent(RigidBody2D);
+        let speed = ltree_rgd.linearVelocity.y;
        
-        if(this.node.getPosition().y<=-1730.02){
-            this.node.setPosition(new Vec3(this.node.getPosition().x,1757,0));
+        if(this.node.getPosition().y<=-1865.937){
+
+            let name = this.node.name;
+            switch(name){
+                case "ltree":
+                    this.node.setPosition(this.node.getPosition().x,find("Canvas/ltree2").getPosition().y+2000,0);
+                    break;
+                case "ltree2":
+                    this.node.setPosition(this.node.getPosition().x,find("Canvas/ltree").getPosition().y+2000,0);
+                    break;
+                case "rtree":
+                    this.node.setPosition(this.node.getPosition().x,find("Canvas/rtree2").getPosition().y+2000,0);
+                    break;
+                case "rtree2":
+                    this.node.setPosition(this.node.getPosition().x,find("Canvas/rtree").getPosition().y+2000,0);
+                    break;
+
+            }
+      
+            
+           // this.node.setPosition(new Vec3(this.node.getPosition().x,1850+speed*dt,0));
         }
     }
 

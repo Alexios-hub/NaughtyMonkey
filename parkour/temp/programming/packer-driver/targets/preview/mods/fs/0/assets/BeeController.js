@@ -1,7 +1,7 @@
-System.register(["cc"], function (_export, _context) {
+System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _context) {
   "use strict";
 
-  var _cclegacy, v2, _decorator, Component, RigidBody2D, find, _dec, _dec2, _class, _class2, _descriptor, _temp, _crd, ccclass, property, BeeController;
+  var _reporterNs, _cclegacy, Animation, v2, _decorator, Component, RigidBody2D, find, Collider2D, Contact2DType, monkey_controller, _dec, _dec2, _dec3, _dec4, _class, _class2, _descriptor, _descriptor2, _descriptor3, _temp, _crd, ccclass, property, BEESTATE, BeeController;
 
   function _initializerDefineProperty(target, property, descriptor, context) { if (!descriptor) return; Object.defineProperty(target, property, { enumerable: descriptor.enumerable, configurable: descriptor.configurable, writable: descriptor.writable, value: descriptor.initializer ? descriptor.initializer.call(context) : void 0 }); }
 
@@ -11,14 +11,25 @@ System.register(["cc"], function (_export, _context) {
 
   function _initializerWarningHelper(descriptor, context) { throw new Error('Decorating class property failed. Please ensure that ' + 'proposal-class-properties is enabled and runs after the decorators transform.'); }
 
+  function _reportPossibleCrUseOfmonkey_controller(extras) {
+    _reporterNs.report("monkey_controller", "./monkey_controller", _context.meta, extras);
+  }
+
   return {
-    setters: [function (_cc) {
+    setters: [function (_unresolved_) {
+      _reporterNs = _unresolved_;
+    }, function (_cc) {
       _cclegacy = _cc.cclegacy;
+      Animation = _cc.Animation;
       v2 = _cc.v2;
       _decorator = _cc._decorator;
       Component = _cc.Component;
       RigidBody2D = _cc.RigidBody2D;
       find = _cc.find;
+      Collider2D = _cc.Collider2D;
+      Contact2DType = _cc.Contact2DType;
+    }, function (_unresolved_2) {
+      monkey_controller = _unresolved_2.monkey_controller;
     }],
     execute: function () {
       _crd = true;
@@ -41,15 +52,28 @@ System.register(["cc"], function (_export, _context) {
        *
        */
 
-      _export("BeeController", BeeController = (_dec = ccclass('BeeController'), _dec2 = property(Number), _dec(_class = (_class2 = (_temp = class BeeController extends Component {
+      (function (BEESTATE) {
+        BEESTATE[BEESTATE["ALIVE"] = 0] = "ALIVE";
+        BEESTATE[BEESTATE["DEAD"] = 1] = "DEAD";
+      })(BEESTATE || (BEESTATE = {}));
+
+      _export("BeeController", BeeController = (_dec = ccclass('BeeController'), _dec2 = property(Number), _dec3 = property(_crd && monkey_controller === void 0 ? (_reportPossibleCrUseOfmonkey_controller({
+        error: Error()
+      }), monkey_controller) : monkey_controller), _dec4 = property(Number), _dec(_class = (_class2 = (_temp = class BeeController extends Component {
         constructor() {
           super(...arguments);
-
-          _initializerDefineProperty(this, "y", _descriptor, this);
 
           _defineProperty(this, "judge_time", 3);
 
           _defineProperty(this, "during_time", 0);
+
+          _defineProperty(this, "state", BEESTATE.ALIVE);
+
+          _initializerDefineProperty(this, "y", _descriptor, this);
+
+          _initializerDefineProperty(this, "mk_controller", _descriptor2, this);
+
+          _initializerDefineProperty(this, "speed", _descriptor3, this);
         }
 
         judge() {
@@ -61,12 +85,32 @@ System.register(["cc"], function (_export, _context) {
           return true;
         }
 
+        onBeginContact(selfCollider, otherCollider, contact) {
+          // 只在两个碰撞体开始接触时被调用一次
+          if (otherCollider.tag == 2) {
+            this.state = BEESTATE.DEAD;
+            var ani = this.node.getComponent(Animation);
+            ani.play("Bee_Smoke");
+          }
+        }
+
         start() {
+          var collider = this.getComponent(Collider2D);
+
+          if (collider) {
+            collider.on(Contact2DType.BEGIN_CONTACT, this.onBeginContact, this);
+          }
+
           var ifreset = Math.random();
           if (ifreset < 0.15 && this.judge()) this.reset();else this.node.setPosition(0, -1000, 0); // [3]
         }
 
         reset() {
+          var ani = this.node.getComponent(Animation);
+          ani.play("Bee_Idle");
+          this.state = BEESTATE.ALIVE;
+          var ltree = find("Canvas/ltree");
+          var ltree_rgd = ltree.getComponent(RigidBody2D);
           this.node.setPosition(Math.random() * (200 + 186) - 186, this.y, 0);
           var dir = Math.random();
 
@@ -82,35 +126,57 @@ System.register(["cc"], function (_export, _context) {
             var rgd = this.node.getComponent(RigidBody2D);
 
             if (dir < 0.5) {
-              rgd.linearVelocity = v2(-5, -15);
+              rgd.linearVelocity = v2(-5, this.speed);
             } else {
-              rgd.linearVelocity = v2(5, -15);
+              rgd.linearVelocity = v2(5, this.speed);
             }
           } else {
             var _rgd = this.node.getComponent(RigidBody2D);
 
-            _rgd.linearVelocity = v2(0, -15);
+            _rgd.linearVelocity = v2(0, this.speed);
           }
         }
 
         update(deltaTime) {
-          this.during_time += deltaTime; // [4]
+          if (this.mk_controller.mk_state == 0) {
+            var ltree = find("Canvas/ltree");
+            var ltree_rgd = ltree.getComponent(RigidBody2D);
+            var rgd = this.getComponent(RigidBody2D);
+            this.speed = ltree_rgd.linearVelocity.y;
+            rgd.linearVelocity = v2(rgd.linearVelocity.x, this.speed);
+            this.during_time += deltaTime; // [4]
 
-          if (this.during_time > this.judge_time && this.node.getPosition().y < -870) {
-            this.during_time = 0;
-            var ifreset = Math.random();
-            if (ifreset < 0.5 && this.judge()) this.reset();
-          }
+            if (this.during_time > this.judge_time && this.node.getPosition().y < -870) {
+              this.during_time = 0;
+              var ifreset = Math.random();
+              if (ifreset < 0.5 && this.judge()) this.reset();
+            }
 
-          var rgd = this.node.getComponent(RigidBody2D);
+            var ani = this.node.getComponent(Animation);
 
-          if (this.node.getPosition().x <= -186 || this.node.getPosition().x >= 200) {
-            rgd.linearVelocity = v2(-rgd.linearVelocity.x, rgd.linearVelocity.y);
-            this.node.setScale(-this.node.getScale().x, this.node.getScale().y, this.node.getScale().z);
+            if (this.state == BEESTATE.DEAD && ani.getState("Bee_Smoke").isPlaying == false) {
+              this.state = BEESTATE.ALIVE;
+              this.node.setPosition(0, -1000, 0);
+            }
+
+            if (this.node.getPosition().x <= -186 || this.node.getPosition().x >= 200) {
+              rgd.linearVelocity = v2(-rgd.linearVelocity.x, rgd.linearVelocity.y);
+              this.node.setScale(-this.node.getScale().x, this.node.getScale().y, this.node.getScale().z);
+            }
           }
         }
 
       }, _temp), (_descriptor = _applyDecoratedDescriptor(_class2.prototype, "y", [_dec2], {
+        configurable: true,
+        enumerable: true,
+        writable: true,
+        initializer: null
+      }), _descriptor2 = _applyDecoratedDescriptor(_class2.prototype, "mk_controller", [_dec3], {
+        configurable: true,
+        enumerable: true,
+        writable: true,
+        initializer: null
+      }), _descriptor3 = _applyDecoratedDescriptor(_class2.prototype, "speed", [_dec4], {
         configurable: true,
         enumerable: true,
         writable: true,
