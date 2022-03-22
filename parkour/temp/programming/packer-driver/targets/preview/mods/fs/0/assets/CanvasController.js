@@ -1,7 +1,7 @@
-System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2", "__unresolved_3", "__unresolved_4"], function (_export, _context) {
+System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2", "__unresolved_3", "__unresolved_4", "__unresolved_5"], function (_export, _context) {
   "use strict";
 
-  var _reporterNs, _cclegacy, v2, find, _decorator, Component, Label, RigidBody2D, BeeController, HedgehogController, monkey_controller, TreeController, _dec, _dec2, _dec3, _dec4, _dec5, _dec6, _dec7, _dec8, _dec9, _dec10, _dec11, _dec12, _class, _class2, _descriptor, _descriptor2, _descriptor3, _descriptor4, _descriptor5, _descriptor6, _descriptor7, _descriptor8, _descriptor9, _descriptor10, _descriptor11, _temp, _crd, ccclass, property, LEVEL, CanvasController;
+  var _reporterNs, _cclegacy, v2, find, _decorator, Component, Label, RigidBody2D, BeeController, HedgehogController, monkey_controller, TreeController, BirdController, _dec, _dec2, _dec3, _dec4, _dec5, _dec6, _dec7, _dec8, _dec9, _dec10, _dec11, _dec12, _dec13, _class, _class2, _descriptor, _descriptor2, _descriptor3, _descriptor4, _descriptor5, _descriptor6, _descriptor7, _descriptor8, _descriptor9, _descriptor10, _descriptor11, _descriptor12, _temp, _crd, ccclass, property, LEVEL, CanvasController;
 
   function _initializerDefineProperty(target, property, descriptor, context) { if (!descriptor) return; Object.defineProperty(target, property, { enumerable: descriptor.enumerable, configurable: descriptor.configurable, writable: descriptor.writable, value: descriptor.initializer ? descriptor.initializer.call(context) : void 0 }); }
 
@@ -27,6 +27,10 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2", "__
     _reporterNs.report("TreeController", "./TreeController", _context.meta, extras);
   }
 
+  function _reportPossibleCrUseOfBirdController(extras) {
+    _reporterNs.report("BirdController", "./BirdController", _context.meta, extras);
+  }
+
   return {
     setters: [function (_unresolved_) {
       _reporterNs = _unresolved_;
@@ -46,6 +50,8 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2", "__
       monkey_controller = _unresolved_4.monkey_controller;
     }, function (_unresolved_5) {
       TreeController = _unresolved_5.TreeController;
+    }, function (_unresolved_6) {
+      BirdController = _unresolved_6.BirdController;
     }],
     execute: function () {
       _crd = true;
@@ -96,7 +102,9 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2", "__
         error: Error()
       }), TreeController) : TreeController), _dec12 = property(_crd && TreeController === void 0 ? (_reportPossibleCrUseOfTreeController({
         error: Error()
-      }), TreeController) : TreeController), _dec(_class = (_class2 = (_temp = class CanvasController extends Component {
+      }), TreeController) : TreeController), _dec13 = property(_crd && BirdController === void 0 ? (_reportPossibleCrUseOfBirdController({
+        error: Error()
+      }), BirdController) : BirdController), _dec(_class = (_class2 = (_temp = class CanvasController extends Component {
         constructor() {
           super(...arguments);
 
@@ -127,6 +135,8 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2", "__
           _initializerDefineProperty(this, "rtree", _descriptor10, this);
 
           _initializerDefineProperty(this, "rtree2", _descriptor11, this);
+
+          _initializerDefineProperty(this, "bird", _descriptor12, this);
         }
 
         // [1]
@@ -298,6 +308,11 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2", "__
         writable: true,
         initializer: null
       }), _descriptor11 = _applyDecoratedDescriptor(_class2.prototype, "rtree2", [_dec12], {
+        configurable: true,
+        enumerable: true,
+        writable: true,
+        initializer: null
+      }), _descriptor12 = _applyDecoratedDescriptor(_class2.prototype, "bird", [_dec13], {
         configurable: true,
         enumerable: true,
         writable: true,

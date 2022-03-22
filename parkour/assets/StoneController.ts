@@ -1,7 +1,7 @@
 
 import { Animation,_decorator, Component, Node, RigidBody2D, v2, find } from 'cc';
 import { HedgehogController } from './HedgehogController';
-import { monkey_controller } from './monkey_controller';
+import { monkey_controller, monkey_state } from './monkey_controller';
 import { TreeController } from './TreeController';
 const { ccclass, property } = _decorator;
 
@@ -113,7 +113,7 @@ mk_controller:monkey_controller;
 
     update (deltaTime: number) {
 
-        if(this.mk_controller.mk_state==0){
+        if(this.mk_controller.mk_state == monkey_state.ALIVE){
 
 
             this.during_time+=deltaTime;

@@ -1,7 +1,7 @@
 
 import { Animation,_decorator, Component, Node, find, RigidBody2D, v2, TypeScript, Collider2D, IPhysics2DContact, Contact2DType, director } from 'cc';
 import { CanvasController } from './CanvasController';
-import { monkey_controller } from './monkey_controller';
+import { monkey_controller, monkey_state } from './monkey_controller';
 const { ccclass, property } = _decorator;
 
 /**
@@ -163,7 +163,7 @@ export class HedgehogController extends Component {
 
     update (deltaTime: number) {
         
-      if(this.mk_controller.mk_state == 0){
+      if(this.mk_controller.mk_state == monkey_state.ALIVE){
         let ltree = find("Canvas/ltree");
         let ltree_rgd = ltree.getComponent(RigidBody2D);
        

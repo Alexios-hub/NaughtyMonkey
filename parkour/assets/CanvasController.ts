@@ -4,6 +4,7 @@ import { BeeController } from './BeeController';
 import { HedgehogController } from './HedgehogController';
 import { monkey_controller } from './monkey_controller';
 import { TreeController } from './TreeController';
+import { BirdController } from './BirdController';
 const { ccclass, property } = _decorator;
 
 /**
@@ -61,6 +62,8 @@ export class CanvasController extends Component {
     @property(TreeController)
     rtree2:TreeController
 
+    @property(BirdController)
+    bird: BirdController
 
 
 

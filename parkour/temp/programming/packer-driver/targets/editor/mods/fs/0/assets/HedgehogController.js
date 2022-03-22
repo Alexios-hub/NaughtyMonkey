@@ -1,7 +1,7 @@
 System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _context) {
   "use strict";
 
-  var _reporterNs, _cclegacy, Animation, _decorator, Component, find, RigidBody2D, v2, Collider2D, Contact2DType, monkey_controller, _dec, _dec2, _dec3, _dec4, _dec5, _dec6, _dec7, _dec8, _class, _class2, _descriptor, _descriptor2, _descriptor3, _descriptor4, _descriptor5, _descriptor6, _descriptor7, _temp, _crd, ccclass, property, HedgehogSTATE, HedgehogController;
+  var _reporterNs, _cclegacy, Animation, _decorator, Component, find, RigidBody2D, v2, Collider2D, Contact2DType, monkey_controller, monkey_state, _dec, _dec2, _dec3, _dec4, _dec5, _dec6, _dec7, _dec8, _class, _class2, _descriptor, _descriptor2, _descriptor3, _descriptor4, _descriptor5, _descriptor6, _descriptor7, _temp, _crd, ccclass, property, HedgehogSTATE, HedgehogController;
 
   function _initializerDefineProperty(target, property, descriptor, context) { if (!descriptor) return; Object.defineProperty(target, property, { enumerable: descriptor.enumerable, configurable: descriptor.configurable, writable: descriptor.writable, value: descriptor.initializer ? descriptor.initializer.call(context) : void 0 }); }
 
@@ -13,6 +13,10 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
 
   function _reportPossibleCrUseOfmonkey_controller(extras) {
     _reporterNs.report("monkey_controller", "./monkey_controller", _context.meta, extras);
+  }
+
+  function _reportPossibleCrUseOfmonkey_state(extras) {
+    _reporterNs.report("monkey_state", "./monkey_controller", _context.meta, extras);
   }
 
   return {
@@ -30,6 +34,7 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
       Contact2DType = _cc.Contact2DType;
     }, function (_unresolved_2) {
       monkey_controller = _unresolved_2.monkey_controller;
+      monkey_state = _unresolved_2.monkey_state;
     }],
     execute: function () {
       _crd = true;
@@ -184,7 +189,9 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
         }
 
         update(deltaTime) {
-          if (this.mk_controller.mk_state == 0) {
+          if (this.mk_controller.mk_state == (_crd && monkey_state === void 0 ? (_reportPossibleCrUseOfmonkey_state({
+            error: Error()
+          }), monkey_state) : monkey_state).ALIVE) {
             let ltree = find("Canvas/ltree");
             let ltree_rgd = ltree.getComponent(RigidBody2D);
             this.during_time += deltaTime;

@@ -11,6 +11,8 @@ System.register(["cc"], function (_export, _context) {
 
   function _initializerWarningHelper(descriptor, context) { throw new Error('Decorating class property failed. Please ensure that ' + 'proposal-class-properties is enabled and runs after the decorators transform.'); }
 
+  _export("monkey_state", void 0);
+
   return {
     setters: [function (_cc) {
       _cclegacy = _cc.cclegacy;
@@ -49,13 +51,16 @@ System.register(["cc"], function (_export, _context) {
       (function (monkey_state) {
         monkey_state[monkey_state["ALIVE"] = 0] = "ALIVE";
         monkey_state[monkey_state["DEAD"] = 1] = "DEAD";
-      })(monkey_state || (monkey_state = {}));
+        monkey_state[monkey_state["INVINCIBLE"] = 2] = "INVINCIBLE";
+      })(monkey_state || _export("monkey_state", monkey_state = {}));
 
       _export("monkey_controller", monkey_controller = (_dec = ccclass('monkey_controller'), _dec2 = property(Number), _dec(_class = (_class2 = (_temp = class monkey_controller extends Component {
         constructor(...args) {
           super(...args);
 
           _defineProperty(this, "mk_state", void 0);
+
+          _defineProperty(this, "buff_count", 0);
 
           _initializerDefineProperty(this, "NumOfHedgehogs", _descriptor, this);
         }
@@ -69,31 +74,47 @@ System.register(["cc"], function (_export, _context) {
           // 只在两个碰撞体开始接触时被调用一次
           let ani = this.node.getComponent(Animation);
           let monkey_rgd = this.node.getComponent(RigidBody2D);
-          monkey_rgd.linearVelocity = v2(0, -25);
-          this.mk_state = monkey_state.DEAD;
           let ltree = find("Canvas/ltree");
           let ltree_rgd = ltree.getComponent(RigidBody2D);
-          ltree_rgd.linearVelocity = v2(0, 0);
           let ltree2 = find("Canvas/ltree2");
           let ltree2_rgd = ltree2.getComponent(RigidBody2D);
-          ltree2_rgd.linearVelocity = v2(0, 0);
           let rtree = find("Canvas/rtree");
           let rtree_rgd = rtree.getComponent(RigidBody2D);
-          rtree_rgd.linearVelocity = v2(0, 0);
           let rtree2 = find("Canvas/rtree2");
           let rtree2_rgd = rtree2.getComponent(RigidBody2D);
-          rtree2_rgd.linearVelocity = v2(0, 0);
-
-          for (var i = 1; i < this.NumOfHedgehogs + 1; i++) {
-            var HedgeHogNode = find("Canvas/Hedgehog" + i);
-            var Hedgehog_rgd = HedgeHogNode.getComponent(RigidBody2D);
-            Hedgehog_rgd.linearVelocity = v2(0, 0);
-          }
-
           let bee = find("Canvas/Bee");
           let bee_rgd = bee.getComponent(RigidBody2D);
-          bee_rgd.linearVelocity = v2(0, 0);
-          ani.play("monkey_dying");
+          let bird = find("Canvas/Bird");
+          let bird_rgd = bird.getComponent(RigidBody2D); // 碰到鸟判定鸟死亡，除此以外判定猴子死亡
+          // TAG == 10 => 鸟的tag是10
+
+          if (otherCollider.tag == 10) {
+            let bird_animation = bird.getComponent(Animation);
+            bird_animation.play("bird_smoke");
+            this.buff_count++; // 积累三个buff之后进入无敌（冲刺）模式
+
+            if (this.buff_count == 3) {// 无敌模式相关内容还没做
+              // this.mk_state = monkey_state.INVINCIBLE;
+            }
+          } else {
+            monkey_rgd.linearVelocity = v2(0, -25);
+            this.mk_state = monkey_state.DEAD;
+            ltree_rgd.linearVelocity = v2(0, 0);
+            ltree2_rgd.linearVelocity = v2(0, 0);
+            rtree_rgd.linearVelocity = v2(0, 0);
+            rtree2_rgd.linearVelocity = v2(0, 0);
+
+            for (var i = 1; i < this.NumOfHedgehogs + 1; i++) {
+              var HedgeHogNode = find("Canvas/Hedgehog" + i);
+              var Hedgehog_rgd = HedgeHogNode.getComponent(RigidBody2D);
+              Hedgehog_rgd.linearVelocity = v2(0, 0);
+            }
+
+            bee_rgd.linearVelocity = v2(0, 0);
+            bird_rgd.linearVelocity = v2(0, 0);
+            ani.play("monkey_dying");
+          }
+
           console.log("onBeginContact");
         }
 
