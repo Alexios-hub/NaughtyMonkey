@@ -35,7 +35,7 @@ export class TreeController extends Component {
         let ltree_rgd = ltree.getComponent(RigidBody2D);
         let speed = ltree_rgd.linearVelocity.y;
 
-        console.log("current tree velocity: " + speed);
+        // console.log("current tree velocity: " + speed);
        
         if(this.node.getPosition().y<=-1865.937){
 

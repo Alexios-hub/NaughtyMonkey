@@ -1,6 +1,6 @@
 {
   "cce:/internal/x/cc": {
-    "mTimestamp": 10084.765458997339,
+    "mTimestamp": 11518.960916996002,
     "chunkId": "quick-pack:/cce/internal/x/cc.js",
     "imports": [
       {
@@ -389,7 +389,7 @@
     ]
   },
   "cce:/internal/x/prerequisite-imports": {
-    "mTimestamp": 9122304.112916999,
+    "mTimestamp": 8315714.916208997,
     "chunkId": "quick-pack:/cce/internal/x/prerequisite-imports.js",
     "imports": [
       {
@@ -463,7 +463,7 @@
         }
       },
       {
-        "value": "file:///Users/frederickmo/Documents/GitHub/NaughtyMonkey/parkour/assets/StoneController.ts",
+        "value": "file:///Users/frederickmo/Documents/GitHub/NaughtyMonkey/parkour/assets/RestartButtonController.ts",
         "rewritten": "__unresolved_5",
         "loc": {
           "start": {
@@ -472,35 +472,77 @@
           },
           "end": {
             "line": 5,
-            "column": 671
+            "column": 679
+          }
+        }
+      },
+      {
+        "value": "file:///Users/frederickmo/Documents/GitHub/NaughtyMonkey/parkour/assets/SceneController.ts",
+        "rewritten": "__unresolved_6",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 695
+          },
+          "end": {
+            "line": 5,
+            "column": 787
+          }
+        }
+      },
+      {
+        "value": "file:///Users/frederickmo/Documents/GitHub/NaughtyMonkey/parkour/assets/StartButtonController.ts",
+        "rewritten": "__unresolved_7",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 803
+          },
+          "end": {
+            "line": 5,
+            "column": 901
+          }
+        }
+      },
+      {
+        "value": "file:///Users/frederickmo/Documents/GitHub/NaughtyMonkey/parkour/assets/StoneController.ts",
+        "rewritten": "__unresolved_8",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 917
+          },
+          "end": {
+            "line": 5,
+            "column": 1009
           }
         }
       },
       {
         "value": "file:///Users/frederickmo/Documents/GitHub/NaughtyMonkey/parkour/assets/TreeController.ts",
-        "rewritten": "__unresolved_6",
+        "rewritten": "__unresolved_9",
         "loc": {
           "start": {
             "line": 5,
-            "column": 687
+            "column": 1025
           },
           "end": {
             "line": 5,
-            "column": 778
+            "column": 1116
           }
         }
       },
       {
         "value": "file:///Users/frederickmo/Documents/GitHub/NaughtyMonkey/parkour/assets/monkey_controller.ts",
-        "rewritten": "__unresolved_7",
+        "rewritten": "__unresolved_10",
         "loc": {
           "start": {
             "line": 5,
-            "column": 794
+            "column": 1132
           },
           "end": {
             "line": 5,
-            "column": 888
+            "column": 1226
           }
         }
       }
@@ -528,6 +570,18 @@
       {
         "isExternal": false,
         "url": "file:///Users/frederickmo/Documents/GitHub/NaughtyMonkey/parkour/assets/HugeBirdController.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///Users/frederickmo/Documents/GitHub/NaughtyMonkey/parkour/assets/RestartButtonController.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///Users/frederickmo/Documents/GitHub/NaughtyMonkey/parkour/assets/SceneController.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///Users/frederickmo/Documents/GitHub/NaughtyMonkey/parkour/assets/StartButtonController.ts"
       },
       {
         "isExternal": false,
@@ -1056,7 +1110,7 @@
     ]
   },
   "cce:/internal/code-quality/cr.mjs": {
-    "mTimestamp": 1647994308542,
+    "mTimestamp": 1648009606783,
     "chunkId": "quick-pack:/cce/internal/code-quality/cr.js",
     "imports": [],
     "modLoMetadata": {
@@ -1148,7 +1202,7 @@
   },
   "file:///Users/frederickmo/Documents/GitHub/NaughtyMonkey/parkour/assets/CanvasController.ts": {
     "mTimestamp": {
-      "mtime": 1648003427525.6816,
+      "mtime": 1648017921562.6523,
       "uuid": "7686de7d-b4be-4264-a6e7-a76bfb1da3b8"
     },
     "chunkId": "assets/CanvasController.js",
@@ -1165,11 +1219,11 @@
         "loc": {
           "start": {
             "line": 2,
-            "column": 114
+            "column": 124
           },
           "end": {
             "line": 2,
-            "column": 118
+            "column": 128
           }
         }
       },
@@ -1568,7 +1622,7 @@
   },
   "file:///Users/frederickmo/Documents/GitHub/NaughtyMonkey/parkour/assets/TreeController.ts": {
     "mTimestamp": {
-      "mtime": 1647995480632.6443,
+      "mtime": 1648015548266.2375,
       "uuid": "83fbc867-da7f-4e91-ac56-a782e4271da2"
     },
     "chunkId": "assets/TreeController.js",
@@ -1805,6 +1859,120 @@
       {
         "isExternal": false,
         "url": "file:///Users/frederickmo/Documents/GitHub/NaughtyMonkey/parkour/assets/monkey_controller.ts"
+      }
+    ]
+  },
+  "file:///Users/frederickmo/Documents/GitHub/NaughtyMonkey/parkour/assets/SceneController.ts": {
+    "mTimestamp": {
+      "mtime": 1648014972157.7283,
+      "uuid": "c8b2cde4-31a3-47b9-af9c-2adb0e2db29a"
+    },
+    "chunkId": "assets/SceneController.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 76
+          },
+          "end": {
+            "line": 2,
+            "column": 80
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///Users/frederickmo/Documents/GitHub/NaughtyMonkey/parkour/assets/StartButtonController.ts": {
+    "mTimestamp": {
+      "mtime": 1648015823496.09,
+      "uuid": "f78f9be0-1571-40a9-a058-a09f1ffb7fbd"
+    },
+    "chunkId": "assets/StartButtonController.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 54
+          },
+          "end": {
+            "line": 2,
+            "column": 58
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///Users/frederickmo/Documents/GitHub/NaughtyMonkey/parkour/assets/RestartButtonController.ts": {
+    "mTimestamp": {
+      "mtime": 1648016140924.2988,
+      "uuid": "8fb19510-46e5-4b46-96e7-cbdaae34e2b4"
+    },
+    "chunkId": "assets/RestartButtonController.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 54
+          },
+          "end": {
+            "line": 2,
+            "column": 58
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
       }
     ]
   }

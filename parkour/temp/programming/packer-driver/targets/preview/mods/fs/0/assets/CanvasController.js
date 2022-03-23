@@ -1,7 +1,7 @@
 System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2", "__unresolved_3", "__unresolved_4", "__unresolved_5", "__unresolved_6", "__unresolved_7"], function (_export, _context) {
   "use strict";
 
-  var _reporterNs, _cclegacy, v2, find, _decorator, Component, Label, RigidBody2D, Animation, BeeController, BEESTATE, HedgehogController, HedgehogSTATE, monkey_controller, monkey_state, TreeController, BirdController, HugeBirdController, StoneController, _dec, _dec2, _dec3, _dec4, _dec5, _dec6, _dec7, _dec8, _dec9, _dec10, _dec11, _dec12, _dec13, _dec14, _dec15, _dec16, _class, _class2, _descriptor, _descriptor2, _descriptor3, _descriptor4, _descriptor5, _descriptor6, _descriptor7, _descriptor8, _descriptor9, _descriptor10, _descriptor11, _descriptor12, _descriptor13, _descriptor14, _descriptor15, _temp, _crd, ccclass, property, LEVEL, CanvasController;
+  var _reporterNs, _cclegacy, v2, find, _decorator, Component, Label, RigidBody2D, Animation, director, BeeController, BEESTATE, HedgehogController, HedgehogSTATE, monkey_controller, monkey_state, TreeController, BirdController, HugeBirdController, StoneController, _dec, _dec2, _dec3, _dec4, _dec5, _dec6, _dec7, _dec8, _dec9, _dec10, _dec11, _dec12, _dec13, _dec14, _dec15, _dec16, _class, _class2, _descriptor, _descriptor2, _descriptor3, _descriptor4, _descriptor5, _descriptor6, _descriptor7, _descriptor8, _descriptor9, _descriptor10, _descriptor11, _descriptor12, _descriptor13, _descriptor14, _descriptor15, _temp, _crd, ccclass, property, LEVEL, CanvasController;
 
   function _initializerDefineProperty(target, property, descriptor, context) { if (!descriptor) return; Object.defineProperty(target, property, { enumerable: descriptor.enumerable, configurable: descriptor.configurable, writable: descriptor.writable, value: descriptor.initializer ? descriptor.initializer.call(context) : void 0 }); }
 
@@ -63,6 +63,7 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2", "__
       Label = _cc.Label;
       RigidBody2D = _cc.RigidBody2D;
       Animation = _cc.Animation;
+      director = _cc.director;
     }, function (_unresolved_2) {
       BeeController = _unresolved_2.BeeController;
       BEESTATE = _unresolved_2.BEESTATE;
@@ -187,7 +188,10 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2", "__
         start() {
           this.score.string = "0";
           this.buff_count_number = this.mk_controller.buff_count;
-          this.buff_count.string = "Buff: " + this.buff_count_number; // [3]
+          this.buff_count.string = "Buff: " + this.buff_count_number; // let restart_button = find("Canvas/RestartButton");
+          // restart_button.active = false;
+
+          director.preloadScene("end_scene"); // [3]
         }
 
         update(deltaTime) {
@@ -196,7 +200,16 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2", "__
           var ltree_speed = ltree_rgd.linearVelocity.y;
           this.buff_count.string = "Buff: " + this.mk_controller.buff_count;
 
-          if (this.mk_controller.buff_count == 1) {
+          if (this.mk_controller.mk_state == (_crd && monkey_state === void 0 ? (_reportPossibleCrUseOfmonkey_state({
+            error: Error()
+          }), monkey_state) : monkey_state).DEAD) {
+            // let restart_button = find("Canvas/RestartButton");
+            // restart_button.active = true;
+            director.loadScene("end_scene");
+          } // 吃到3个buff(砍杀3只鸟)之后暂时进入无敌状态3秒；之后恢复正常ALIVE状态
+
+
+          if (this.mk_controller.buff_count == 3) {
             // 标志无敌状态，monkey的buff清零
             this.buff_count.string = "INVINCIBLE";
             this.mk_controller.buff_count = 0; // 激发huge_bird节点
@@ -337,7 +350,8 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2", "__
               _animation5.play("stone_vanish");
 
               this.stone.reset();
-            }
+            } // 无敌时间持续3秒
+
 
             setTimeout(() => {
               this.mk_controller.mk_state = (_crd && monkey_state === void 0 ? (_reportPossibleCrUseOfmonkey_state({

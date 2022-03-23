@@ -44,8 +44,7 @@ System.register(["cc"], function (_export, _context) {
         update(dt) {
           let ltree = find("Canvas/ltree");
           let ltree_rgd = ltree.getComponent(RigidBody2D);
-          let speed = ltree_rgd.linearVelocity.y;
-          console.log("current tree velocity: " + speed);
+          let speed = ltree_rgd.linearVelocity.y; // console.log("current tree velocity: " + speed);
 
           if (this.node.getPosition().y <= -1865.937) {
             let name = this.node.name;

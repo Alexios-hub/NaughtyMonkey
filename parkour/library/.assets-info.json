@@ -2145,7 +2145,7 @@
     "missing": false
   },
   "/Users/frederickmo/Documents/GitHub/NaughtyMonkey/parkour/assets/CanvasController.ts": {
-    "time": 1648003427525.6816,
+    "time": 1648017921562.6523,
     "uuid": "7686de7d-b4be-4264-a6e7-a76bfb1da3b8",
     "missing": false
   },
@@ -2180,7 +2180,7 @@
     "missing": false
   },
   "/Users/frederickmo/Documents/GitHub/NaughtyMonkey/parkour/assets/TreeController.ts": {
-    "time": 1647995480632.6443,
+    "time": 1648015548266.2375,
     "uuid": "83fbc867-da7f-4e91-ac56-a782e4271da2",
     "missing": false
   },
@@ -2250,7 +2250,7 @@
     "missing": false
   },
   "/Users/frederickmo/Documents/GitHub/NaughtyMonkey/parkour/assets/scene.scene": {
-    "time": 1647955093908.7625,
+    "time": 1648017922752.2092,
     "uuid": "e52f7624-4d19-49ca-976f-667c16768c2b",
     "missing": false
   },
@@ -4949,6 +4949,46 @@
   "/Users/frederickmo/Documents/GitHub/NaughtyMonkey/parkour/assets/stone_vanish.anim": {
     "time": 1647999096402.6287,
     "uuid": "8d925f86-2fd0-4476-8bf3-554d8b3d0457",
+    "missing": false
+  },
+  "/Users/frederickmo/Documents/GitHub/NaughtyMonkey/parkour/assets/start_menu.scene.meta": {
+    "time": 1648009837920.3042
+  },
+  "/Users/frederickmo/Documents/GitHub/NaughtyMonkey/parkour/assets/start_menu.scene": {
+    "time": 1648015382797.596,
+    "uuid": "ae5c436b-4f5f-4aee-b875-9e3c98003ea1",
+    "missing": false
+  },
+  "/Users/frederickmo/Documents/GitHub/NaughtyMonkey/parkour/assets/SceneController.ts.meta": {
+    "time": 1648010610067.7231
+  },
+  "/Users/frederickmo/Documents/GitHub/NaughtyMonkey/parkour/assets/SceneController.ts": {
+    "time": 1648014972157.7283,
+    "uuid": "c8b2cde4-31a3-47b9-af9c-2adb0e2db29a",
+    "missing": false
+  },
+  "/Users/frederickmo/Documents/GitHub/NaughtyMonkey/parkour/assets/StartButtonController.ts.meta": {
+    "time": 1648014986811.0923
+  },
+  "/Users/frederickmo/Documents/GitHub/NaughtyMonkey/parkour/assets/StartButtonController.ts": {
+    "time": 1648015823496.09,
+    "uuid": "f78f9be0-1571-40a9-a058-a09f1ffb7fbd",
+    "missing": false
+  },
+  "/Users/frederickmo/Documents/GitHub/NaughtyMonkey/parkour/assets/RestartButtonController.ts.meta": {
+    "time": 1648015956396.8704
+  },
+  "/Users/frederickmo/Documents/GitHub/NaughtyMonkey/parkour/assets/RestartButtonController.ts": {
+    "time": 1648016140924.2988,
+    "uuid": "8fb19510-46e5-4b46-96e7-cbdaae34e2b4",
+    "missing": false
+  },
+  "/Users/frederickmo/Documents/GitHub/NaughtyMonkey/parkour/assets/end_scene.scene.meta": {
+    "time": 1648017624846.774
+  },
+  "/Users/frederickmo/Documents/GitHub/NaughtyMonkey/parkour/assets/end_scene.scene": {
+    "time": 1648017960229.6648,
+    "uuid": "2d4720b9-a2fc-41bb-ab62-9ad563cbfbc3",
     "missing": false
   }
 }

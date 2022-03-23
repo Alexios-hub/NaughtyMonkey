@@ -1,5 +1,5 @@
 
-import {v2,find,_decorator, Component, Node, Prefab, resources, instantiate, Label, RigidBody2D, Animation } from 'cc';
+import {v2,find,_decorator, Component, Node, Prefab, resources, instantiate, Label, RigidBody2D, Animation, director } from 'cc';
 import { BeeController, BEESTATE } from './BeeController';
 import { HedgehogController, HedgehogSTATE } from './HedgehogController';
 import { monkey_controller, monkey_state } from './monkey_controller';
@@ -81,6 +81,7 @@ export class CanvasController extends Component {
 
 
 
+
     // [1]
     // dummy = '';
 
@@ -96,6 +97,11 @@ export class CanvasController extends Component {
         this.buff_count_number = this.mk_controller.buff_count;
         this.buff_count.string = "Buff: " + this.buff_count_number;
 
+        // let restart_button = find("Canvas/RestartButton");
+        // restart_button.active = false;
+
+        director.preloadScene("end_scene");
+
 
         
 
@@ -109,6 +115,12 @@ export class CanvasController extends Component {
         let ltree_speed = ltree_rgd.linearVelocity.y;
 
         this.buff_count.string = "Buff: " + this.mk_controller.buff_count;
+
+        if (this.mk_controller.mk_state == monkey_state.DEAD) {
+            // let restart_button = find("Canvas/RestartButton");
+            // restart_button.active = true;
+            director.loadScene("end_scene");
+        }
 
 
         // 吃到3个buff(砍杀3只鸟)之后暂时进入无敌状态3秒；之后恢复正常ALIVE状态
@@ -222,6 +234,7 @@ export class CanvasController extends Component {
                 this.stone.reset();
             }
 
+            // 无敌时间持续3秒
             setTimeout(() => {
                 this.mk_controller.mk_state = monkey_state.ALIVE;
                 this.huge_bird.node.active = false;
