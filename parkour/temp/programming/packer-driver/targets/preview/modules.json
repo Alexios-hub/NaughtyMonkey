@@ -1,6 +1,6 @@
 {
   "cce:/internal/x/cc": {
-    "mTimestamp": 11580.604458995163,
+    "mTimestamp": 11224.177041001618,
     "chunkId": "quick-pack:/cce/internal/x/cc.js",
     "imports": [
       {
@@ -317,7 +317,7 @@
     ]
   },
   "cce:/internal/x/prerequisite-imports": {
-    "mTimestamp": 8316247.473499998,
+    "mTimestamp": 1437411.469250001,
     "chunkId": "quick-pack:/cce/internal/x/prerequisite-imports.js",
     "imports": [
       {
@@ -1038,7 +1038,7 @@
     ]
   },
   "cce:/internal/code-quality/cr.mjs": {
-    "mTimestamp": 1648009606783,
+    "mTimestamp": 1648019855047,
     "chunkId": "quick-pack:/cce/internal/code-quality/cr.js",
     "imports": [],
     "modLoMetadata": {
@@ -1352,7 +1352,7 @@
   },
   "file:///Users/frederickmo/Documents/GitHub/NaughtyMonkey/parkour/assets/CanvasController.ts": {
     "mTimestamp": {
-      "mtime": 1648017921562.6523,
+      "mtime": 1648021284187.1423,
       "uuid": "7686de7d-b4be-4264-a6e7-a76bfb1da3b8"
     },
     "chunkId": "assets/CanvasController.js",
@@ -1626,7 +1626,7 @@
   },
   "file:///Users/frederickmo/Documents/GitHub/NaughtyMonkey/parkour/assets/BirdController.ts": {
     "mTimestamp": {
-      "mtime": 1647996956072.4333,
+      "mtime": 1648021115613.4294,
       "uuid": "74604e0e-b926-4cce-884a-add504661f67"
     },
     "chunkId": "assets/BirdController.js",
@@ -1643,11 +1643,11 @@
         "loc": {
           "start": {
             "line": 2,
-            "column": 123
+            "column": 155
           },
           "end": {
             "line": 2,
-            "column": 127
+            "column": 159
           }
         }
       },

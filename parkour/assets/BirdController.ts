@@ -1,5 +1,5 @@
 
-import {Animation, v2, _decorator, Component, Node, RigidBody2D, find, Collider2D, IPhysics2DContact, Contact2DType } from 'cc';
+import {Animation, v2, _decorator, Component, Node, RigidBody2D, find, Collider2D, IPhysics2DContact, Contact2DType, AudioSource, AudioClip, loader } from 'cc';
 import { monkey_controller, monkey_state } from './monkey_controller'
 const { ccclass, property } = _decorator;
 
@@ -48,6 +48,10 @@ export class BirdController extends Component {
             return false;
         }
         return true;
+    }
+
+    playAudio(audioName: string) {
+        // to be finished
     }
 
     onBeginContact(selfCollider: Collider2D,

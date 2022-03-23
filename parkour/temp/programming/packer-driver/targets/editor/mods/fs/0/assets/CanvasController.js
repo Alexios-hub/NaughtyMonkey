@@ -328,8 +328,10 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2", "__
             }
 
             if (this.stone.node.getPosition().y < 800) {
-              let animation = this.stone.getComponent(Animation);
-              animation.play("stone_vanish");
+              // 播放vanish的动画好像有点问题：在冲刺之后石头的动画都变成了vanish，不会恢复成原来的落石效果
+              //
+              // let animation = this.stone.getComponent(Animation);
+              // animation.play("stone_vanish");
               this.stone.reset();
             } // 无敌时间持续3秒
 

@@ -2145,7 +2145,7 @@
     "missing": false
   },
   "/Users/frederickmo/Documents/GitHub/NaughtyMonkey/parkour/assets/CanvasController.ts": {
-    "time": 1648017921562.6523,
+    "time": 1648021284187.1423,
     "uuid": "7686de7d-b4be-4264-a6e7-a76bfb1da3b8",
     "missing": false
   },
@@ -2240,7 +2240,7 @@
     "missing": false
   },
   "/Users/frederickmo/Documents/GitHub/NaughtyMonkey/parkour/assets/resources": {
-    "time": 1647954574222.4304,
+    "time": 1648020059946.9197,
     "uuid": "a4e7ab85-38bd-4ee3-822f-f69cd27f819d",
     "missing": false
   },
@@ -4771,7 +4771,7 @@
     "time": 1647933147734.801
   },
   "/Users/frederickmo/Documents/GitHub/NaughtyMonkey/parkour/assets/BirdController.ts": {
-    "time": 1647996956072.4333,
+    "time": 1648021115613.4294,
     "uuid": "74604e0e-b926-4cce-884a-add504661f67",
     "missing": false
   },
@@ -4989,6 +4989,30 @@
   "/Users/frederickmo/Documents/GitHub/NaughtyMonkey/parkour/assets/end_scene.scene": {
     "time": 1648017960229.6648,
     "uuid": "2d4720b9-a2fc-41bb-ab62-9ad563cbfbc3",
+    "missing": false
+  },
+  "/Users/frederickmo/Documents/GitHub/NaughtyMonkey/parkour/assets/resources/audios.meta": {
+    "time": 1648020059973.3162
+  },
+  "/Users/frederickmo/Documents/GitHub/NaughtyMonkey/parkour/assets/resources/audios/chirping.mp3.meta": {
+    "time": 1648020060252.3574
+  },
+  "/Users/frederickmo/Documents/GitHub/NaughtyMonkey/parkour/assets/resources/audios/flapping.wav.meta": {
+    "time": 1648020060252.8625
+  },
+  "/Users/frederickmo/Documents/GitHub/NaughtyMonkey/parkour/assets/resources/audios": {
+    "time": 1648020063278.7039,
+    "uuid": "7f446d60-9f53-422e-b243-f1fcf036b202",
+    "missing": false
+  },
+  "/Users/frederickmo/Documents/GitHub/NaughtyMonkey/parkour/assets/resources/audios/chirping.mp3": {
+    "time": 1648018656160.8877,
+    "uuid": "8f4fa36e-2273-4756-9752-767065e5ee6b",
+    "missing": false
+  },
+  "/Users/frederickmo/Documents/GitHub/NaughtyMonkey/parkour/assets/resources/audios/flapping.wav": {
+    "time": 1648019240373.059,
+    "uuid": "0da9a30a-e9c4-4ce3-bcd4-951cdb397f00",
     "missing": false
   }
 }
