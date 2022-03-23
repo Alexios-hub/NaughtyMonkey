@@ -1,5 +1,5 @@
 
-import {v2, _decorator, Component, Node, RigidBody2D, find } from 'cc';
+import {v2, _decorator, Component, Node, RigidBody2D, find, Animation } from 'cc';
 const { ccclass, property } = _decorator;
 
 /**
@@ -95,6 +95,10 @@ export class BeeController extends Component {
         
     }
 
+    }
+
+    die() {
+        this.node.getComponent(Animation).play('Bee_Hurt');
     }
 }
 

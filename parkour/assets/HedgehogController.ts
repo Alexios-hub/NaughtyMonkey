@@ -1,5 +1,5 @@
 
-import { Animation,_decorator, Component, Node, find, RigidBody2D, v2 } from 'cc';
+import { Animation,_decorator, Component, Node, find, RigidBody2D, v2, tween, v3 } from 'cc';
 const { ccclass, property } = _decorator;
 
 /**
@@ -114,7 +114,7 @@ export class HedgehogController extends Component {
 
     update (deltaTime: number) {
         this.during_time+=deltaTime;
-        console.log(this.during_time);
+        //console.log(this.during_time);
         if(this.during_time>this.judge_time&& this.node.getPosition().y<-870&&this.judge())
         {
             console.log("update!");
@@ -141,6 +141,14 @@ export class HedgehogController extends Component {
         }
         
         // [4]
+    }
+
+    die() {
+        // this.node.getComponent(RigidBody2D).linearVelocity = v2(0,0);
+        this.node.getComponent(Animation).play('Hedgehog_Hurt');
+        // tween(this.node).to((this.node.position.y+871)/50,{position: v3(this.node.position.x,-871,0)})
+        // .start();
+
     }
 }
 

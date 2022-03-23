@@ -1,7 +1,7 @@
-System.register(["cc"], function (_export, _context) {
+System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2", "__unresolved_3", "__unresolved_4", "__unresolved_5"], function (_export, _context) {
   "use strict";
 
-  var _cclegacy, v2, Animation, _decorator, Component, Input, input, Collider2D, Contact2DType, RigidBody2D, find, _dec, _dec2, _class, _class2, _descriptor, _temp, _crd, ccclass, property, monkey_state, monkey_controller;
+  var _reporterNs, _cclegacy, v2, Animation, _decorator, Component, Input, input, Collider2D, Contact2DType, RigidBody2D, find, HedgehogController, bananaControl, shieldControl, bananaManager, BeeController, _dec, _dec2, _class, _class2, _descriptor, _temp, _crd, ccclass, property, monkey_state, monkey_controller;
 
   function _initializerDefineProperty(target, property, descriptor, context) { if (!descriptor) return; Object.defineProperty(target, property, { enumerable: descriptor.enumerable, configurable: descriptor.configurable, writable: descriptor.writable, value: descriptor.initializer ? descriptor.initializer.call(context) : void 0 }); }
 
@@ -11,8 +11,30 @@ System.register(["cc"], function (_export, _context) {
 
   function _initializerWarningHelper(descriptor, context) { throw new Error('Decorating class property failed. Please ensure that ' + 'proposal-class-properties is enabled and runs after the decorators transform.'); }
 
+  function _reportPossibleCrUseOfHedgehogController(extras) {
+    _reporterNs.report("HedgehogController", "./HedgehogController", _context.meta, extras);
+  }
+
+  function _reportPossibleCrUseOfbananaControl(extras) {
+    _reporterNs.report("bananaControl", "./script/bananaControl", _context.meta, extras);
+  }
+
+  function _reportPossibleCrUseOfshieldControl(extras) {
+    _reporterNs.report("shieldControl", "./script/shieldControl", _context.meta, extras);
+  }
+
+  function _reportPossibleCrUseOfbananaManager(extras) {
+    _reporterNs.report("bananaManager", "./script/bananaManager", _context.meta, extras);
+  }
+
+  function _reportPossibleCrUseOfBeeController(extras) {
+    _reporterNs.report("BeeController", "./BeeController", _context.meta, extras);
+  }
+
   return {
-    setters: [function (_cc) {
+    setters: [function (_unresolved_) {
+      _reporterNs = _unresolved_;
+    }, function (_cc) {
       _cclegacy = _cc.cclegacy;
       v2 = _cc.v2;
       Animation = _cc.Animation;
@@ -24,6 +46,16 @@ System.register(["cc"], function (_export, _context) {
       Contact2DType = _cc.Contact2DType;
       RigidBody2D = _cc.RigidBody2D;
       find = _cc.find;
+    }, function (_unresolved_2) {
+      HedgehogController = _unresolved_2.HedgehogController;
+    }, function (_unresolved_3) {
+      bananaControl = _unresolved_3.bananaControl;
+    }, function (_unresolved_4) {
+      shieldControl = _unresolved_4.shieldControl;
+    }, function (_unresolved_5) {
+      bananaManager = _unresolved_5.bananaManager;
+    }, function (_unresolved_6) {
+      BeeController = _unresolved_6.BeeController;
     }],
     execute: function () {
       _crd = true;
@@ -58,10 +90,50 @@ System.register(["cc"], function (_export, _context) {
           _initializerDefineProperty(this, "NumOfHedgehogs", _descriptor, this);
 
           _defineProperty(this, "mk_state", void 0);
+
+          _defineProperty(this, "isInvincible", 0);
         }
 
         onBeginContact(selfCollider, otherCollider, contact) {
-          // 只在两个碰撞体开始接触时被调用一次
+          //吃香蕉
+          if (otherCollider.tag == 10) {
+            otherCollider.getComponent(_crd && bananaControl === void 0 ? (_reportPossibleCrUseOfbananaControl({
+              error: Error()
+            }), bananaControl) : bananaControl).BeEaten();
+            let bMan = find('Canvas/BananaManager');
+            let num = bMan.getComponent(_crd && bananaManager === void 0 ? (_reportPossibleCrUseOfbananaManager({
+              error: Error()
+            }), bananaManager) : bananaManager).num;
+
+            if (num == 0) {
+              this.eatBanana();
+            }
+
+            return;
+          } else if (otherCollider.tag == 11) {
+            //吃盾
+            otherCollider.getComponent(_crd && shieldControl === void 0 ? (_reportPossibleCrUseOfshieldControl({
+              error: Error()
+            }), shieldControl) : shieldControl).die();
+            this.eatShield();
+            return;
+          }
+
+          if (this.isInvincible > 0) {
+            if (otherCollider.tag == 0) {
+              otherCollider.getComponent(_crd && HedgehogController === void 0 ? (_reportPossibleCrUseOfHedgehogController({
+                error: Error()
+              }), HedgehogController) : HedgehogController).die();
+            } else if (otherCollider.tag == 1) {
+              otherCollider.getComponent(_crd && BeeController === void 0 ? (_reportPossibleCrUseOfBeeController({
+                error: Error()
+              }), BeeController) : BeeController).die();
+            }
+
+            return;
+          } // 只在两个碰撞体开始接触时被调用一次
+
+
           let ani = this.node.getComponent(Animation);
           let monkey_rgd = this.node.getComponent(RigidBody2D);
           monkey_rgd.linearVelocity = v2(0, -25);
@@ -109,6 +181,7 @@ System.register(["cc"], function (_export, _context) {
 
         start() {
           this.mk_state = monkey_state.ALIVE;
+          let x1 = 0.3;
           input.on(Input.EventType.MOUSE_DOWN, event => {
             let ani = this.node.getComponent(Animation);
 
@@ -116,10 +189,20 @@ System.register(["cc"], function (_export, _context) {
               let x = this.node.getPosition().x;
 
               if (x > 0) {
-                this.node.setScale(0.3, -0.3, 0);
+                if (this.isInvincible > 0) {
+                  this.node.setScale(2 * x1, -2 * x1, 0);
+                } else {
+                  this.node.setScale(0.3, -0.3, 0);
+                }
+
                 ani.play("monkey_jumpingtoleft");
               } else if (x < 0) {
-                this.node.setScale(0.3, 0.3, 0);
+                if (this.isInvincible > 0) {
+                  this.node.setScale(2 * x1, 2 * x1, 0);
+                } else {
+                  this.node.setScale(0.3, 0.3, 0);
+                }
+
                 ani.play("monkey_jumpingtoright");
               }
             }
@@ -139,8 +222,36 @@ System.register(["cc"], function (_export, _context) {
 
           if (ani.getState("monkey_runninng").isPlaying == false && ani.getState("monkey_jumpingtoleft").isPlaying == false && ani.getState("monkey_jumpingtoright").isPlaying == false && this.mk_state == monkey_state.ALIVE) {
             ani.play("monkey_runninng");
+          }
+
+          if (this.isInvincible > 0) {
+            this.isInvincible -= 1;
+          } else {
+            if (this.node.position.x > 0) {
+              this.node.setScale(0.3, 0.3, 1);
+            } else {
+              this.node.setScale(0.3, -0.3, 1);
+            }
+
+            this.isInvincible = 0;
           } // [4]
 
+        } //吃到香蕉
+
+
+        eatBanana() {
+          this.isInvincible = 60 * 3;
+
+          if (this.node.position.x > 0) {
+            this.node.setScale(0.6, 0.6, 1);
+          } else {
+            this.node.setScale(0.6, -0.6, 1);
+          }
+        } //吃到盾
+
+
+        eatShield() {
+          this.isInvincible = 60 * 3;
         }
 
       }, _temp), (_descriptor = _applyDecoratedDescriptor(_class2.prototype, "NumOfHedgehogs", [_dec2], {

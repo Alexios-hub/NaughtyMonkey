@@ -1,0 +1,30 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Banana",
+    "atlas": "",
+    "rect": {
+      "x": 40,
+      "y": 46,
+      "width": 409,
+      "height": 392
+    },
+    "offset": {
+      "x": -21,
+      "y": -7
+    },
+    "originalSize": {
+      "width": 531,
+      "height": 470
+    },
+    "rotated": false,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "texture": "3c65f322-3ff1-497c-b443-0a2796622938@6c48a",
+    "packable": true
+  }
+}

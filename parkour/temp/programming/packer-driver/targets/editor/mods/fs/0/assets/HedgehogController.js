@@ -135,8 +135,7 @@ System.register(["cc"], function (_export, _context) {
         }
 
         update(deltaTime) {
-          this.during_time += deltaTime;
-          console.log(this.during_time);
+          this.during_time += deltaTime; //console.log(this.during_time);
 
           if (this.during_time > this.judge_time && this.node.getPosition().y < -870 && this.judge()) {
             console.log("update!");
@@ -164,6 +163,12 @@ System.register(["cc"], function (_export, _context) {
             }
           } // [4]
 
+        }
+
+        die() {
+          // this.node.getComponent(RigidBody2D).linearVelocity = v2(0,0);
+          this.node.getComponent(Animation).play('Hedgehog_Hurt'); // tween(this.node).to((this.node.position.y+871)/50,{position: v3(this.node.position.x,-871,0)})
+          // .start();
         }
 
       }, _temp), (_descriptor = _applyDecoratedDescriptor(_class2.prototype, "y", [_dec2], {

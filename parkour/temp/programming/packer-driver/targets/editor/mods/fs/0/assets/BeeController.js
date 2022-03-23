@@ -1,7 +1,7 @@
 System.register(["cc"], function (_export, _context) {
   "use strict";
 
-  var _cclegacy, v2, _decorator, Component, RigidBody2D, find, _dec, _dec2, _class, _class2, _descriptor, _temp, _crd, ccclass, property, BeeController;
+  var _cclegacy, v2, _decorator, Component, RigidBody2D, find, Animation, _dec, _dec2, _class, _class2, _descriptor, _temp, _crd, ccclass, property, BeeController;
 
   function _initializerDefineProperty(target, property, descriptor, context) { if (!descriptor) return; Object.defineProperty(target, property, { enumerable: descriptor.enumerable, configurable: descriptor.configurable, writable: descriptor.writable, value: descriptor.initializer ? descriptor.initializer.call(context) : void 0 }); }
 
@@ -19,6 +19,7 @@ System.register(["cc"], function (_export, _context) {
       Component = _cc.Component;
       RigidBody2D = _cc.RigidBody2D;
       find = _cc.find;
+      Animation = _cc.Animation;
     }],
     execute: function () {
       _crd = true;
@@ -107,6 +108,10 @@ System.register(["cc"], function (_export, _context) {
             rgd.linearVelocity = v2(-rgd.linearVelocity.x, rgd.linearVelocity.y);
             this.node.setScale(-this.node.getScale().x, this.node.getScale().y, this.node.getScale().z);
           }
+        }
+
+        die() {
+          this.node.getComponent(Animation).play('Bee_Hurt');
         }
 
       }, _temp), (_descriptor = _applyDecoratedDescriptor(_class2.prototype, "y", [_dec2], {
