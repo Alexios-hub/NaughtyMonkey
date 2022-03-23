@@ -19,6 +19,8 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
     _reporterNs.report("monkey_state", "./monkey_controller", _context.meta, extras);
   }
 
+  _export("HedgehogSTATE", void 0);
+
   return {
     setters: [function (_unresolved_) {
       _reporterNs = _unresolved_;
@@ -62,7 +64,7 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
         HedgehogSTATE[HedgehogSTATE["DOWNRUNNING"] = 1] = "DOWNRUNNING";
         HedgehogSTATE[HedgehogSTATE["IDLE"] = 2] = "IDLE";
         HedgehogSTATE[HedgehogSTATE["DEAD"] = 3] = "DEAD";
-      })(HedgehogSTATE || (HedgehogSTATE = {}));
+      })(HedgehogSTATE || _export("HedgehogSTATE", HedgehogSTATE = {}));
 
       _export("HedgehogController", HedgehogController = (_dec = ccclass('HedgehogController'), _dec2 = property(Number), _dec3 = property(Number), _dec4 = property(Number), _dec5 = property(Number), _dec6 = property(Number), _dec7 = property(_crd && monkey_controller === void 0 ? (_reportPossibleCrUseOfmonkey_controller({
         error: Error()

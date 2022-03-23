@@ -1,5 +1,6 @@
 
-import { _decorator, Component, Node } from 'cc';
+import { _decorator, Component, Node, Animation } from 'cc';
+import { monkey_controller, monkey_state } from './monkey_controller'
 const { ccclass, property } = _decorator;
 
 /**
@@ -23,8 +24,20 @@ export class HugeBirdController extends Component {
     // @property
     // serializableDummy = 0;
 
+    @property(monkey_controller)
+    mk_controller: monkey_controller
+
+    mk_state: monkey_state
+
     start () {
         // [3]
+        if (this.mk_state == monkey_state.INVINCIBLE) {
+            this.node.active = true;
+            let animation = this.node.getComponent(Animation);
+            animation.play("huge_bird_idle_blinking");
+        } else {
+            this.node.active = false;
+        }
     }
 
     // update (deltaTime: number) {

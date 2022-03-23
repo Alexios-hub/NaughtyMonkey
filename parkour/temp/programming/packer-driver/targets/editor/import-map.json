@@ -19,15 +19,16 @@
     "./mods/fs/0/assets/HedgehogController4.js": {
       "cc": "./mods/cce/internal/x/cc.js"
     },
-    "./mods/fs/0/assets/BeeController.js": {
-      "cc": "./mods/cce/internal/x/cc.js",
-      "__unresolved_0": "./mods/cce/internal/code-quality/cr.js",
-      "__unresolved_1": "./mods/fs/0/assets/monkey_controller.js"
-    },
-    "./mods/fs/0/assets/TreeController.js": {
+    "./mods/fs/0/assets/resources/BirdController.js": {
       "cc": "./mods/cce/internal/x/cc.js"
     },
-    "./mods/fs/0/assets/resources/BirdController.js": {
+    "./mods/fs/0/assets/StoneController.js": {
+      "__unresolved_0": "./mods/cce/internal/code-quality/cr.js",
+      "cc": "./mods/cce/internal/x/cc.js",
+      "__unresolved_2": "./mods/fs/0/assets/TreeController.js",
+      "__unresolved_1": "./mods/fs/0/assets/monkey_controller.js"
+    },
+    "./mods/fs/0/assets/monkey_controller.js": {
       "cc": "./mods/cce/internal/x/cc.js"
     },
     "./mods/cce/internal/x/cc.js": {
@@ -53,24 +54,17 @@
       "__unresolved_19": "cce:/internal/x/cc-fu/spine",
       "__unresolved_20": "cce:/internal/x/cc-fu/dragon-bones"
     },
-    "./mods/fs/0/assets/CanvasController.js": {
-      "__unresolved_0": "./mods/cce/internal/code-quality/cr.js",
+    "./mods/fs/0/assets/TreeController.js": {
+      "cc": "./mods/cce/internal/x/cc.js"
+    },
+    "./mods/fs/0/assets/BeeController.js": {
       "cc": "./mods/cce/internal/x/cc.js",
-      "__unresolved_1": "./mods/fs/0/assets/BeeController.js",
-      "__unresolved_5": "./mods/fs/0/assets/BirdController.js",
-      "__unresolved_2": "./mods/fs/0/assets/HedgehogController.js",
-      "__unresolved_4": "./mods/fs/0/assets/TreeController.js",
-      "__unresolved_3": "./mods/fs/0/assets/monkey_controller.js"
+      "__unresolved_0": "./mods/cce/internal/code-quality/cr.js",
+      "__unresolved_1": "./mods/fs/0/assets/monkey_controller.js"
     },
     "./mods/fs/0/assets/HedgehogController.js": {
       "__unresolved_0": "./mods/cce/internal/code-quality/cr.js",
       "cc": "./mods/cce/internal/x/cc.js",
-      "__unresolved_1": "./mods/fs/0/assets/monkey_controller.js"
-    },
-    "./mods/fs/0/assets/StoneController.js": {
-      "__unresolved_0": "./mods/cce/internal/code-quality/cr.js",
-      "cc": "./mods/cce/internal/x/cc.js",
-      "__unresolved_2": "./mods/fs/0/assets/TreeController.js",
       "__unresolved_1": "./mods/fs/0/assets/monkey_controller.js"
     },
     "./mods/fs/0/assets/BirdController.js": {
@@ -79,20 +73,30 @@
       "__unresolved_1": "./mods/fs/0/assets/monkey_controller.js"
     },
     "./mods/fs/0/assets/HugeBirdController.js": {
-      "cc": "./mods/cce/internal/x/cc.js"
+      "__unresolved_0": "./mods/cce/internal/code-quality/cr.js",
+      "cc": "./mods/cce/internal/x/cc.js",
+      "__unresolved_1": "./mods/fs/0/assets/monkey_controller.js"
     },
     "./mods/cce/internal/x/prerequisite-imports.js": {
       "__unresolved_0": "./mods/fs/0/assets/BeeController.js",
       "__unresolved_1": "./mods/fs/0/assets/BirdController.js",
-      "__unresolved_2": "./mods/fs/0/assets/CanvasController.js",
       "__unresolved_3": "./mods/fs/0/assets/HedgehogController.js",
-      "__unresolved_4": "./mods/fs/0/assets/HugeBirdController.js",
       "__unresolved_5": "./mods/fs/0/assets/StoneController.js",
+      "__unresolved_4": "./mods/fs/0/assets/HugeBirdController.js",
       "__unresolved_6": "./mods/fs/0/assets/TreeController.js",
-      "__unresolved_7": "./mods/fs/0/assets/monkey_controller.js"
+      "__unresolved_7": "./mods/fs/0/assets/monkey_controller.js",
+      "__unresolved_2": "./mods/fs/0/assets/CanvasController.js"
     },
-    "./mods/fs/0/assets/monkey_controller.js": {
-      "cc": "./mods/cce/internal/x/cc.js"
+    "./mods/fs/0/assets/CanvasController.js": {
+      "__unresolved_0": "./mods/cce/internal/code-quality/cr.js",
+      "cc": "./mods/cce/internal/x/cc.js",
+      "__unresolved_1": "./mods/fs/0/assets/BeeController.js",
+      "__unresolved_4": "./mods/fs/0/assets/TreeController.js",
+      "__unresolved_2": "./mods/fs/0/assets/HedgehogController.js",
+      "__unresolved_5": "./mods/fs/0/assets/BirdController.js",
+      "__unresolved_3": "./mods/fs/0/assets/monkey_controller.js",
+      "__unresolved_6": "./mods/fs/0/assets/HugeBirdController.js",
+      "__unresolved_7": "./mods/fs/0/assets/StoneController.js"
     }
   }
 }

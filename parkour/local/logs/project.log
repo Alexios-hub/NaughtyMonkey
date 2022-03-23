@@ -1,447 +1,299 @@
-2022-03-22 15:36:12-log: [Package] menu@1.0.0 enable
-2022-03-22 15:36:12-log: [Package] profile@1.0.0 enable
-2022-03-22 15:36:12-log: [Package] project@1.0.1 enable
-2022-03-22 15:36:12-log: [Package] messages@1.0.0 enable
-2022-03-22 15:36:12-log: [Package] program@1.0.0 enable
-2022-03-22 15:36:12-log: [Package] device@1.0.1 enable
-2022-03-22 15:36:12-log: [Package] ui-kit@1.0.1 enable
-2022-03-22 15:36:12-log: [Package] tester@1.0.0 enable
-2022-03-22 15:36:12-log: [Package] preferences@1.0.0 enable
-2022-03-22 15:36:13-log: Setup mods mgr.: 259.855ms
-2022-03-22 15:36:13-log: [Package] engine@1.0.5 enable
-2022-03-22 15:36:16-log: [Package] programming@1.0.0 enable
-2022-03-22 15:36:16-log: [Package] engine-extends@1.0.0 enable
-2022-03-22 15:36:16-log: [Package] asset-db@1.0.0 enable
-2022-03-22 15:36:16-log: [Package] console@1.0.0 enable
-2022-03-22 15:36:17-log: [Package] scene@1.0.0 enable
-2022-03-22 15:36:17-log: [Package] about@1.0.0 enable
-2022-03-22 15:36:17-log: [Package] server@1.0.0 enable
-2022-03-22 15:36:17-log: [Package] utils@1.0.0 enable
-2022-03-22 15:36:17-log: [Package] assets@1.0.0 enable
-2022-03-22 15:36:17-log: [Package] inspector@1.0.0 enable
-2022-03-22 15:36:17-log: [Package] hierarchy@1.0.0 enable
-2022-03-22 15:36:19-log: [Package] preview@1.0.1 enable
-2022-03-22 15:36:19-log: [Package] animator@1.0.0 enable
-2022-03-22 15:36:21-log: [Package] builder@1.3.0 enable
-2022-03-22 15:36:21-log: [Package] node-library@1.0.0 enable
-2022-03-22 15:36:21-log: [Package] shortcuts@1.0.1 enable
-2022-03-22 15:36:21-log: [Package] package-asset@1.0.0 enable
-2022-03-22 15:36:21-log: [Package] reference-image@1.0.0 enable
-2022-03-22 15:36:21-log: [Package] animation-graph@1.0.0 enable
-2022-03-22 15:36:21-log: [Package] channel-upload-tools@1.0.0 enable
-2022-03-22 15:36:21-log: [Package] runtime-dev-tools@1.0.0 enable
-2022-03-22 15:36:21-log: [Package] lightmap@1.0.4 enable
-2022-03-22 15:36:21-log: [Package] alipay-mini-game@1.0.0 enable
-2022-03-22 15:36:21-log: [Package] android@1.0.0 enable
-2022-03-22 15:36:21-log: [Package] baidu-mini-game@1.0.0 enable
-2022-03-22 15:36:22-log: [Package] bytedance-mini-game@1.0.1 enable
-2022-03-22 15:36:22-log: [Package] huawei-agc@1.0.0 enable
-2022-03-22 15:36:22-log: [Package] ios@1.0.0 enable
-2022-03-22 15:36:22-log: [Package] ios-app-clip@1.0.0 enable
-2022-03-22 15:36:22-log: [Package] mac@1.0.0 enable
-2022-03-22 15:36:22-log: [Package] native@1.0.0 enable
-2022-03-22 15:36:22-log: [Package] ohos@1.0.0 enable
-2022-03-22 15:36:22-log: [Package] web-desktop@1.0.0 enable
-2022-03-22 15:36:22-log: [Package] web-mobile@1.0.0 enable
-2022-03-22 15:36:22-log: [Package] wechatgame@1.0.1 enable
-2022-03-22 15:36:22-log: [Package] windows@1.0.0 enable
-2022-03-22 15:36:23-log: [Package] xiaomi-quick-game@1.0.0 enable
-2022-03-22 15:36:23-log: [Package] cocos-play@1.0.0 enable
-2022-03-22 15:36:23-log: [Package] huawei-quick-game@1.0.0 enable
-2022-03-22 15:36:23-log: [Package] link-sure@1.0.0 enable
-2022-03-22 15:36:23-log: [Package] oppo-mini-game@1.0.0 enable
-2022-03-22 15:36:23-log: [Package] qtt@1.0.0 enable
-2022-03-22 15:36:23-log: [Package] vivo-mini-game@1.0.0 enable
-2022-03-22 15:36:23-log: [Package] cocos-service@3.0.2 enable
-2022-03-22 15:36:23-log: [Package] importer@1.0.0 enable
-2022-03-22 15:36:23-log: [Package] extension@3.0.15 enable
-2022-03-22 15:36:24-log: [Im-plugin] Check im-plugin version.
-2022-03-22 15:36:24-log: [Package] im-plugin@3.0.8 enable
-2022-03-22 15:36:24-warn: Browserslist: caniuse-lite is outdated. Please run:
+2022-03-23 08:11:54-log: [Package] menu@1.0.0 enable
+2022-03-23 08:11:54-log: [Package] profile@1.0.0 enable
+2022-03-23 08:11:54-log: [Package] project@1.0.1 enable
+2022-03-23 08:11:54-log: [Package] messages@1.0.0 enable
+2022-03-23 08:11:54-log: [Package] program@1.0.0 enable
+2022-03-23 08:11:54-log: [Package] device@1.0.1 enable
+2022-03-23 08:11:54-log: [Package] ui-kit@1.0.1 enable
+2022-03-23 08:11:54-log: [Package] tester@1.0.0 enable
+2022-03-23 08:11:54-log: [Package] preferences@1.0.0 enable
+2022-03-23 08:11:55-log: Setup mods mgr.: 269.895ms
+2022-03-23 08:11:55-log: [Package] engine@1.0.5 enable
+2022-03-23 08:11:58-log: [Package] programming@1.0.0 enable
+2022-03-23 08:11:58-log: [Package] engine-extends@1.0.0 enable
+2022-03-23 08:11:58-log: [Package] asset-db@1.0.0 enable
+2022-03-23 08:11:58-log: [Package] console@1.0.0 enable
+2022-03-23 08:11:58-log: [Package] scene@1.0.0 enable
+2022-03-23 08:11:58-log: [Package] about@1.0.0 enable
+2022-03-23 08:11:59-log: [Package] server@1.0.0 enable
+2022-03-23 08:11:59-log: [Package] utils@1.0.0 enable
+2022-03-23 08:11:59-log: [Package] assets@1.0.0 enable
+2022-03-23 08:11:59-log: [Package] inspector@1.0.0 enable
+2022-03-23 08:11:59-log: [Package] hierarchy@1.0.0 enable
+2022-03-23 08:12:01-log: [Package] preview@1.0.1 enable
+2022-03-23 08:12:01-log: [Package] animator@1.0.0 enable
+2022-03-23 08:12:03-log: [Package] builder@1.3.0 enable
+2022-03-23 08:12:03-log: [Package] node-library@1.0.0 enable
+2022-03-23 08:12:03-log: [Package] shortcuts@1.0.1 enable
+2022-03-23 08:12:03-log: [Package] package-asset@1.0.0 enable
+2022-03-23 08:12:03-log: [Package] reference-image@1.0.0 enable
+2022-03-23 08:12:03-log: [Package] animation-graph@1.0.0 enable
+2022-03-23 08:12:03-log: [Package] channel-upload-tools@1.0.0 enable
+2022-03-23 08:12:03-log: [Package] runtime-dev-tools@1.0.0 enable
+2022-03-23 08:12:03-log: [Package] lightmap@1.0.4 enable
+2022-03-23 08:12:03-log: [Package] alipay-mini-game@1.0.0 enable
+2022-03-23 08:12:03-log: [Package] android@1.0.0 enable
+2022-03-23 08:12:03-log: [Package] baidu-mini-game@1.0.0 enable
+2022-03-23 08:12:03-log: [Package] bytedance-mini-game@1.0.1 enable
+2022-03-23 08:12:03-log: [Package] huawei-agc@1.0.0 enable
+2022-03-23 08:12:17-log: [Package] ios@1.0.0 enable
+2022-03-23 08:12:17-log: [Package] ios-app-clip@1.0.0 enable
+2022-03-23 08:12:17-log: [Package] mac@1.0.0 enable
+2022-03-23 08:12:17-log: [Package] native@1.0.0 enable
+2022-03-23 08:12:17-log: [Package] ohos@1.0.0 enable
+2022-03-23 08:12:17-log: [Package] web-desktop@1.0.0 enable
+2022-03-23 08:12:17-log: [Package] web-mobile@1.0.0 enable
+2022-03-23 08:12:18-log: [Package] wechatgame@1.0.1 enable
+2022-03-23 08:12:18-log: [Package] windows@1.0.0 enable
+2022-03-23 08:12:18-log: [Package] xiaomi-quick-game@1.0.0 enable
+2022-03-23 08:12:18-log: [Package] cocos-play@1.0.0 enable
+2022-03-23 08:12:18-log: [Package] huawei-quick-game@1.0.0 enable
+2022-03-23 08:12:18-log: [Package] link-sure@1.0.0 enable
+2022-03-23 08:12:18-log: [Package] oppo-mini-game@1.0.0 enable
+2022-03-23 08:12:18-log: [Package] qtt@1.0.0 enable
+2022-03-23 08:12:18-log: [Package] vivo-mini-game@1.0.0 enable
+2022-03-23 08:12:18-log: [Package] cocos-service@3.0.2 enable
+2022-03-23 08:12:18-log: [Package] importer@1.0.0 enable
+2022-03-23 08:12:19-log: [Package] extension@3.0.15 enable
+2022-03-23 08:12:19-log: [Im-plugin] Check im-plugin version.
+2022-03-23 08:12:19-log: [Package] im-plugin@3.0.8 enable
+2022-03-23 08:12:20-warn: Browserslist: caniuse-lite is outdated. Please run:
 npx browserslist@latest --update-db
 
 Why you should do it regularly:
 https://github.com/browserslist/browserslist#browsers-data-updating
-2022-03-22 15:36:24-log: [Im-plugin] No online info of im-plugin.
-2022-03-22 15:36:25-log: [Scene] begin init
-2022-03-22 15:36:25-log: [Scene] require engine end
-2022-03-22 15:36:25-log: [Scene] Serialize end
-2022-03-22 15:36:25-log: [Scene] configureStartup end
-2022-03-22 15:36:26-log: [Scene] Cocos Creator v3.4.1
-2022-03-22 15:36:26-warn: [Scene] The type of "monkey_controller.NumOfHedgehogs" must be CCFloat or CCInteger, not Number.
-2022-03-22 15:36:26-warn: [Scene] The type of "BeeController.y" must be CCFloat or CCInteger, not Number.
-2022-03-22 15:36:26-warn: [Scene] The type of "BeeController.speed" must be CCFloat or CCInteger, not Number.
-2022-03-22 15:36:26-warn: [Scene] The type of "HedgehogController.y" must be CCFloat or CCInteger, not Number.
-2022-03-22 15:36:26-warn: [Scene] The type of "HedgehogController.judge_time" must be CCFloat or CCInteger, not Number.
-2022-03-22 15:36:26-warn: [Scene] The type of "HedgehogController.run_possibility" must be CCFloat or CCInteger, not Number.
-2022-03-22 15:36:26-warn: [Scene] The type of "HedgehogController.up_possibility" must be CCFloat or CCInteger, not Number.
-2022-03-22 15:36:26-warn: [Scene] The type of "HedgehogController.revert_possibility" must be CCFloat or CCInteger, not Number.
-2022-03-22 15:36:26-warn: [Scene] The type of "HedgehogController.speed" must be CCFloat or CCInteger, not Number.
-2022-03-22 15:36:26-warn: [Scene] The type of "StoneController.speed" must be CCFloat or CCInteger, not Number.
-2022-03-22 15:36:26-warn: [Scene] The type of "StoneController.judge_time" must be CCFloat or CCInteger, not Number.
-2022-03-22 15:36:26-warn: [Scene] The type of "StoneController.reset_probability" must be CCFloat or CCInteger, not Number.
-2022-03-22 15:36:26-info: [Scene] Forward render pipeline initialized.
-2022-03-22 15:36:26-log: [Scene] openEngine end
-2022-03-22 15:36:26-log: [Scene] configureEngine end
-2022-03-22 15:36:28-warn: [Scene] The type of "monkey_controller.NumOfHedgehogs" must be CCFloat or CCInteger, not Number.
-2022-03-22 15:36:28-warn: [Scene] The type of "BeeController.y" must be CCFloat or CCInteger, not Number.
-2022-03-22 15:36:28-warn: [Scene] The type of "BeeController.speed" must be CCFloat or CCInteger, not Number.
-2022-03-22 15:36:28-warn: [Scene] The type of "HedgehogController.y" must be CCFloat or CCInteger, not Number.
-2022-03-22 15:36:28-warn: [Scene] The type of "HedgehogController.judge_time" must be CCFloat or CCInteger, not Number.
-2022-03-22 15:36:28-warn: [Scene] The type of "HedgehogController.run_possibility" must be CCFloat or CCInteger, not Number.
-2022-03-22 15:36:28-warn: [Scene] The type of "HedgehogController.up_possibility" must be CCFloat or CCInteger, not Number.
-2022-03-22 15:36:28-warn: [Scene] The type of "HedgehogController.revert_possibility" must be CCFloat or CCInteger, not Number.
-2022-03-22 15:36:28-warn: [Scene] The type of "HedgehogController.speed" must be CCFloat or CCInteger, not Number.
-2022-03-22 15:36:28-warn: [Scene] The type of "StoneController.speed" must be CCFloat or CCInteger, not Number.
-2022-03-22 15:36:28-warn: [Scene] The type of "StoneController.judge_time" must be CCFloat or CCInteger, not Number.
-2022-03-22 15:36:28-warn: [Scene] The type of "StoneController.reset_probability" must be CCFloat or CCInteger, not Number.
-2022-03-22 16:16:52-warn: [Scene] The type of "monkey_controller.NumOfHedgehogs" must be CCFloat or CCInteger, not Number.
-2022-03-22 16:16:52-warn: [Scene] The type of "BeeController.y" must be CCFloat or CCInteger, not Number.
-2022-03-22 16:16:52-warn: [Scene] The type of "BeeController.speed" must be CCFloat or CCInteger, not Number.
-2022-03-22 16:16:52-warn: [Scene] The type of "BirdController.y" must be CCFloat or CCInteger, not Number.
-2022-03-22 16:16:52-warn: [Scene] The type of "BirdController.speed" must be CCFloat or CCInteger, not Number.
-2022-03-22 16:16:52-warn: [Scene] The type of "HedgehogController.y" must be CCFloat or CCInteger, not Number.
-2022-03-22 16:16:52-warn: [Scene] The type of "HedgehogController.judge_time" must be CCFloat or CCInteger, not Number.
-2022-03-22 16:16:52-warn: [Scene] The type of "HedgehogController.run_possibility" must be CCFloat or CCInteger, not Number.
-2022-03-22 16:16:52-warn: [Scene] The type of "HedgehogController.up_possibility" must be CCFloat or CCInteger, not Number.
-2022-03-22 16:16:52-warn: [Scene] The type of "HedgehogController.revert_possibility" must be CCFloat or CCInteger, not Number.
-2022-03-22 16:16:52-warn: [Scene] The type of "HedgehogController.speed" must be CCFloat or CCInteger, not Number.
-2022-03-22 16:16:52-warn: [Scene] The type of "StoneController.speed" must be CCFloat or CCInteger, not Number.
-2022-03-22 16:16:52-warn: [Scene] The type of "StoneController.judge_time" must be CCFloat or CCInteger, not Number.
-2022-03-22 16:16:52-warn: [Scene] The type of "StoneController.reset_probability" must be CCFloat or CCInteger, not Number.
-2022-03-22 16:25:15-warn: [Scene] The type of "monkey_controller.NumOfHedgehogs" must be CCFloat or CCInteger, not Number.
-2022-03-22 16:25:15-warn: [Scene] The type of "BeeController.y" must be CCFloat or CCInteger, not Number.
-2022-03-22 16:25:15-warn: [Scene] The type of "BeeController.speed" must be CCFloat or CCInteger, not Number.
-2022-03-22 16:25:15-warn: [Scene] The type of "BirdController.y" must be CCFloat or CCInteger, not Number.
-2022-03-22 16:25:15-warn: [Scene] The type of "BirdController.speed" must be CCFloat or CCInteger, not Number.
-2022-03-22 16:25:15-warn: [Scene] The type of "HedgehogController.y" must be CCFloat or CCInteger, not Number.
-2022-03-22 16:25:15-warn: [Scene] The type of "HedgehogController.judge_time" must be CCFloat or CCInteger, not Number.
-2022-03-22 16:25:15-warn: [Scene] The type of "HedgehogController.run_possibility" must be CCFloat or CCInteger, not Number.
-2022-03-22 16:25:15-warn: [Scene] The type of "HedgehogController.up_possibility" must be CCFloat or CCInteger, not Number.
-2022-03-22 16:25:15-warn: [Scene] The type of "HedgehogController.revert_possibility" must be CCFloat or CCInteger, not Number.
-2022-03-22 16:25:15-warn: [Scene] The type of "HedgehogController.speed" must be CCFloat or CCInteger, not Number.
-2022-03-22 16:25:15-warn: [Scene] The type of "StoneController.speed" must be CCFloat or CCInteger, not Number.
-2022-03-22 16:25:15-warn: [Scene] The type of "StoneController.judge_time" must be CCFloat or CCInteger, not Number.
-2022-03-22 16:25:15-warn: [Scene] The type of "StoneController.reset_probability" must be CCFloat or CCInteger, not Number.
-2022-03-22 18:34:10-warn: [Scene] The type of "monkey_controller.NumOfHedgehogs" must be CCFloat or CCInteger, not Number.
-2022-03-22 18:34:10-warn: [Scene] The type of "BeeController.y" must be CCFloat or CCInteger, not Number.
-2022-03-22 18:34:10-warn: [Scene] The type of "BeeController.speed" must be CCFloat or CCInteger, not Number.
-2022-03-22 18:34:10-warn: [Scene] The type of "BirdController.y" must be CCFloat or CCInteger, not Number.
-2022-03-22 18:34:10-warn: [Scene] The type of "BirdController.speed" must be CCFloat or CCInteger, not Number.
-2022-03-22 18:34:10-warn: [Scene] The type of "HedgehogController.y" must be CCFloat or CCInteger, not Number.
-2022-03-22 18:34:10-warn: [Scene] The type of "HedgehogController.judge_time" must be CCFloat or CCInteger, not Number.
-2022-03-22 18:34:10-warn: [Scene] The type of "HedgehogController.run_possibility" must be CCFloat or CCInteger, not Number.
-2022-03-22 18:34:10-warn: [Scene] The type of "HedgehogController.up_possibility" must be CCFloat or CCInteger, not Number.
-2022-03-22 18:34:10-warn: [Scene] The type of "HedgehogController.revert_possibility" must be CCFloat or CCInteger, not Number.
-2022-03-22 18:34:10-warn: [Scene] The type of "HedgehogController.speed" must be CCFloat or CCInteger, not Number.
-2022-03-22 18:34:10-warn: [Scene] The type of "StoneController.speed" must be CCFloat or CCInteger, not Number.
-2022-03-22 18:34:10-warn: [Scene] The type of "StoneController.judge_time" must be CCFloat or CCInteger, not Number.
-2022-03-22 18:34:10-warn: [Scene] The type of "StoneController.reset_probability" must be CCFloat or CCInteger, not Number.
-2022-03-22 18:49:50-warn: [Scene] The type of "monkey_controller.NumOfHedgehogs" must be CCFloat or CCInteger, not Number.
-2022-03-22 18:49:50-warn: [Scene] The type of "BeeController.y" must be CCFloat or CCInteger, not Number.
-2022-03-22 18:49:50-warn: [Scene] The type of "BeeController.speed" must be CCFloat or CCInteger, not Number.
-2022-03-22 18:49:50-warn: [Scene] The type of "BirdController.y" must be CCFloat or CCInteger, not Number.
-2022-03-22 18:49:50-warn: [Scene] The type of "BirdController.speed" must be CCFloat or CCInteger, not Number.
-2022-03-22 18:49:50-warn: [Scene] The type of "HedgehogController.y" must be CCFloat or CCInteger, not Number.
-2022-03-22 18:49:50-warn: [Scene] The type of "HedgehogController.judge_time" must be CCFloat or CCInteger, not Number.
-2022-03-22 18:49:50-warn: [Scene] The type of "HedgehogController.run_possibility" must be CCFloat or CCInteger, not Number.
-2022-03-22 18:49:50-warn: [Scene] The type of "HedgehogController.up_possibility" must be CCFloat or CCInteger, not Number.
-2022-03-22 18:49:50-warn: [Scene] The type of "HedgehogController.revert_possibility" must be CCFloat or CCInteger, not Number.
-2022-03-22 18:49:50-warn: [Scene] The type of "HedgehogController.speed" must be CCFloat or CCInteger, not Number.
-2022-03-22 18:49:50-warn: [Scene] The type of "StoneController.speed" must be CCFloat or CCInteger, not Number.
-2022-03-22 18:49:50-warn: [Scene] The type of "StoneController.judge_time" must be CCFloat or CCInteger, not Number.
-2022-03-22 18:49:50-warn: [Scene] The type of "StoneController.reset_probability" must be CCFloat or CCInteger, not Number.
-2022-03-22 19:07:59-warn: [Scene] The type of "monkey_controller.NumOfHedgehogs" must be CCFloat or CCInteger, not Number.
-2022-03-22 19:07:59-warn: [Scene] The type of "BeeController.y" must be CCFloat or CCInteger, not Number.
-2022-03-22 19:07:59-warn: [Scene] The type of "BeeController.speed" must be CCFloat or CCInteger, not Number.
-2022-03-22 19:07:59-warn: [Scene] The type of "BirdController.y" must be CCFloat or CCInteger, not Number.
-2022-03-22 19:07:59-warn: [Scene] The type of "BirdController.speed" must be CCFloat or CCInteger, not Number.
-2022-03-22 19:07:59-warn: [Scene] The type of "HedgehogController.y" must be CCFloat or CCInteger, not Number.
-2022-03-22 19:07:59-warn: [Scene] The type of "HedgehogController.judge_time" must be CCFloat or CCInteger, not Number.
-2022-03-22 19:07:59-warn: [Scene] The type of "HedgehogController.run_possibility" must be CCFloat or CCInteger, not Number.
-2022-03-22 19:07:59-warn: [Scene] The type of "HedgehogController.up_possibility" must be CCFloat or CCInteger, not Number.
-2022-03-22 19:07:59-warn: [Scene] The type of "HedgehogController.revert_possibility" must be CCFloat or CCInteger, not Number.
-2022-03-22 19:07:59-warn: [Scene] The type of "HedgehogController.speed" must be CCFloat or CCInteger, not Number.
-2022-03-22 19:07:59-warn: [Scene] The type of "StoneController.speed" must be CCFloat or CCInteger, not Number.
-2022-03-22 19:07:59-warn: [Scene] The type of "StoneController.judge_time" must be CCFloat or CCInteger, not Number.
-2022-03-22 19:07:59-warn: [Scene] The type of "StoneController.reset_probability" must be CCFloat or CCInteger, not Number.
-2022-03-22 19:09:59-warn: [Scene] The type of "monkey_controller.NumOfHedgehogs" must be CCFloat or CCInteger, not Number.
-2022-03-22 19:09:59-warn: [Scene] The type of "BeeController.y" must be CCFloat or CCInteger, not Number.
-2022-03-22 19:09:59-warn: [Scene] The type of "BeeController.speed" must be CCFloat or CCInteger, not Number.
-2022-03-22 19:09:59-warn: [Scene] The type of "BirdController.y" must be CCFloat or CCInteger, not Number.
-2022-03-22 19:09:59-warn: [Scene] The type of "BirdController.speed" must be CCFloat or CCInteger, not Number.
-2022-03-22 19:09:59-warn: [Scene] The type of "HedgehogController.y" must be CCFloat or CCInteger, not Number.
-2022-03-22 19:09:59-warn: [Scene] The type of "HedgehogController.judge_time" must be CCFloat or CCInteger, not Number.
-2022-03-22 19:09:59-warn: [Scene] The type of "HedgehogController.run_possibility" must be CCFloat or CCInteger, not Number.
-2022-03-22 19:09:59-warn: [Scene] The type of "HedgehogController.up_possibility" must be CCFloat or CCInteger, not Number.
-2022-03-22 19:09:59-warn: [Scene] The type of "HedgehogController.revert_possibility" must be CCFloat or CCInteger, not Number.
-2022-03-22 19:09:59-warn: [Scene] The type of "HedgehogController.speed" must be CCFloat or CCInteger, not Number.
-2022-03-22 19:09:59-warn: [Scene] The type of "StoneController.speed" must be CCFloat or CCInteger, not Number.
-2022-03-22 19:09:59-warn: [Scene] The type of "StoneController.judge_time" must be CCFloat or CCInteger, not Number.
-2022-03-22 19:09:59-warn: [Scene] The type of "StoneController.reset_probability" must be CCFloat or CCInteger, not Number.
-2022-03-22 19:11:35-warn: [Scene] The type of "monkey_controller.NumOfHedgehogs" must be CCFloat or CCInteger, not Number.
-2022-03-22 19:11:35-warn: [Scene] The type of "BeeController.y" must be CCFloat or CCInteger, not Number.
-2022-03-22 19:11:35-warn: [Scene] The type of "BeeController.speed" must be CCFloat or CCInteger, not Number.
-2022-03-22 19:11:35-warn: [Scene] The type of "BirdController.y" must be CCFloat or CCInteger, not Number.
-2022-03-22 19:11:35-warn: [Scene] The type of "BirdController.speed" must be CCFloat or CCInteger, not Number.
-2022-03-22 19:11:35-warn: [Scene] The type of "HedgehogController.y" must be CCFloat or CCInteger, not Number.
-2022-03-22 19:11:35-warn: [Scene] The type of "HedgehogController.judge_time" must be CCFloat or CCInteger, not Number.
-2022-03-22 19:11:35-warn: [Scene] The type of "HedgehogController.run_possibility" must be CCFloat or CCInteger, not Number.
-2022-03-22 19:11:35-warn: [Scene] The type of "HedgehogController.up_possibility" must be CCFloat or CCInteger, not Number.
-2022-03-22 19:11:35-warn: [Scene] The type of "HedgehogController.revert_possibility" must be CCFloat or CCInteger, not Number.
-2022-03-22 19:11:35-warn: [Scene] The type of "HedgehogController.speed" must be CCFloat or CCInteger, not Number.
-2022-03-22 19:11:35-warn: [Scene] The type of "StoneController.speed" must be CCFloat or CCInteger, not Number.
-2022-03-22 19:11:35-warn: [Scene] The type of "StoneController.judge_time" must be CCFloat or CCInteger, not Number.
-2022-03-22 19:11:35-warn: [Scene] The type of "StoneController.reset_probability" must be CCFloat or CCInteger, not Number.
-2022-03-22 19:14:58-warn: [Scene] The type of "monkey_controller.NumOfHedgehogs" must be CCFloat or CCInteger, not Number.
-2022-03-22 19:14:58-warn: [Scene] The type of "BeeController.y" must be CCFloat or CCInteger, not Number.
-2022-03-22 19:14:58-warn: [Scene] The type of "BeeController.speed" must be CCFloat or CCInteger, not Number.
-2022-03-22 19:14:58-warn: [Scene] The type of "BirdController.y" must be CCFloat or CCInteger, not Number.
-2022-03-22 19:14:58-warn: [Scene] The type of "BirdController.speed" must be CCFloat or CCInteger, not Number.
-2022-03-22 19:14:58-warn: [Scene] The type of "HedgehogController.y" must be CCFloat or CCInteger, not Number.
-2022-03-22 19:14:58-warn: [Scene] The type of "HedgehogController.judge_time" must be CCFloat or CCInteger, not Number.
-2022-03-22 19:14:58-warn: [Scene] The type of "HedgehogController.run_possibility" must be CCFloat or CCInteger, not Number.
-2022-03-22 19:14:58-warn: [Scene] The type of "HedgehogController.up_possibility" must be CCFloat or CCInteger, not Number.
-2022-03-22 19:14:58-warn: [Scene] The type of "HedgehogController.revert_possibility" must be CCFloat or CCInteger, not Number.
-2022-03-22 19:14:58-warn: [Scene] The type of "HedgehogController.speed" must be CCFloat or CCInteger, not Number.
-2022-03-22 19:14:58-warn: [Scene] The type of "StoneController.speed" must be CCFloat or CCInteger, not Number.
-2022-03-22 19:14:58-warn: [Scene] The type of "StoneController.judge_time" must be CCFloat or CCInteger, not Number.
-2022-03-22 19:14:58-warn: [Scene] The type of "StoneController.reset_probability" must be CCFloat or CCInteger, not Number.
-2022-03-22 19:16:12-warn: [Scene] The type of "monkey_controller.NumOfHedgehogs" must be CCFloat or CCInteger, not Number.
-2022-03-22 19:16:12-warn: [Scene] The type of "BeeController.y" must be CCFloat or CCInteger, not Number.
-2022-03-22 19:16:12-warn: [Scene] The type of "BeeController.speed" must be CCFloat or CCInteger, not Number.
-2022-03-22 19:16:12-warn: [Scene] The type of "BirdController.y" must be CCFloat or CCInteger, not Number.
-2022-03-22 19:16:12-warn: [Scene] The type of "BirdController.speed" must be CCFloat or CCInteger, not Number.
-2022-03-22 19:16:12-warn: [Scene] The type of "HedgehogController.y" must be CCFloat or CCInteger, not Number.
-2022-03-22 19:16:12-warn: [Scene] The type of "HedgehogController.judge_time" must be CCFloat or CCInteger, not Number.
-2022-03-22 19:16:12-warn: [Scene] The type of "HedgehogController.run_possibility" must be CCFloat or CCInteger, not Number.
-2022-03-22 19:16:12-warn: [Scene] The type of "HedgehogController.up_possibility" must be CCFloat or CCInteger, not Number.
-2022-03-22 19:16:12-warn: [Scene] The type of "HedgehogController.revert_possibility" must be CCFloat or CCInteger, not Number.
-2022-03-22 19:16:12-warn: [Scene] The type of "HedgehogController.speed" must be CCFloat or CCInteger, not Number.
-2022-03-22 19:16:12-warn: [Scene] The type of "StoneController.speed" must be CCFloat or CCInteger, not Number.
-2022-03-22 19:16:12-warn: [Scene] The type of "StoneController.judge_time" must be CCFloat or CCInteger, not Number.
-2022-03-22 19:16:12-warn: [Scene] The type of "StoneController.reset_probability" must be CCFloat or CCInteger, not Number.
-2022-03-22 19:19:55-warn: [Scene] The type of "monkey_controller.NumOfHedgehogs" must be CCFloat or CCInteger, not Number.
-2022-03-22 19:19:55-warn: [Scene] The type of "BeeController.y" must be CCFloat or CCInteger, not Number.
-2022-03-22 19:19:55-warn: [Scene] The type of "BeeController.speed" must be CCFloat or CCInteger, not Number.
-2022-03-22 19:19:55-warn: [Scene] The type of "BirdController.y" must be CCFloat or CCInteger, not Number.
-2022-03-22 19:19:55-warn: [Scene] The type of "BirdController.speed" must be CCFloat or CCInteger, not Number.
-2022-03-22 19:19:55-warn: [Scene] The type of "HedgehogController.y" must be CCFloat or CCInteger, not Number.
-2022-03-22 19:19:55-warn: [Scene] The type of "HedgehogController.judge_time" must be CCFloat or CCInteger, not Number.
-2022-03-22 19:19:55-warn: [Scene] The type of "HedgehogController.run_possibility" must be CCFloat or CCInteger, not Number.
-2022-03-22 19:19:55-warn: [Scene] The type of "HedgehogController.up_possibility" must be CCFloat or CCInteger, not Number.
-2022-03-22 19:19:55-warn: [Scene] The type of "HedgehogController.revert_possibility" must be CCFloat or CCInteger, not Number.
-2022-03-22 19:19:55-warn: [Scene] The type of "HedgehogController.speed" must be CCFloat or CCInteger, not Number.
-2022-03-22 19:19:55-warn: [Scene] The type of "StoneController.speed" must be CCFloat or CCInteger, not Number.
-2022-03-22 19:19:55-warn: [Scene] The type of "StoneController.judge_time" must be CCFloat or CCInteger, not Number.
-2022-03-22 19:19:55-warn: [Scene] The type of "StoneController.reset_probability" must be CCFloat or CCInteger, not Number.
-2022-03-22 19:22:04-warn: [Scene] The type of "monkey_controller.NumOfHedgehogs" must be CCFloat or CCInteger, not Number.
-2022-03-22 19:22:04-warn: [Scene] The type of "BeeController.y" must be CCFloat or CCInteger, not Number.
-2022-03-22 19:22:04-warn: [Scene] The type of "BeeController.speed" must be CCFloat or CCInteger, not Number.
-2022-03-22 19:22:04-warn: [Scene] The type of "BirdController.y" must be CCFloat or CCInteger, not Number.
-2022-03-22 19:22:04-warn: [Scene] The type of "BirdController.speed" must be CCFloat or CCInteger, not Number.
-2022-03-22 19:22:04-warn: [Scene] The type of "HedgehogController.y" must be CCFloat or CCInteger, not Number.
-2022-03-22 19:22:04-warn: [Scene] The type of "HedgehogController.judge_time" must be CCFloat or CCInteger, not Number.
-2022-03-22 19:22:04-warn: [Scene] The type of "HedgehogController.run_possibility" must be CCFloat or CCInteger, not Number.
-2022-03-22 19:22:04-warn: [Scene] The type of "HedgehogController.up_possibility" must be CCFloat or CCInteger, not Number.
-2022-03-22 19:22:04-warn: [Scene] The type of "HedgehogController.revert_possibility" must be CCFloat or CCInteger, not Number.
-2022-03-22 19:22:04-warn: [Scene] The type of "HedgehogController.speed" must be CCFloat or CCInteger, not Number.
-2022-03-22 19:22:04-warn: [Scene] The type of "StoneController.speed" must be CCFloat or CCInteger, not Number.
-2022-03-22 19:22:04-warn: [Scene] The type of "StoneController.judge_time" must be CCFloat or CCInteger, not Number.
-2022-03-22 19:22:04-warn: [Scene] The type of "StoneController.reset_probability" must be CCFloat or CCInteger, not Number.
-2022-03-22 19:30:02-warn: [Scene] The type of "monkey_controller.NumOfHedgehogs" must be CCFloat or CCInteger, not Number.
-2022-03-22 19:30:02-warn: [Scene] The type of "BeeController.y" must be CCFloat or CCInteger, not Number.
-2022-03-22 19:30:02-warn: [Scene] The type of "BeeController.speed" must be CCFloat or CCInteger, not Number.
-2022-03-22 19:30:02-warn: [Scene] The type of "BirdController.y" must be CCFloat or CCInteger, not Number.
-2022-03-22 19:30:02-warn: [Scene] The type of "BirdController.speed" must be CCFloat or CCInteger, not Number.
-2022-03-22 19:30:02-warn: [Scene] The type of "HedgehogController.y" must be CCFloat or CCInteger, not Number.
-2022-03-22 19:30:02-warn: [Scene] The type of "HedgehogController.judge_time" must be CCFloat or CCInteger, not Number.
-2022-03-22 19:30:02-warn: [Scene] The type of "HedgehogController.run_possibility" must be CCFloat or CCInteger, not Number.
-2022-03-22 19:30:02-warn: [Scene] The type of "HedgehogController.up_possibility" must be CCFloat or CCInteger, not Number.
-2022-03-22 19:30:02-warn: [Scene] The type of "HedgehogController.revert_possibility" must be CCFloat or CCInteger, not Number.
-2022-03-22 19:30:02-warn: [Scene] The type of "HedgehogController.speed" must be CCFloat or CCInteger, not Number.
-2022-03-22 19:30:02-warn: [Scene] The type of "StoneController.speed" must be CCFloat or CCInteger, not Number.
-2022-03-22 19:30:02-warn: [Scene] The type of "StoneController.judge_time" must be CCFloat or CCInteger, not Number.
-2022-03-22 19:30:02-warn: [Scene] The type of "StoneController.reset_probability" must be CCFloat or CCInteger, not Number.
-2022-03-22 19:47:23-warn: [Scene] The type of "monkey_controller.NumOfHedgehogs" must be CCFloat or CCInteger, not Number.
-2022-03-22 19:47:23-warn: [Scene] The type of "BeeController.y" must be CCFloat or CCInteger, not Number.
-2022-03-22 19:47:23-warn: [Scene] The type of "BeeController.speed" must be CCFloat or CCInteger, not Number.
-2022-03-22 19:47:23-warn: [Scene] The type of "BirdController.y" must be CCFloat or CCInteger, not Number.
-2022-03-22 19:47:23-warn: [Scene] The type of "BirdController.speed" must be CCFloat or CCInteger, not Number.
-2022-03-22 19:47:23-warn: [Scene] The type of "HedgehogController.y" must be CCFloat or CCInteger, not Number.
-2022-03-22 19:47:23-warn: [Scene] The type of "HedgehogController.judge_time" must be CCFloat or CCInteger, not Number.
-2022-03-22 19:47:23-warn: [Scene] The type of "HedgehogController.run_possibility" must be CCFloat or CCInteger, not Number.
-2022-03-22 19:47:23-warn: [Scene] The type of "HedgehogController.up_possibility" must be CCFloat or CCInteger, not Number.
-2022-03-22 19:47:23-warn: [Scene] The type of "HedgehogController.revert_possibility" must be CCFloat or CCInteger, not Number.
-2022-03-22 19:47:23-warn: [Scene] The type of "HedgehogController.speed" must be CCFloat or CCInteger, not Number.
-2022-03-22 19:47:23-warn: [Scene] The type of "StoneController.speed" must be CCFloat or CCInteger, not Number.
-2022-03-22 19:47:23-warn: [Scene] The type of "StoneController.judge_time" must be CCFloat or CCInteger, not Number.
-2022-03-22 19:47:23-warn: [Scene] The type of "StoneController.reset_probability" must be CCFloat or CCInteger, not Number.
-2022-03-22 19:50:36-warn: [Scene] The type of "monkey_controller.NumOfHedgehogs" must be CCFloat or CCInteger, not Number.
-2022-03-22 19:50:36-warn: [Scene] The type of "BeeController.y" must be CCFloat or CCInteger, not Number.
-2022-03-22 19:50:36-warn: [Scene] The type of "BeeController.speed" must be CCFloat or CCInteger, not Number.
-2022-03-22 19:50:36-warn: [Scene] The type of "BirdController.y" must be CCFloat or CCInteger, not Number.
-2022-03-22 19:50:36-warn: [Scene] The type of "BirdController.speed" must be CCFloat or CCInteger, not Number.
-2022-03-22 19:50:36-warn: [Scene] The type of "HedgehogController.y" must be CCFloat or CCInteger, not Number.
-2022-03-22 19:50:36-warn: [Scene] The type of "HedgehogController.judge_time" must be CCFloat or CCInteger, not Number.
-2022-03-22 19:50:36-warn: [Scene] The type of "HedgehogController.run_possibility" must be CCFloat or CCInteger, not Number.
-2022-03-22 19:50:36-warn: [Scene] The type of "HedgehogController.up_possibility" must be CCFloat or CCInteger, not Number.
-2022-03-22 19:50:36-warn: [Scene] The type of "HedgehogController.revert_possibility" must be CCFloat or CCInteger, not Number.
-2022-03-22 19:50:36-warn: [Scene] The type of "HedgehogController.speed" must be CCFloat or CCInteger, not Number.
-2022-03-22 19:50:36-warn: [Scene] The type of "StoneController.speed" must be CCFloat or CCInteger, not Number.
-2022-03-22 19:50:36-warn: [Scene] The type of "StoneController.judge_time" must be CCFloat or CCInteger, not Number.
-2022-03-22 19:50:36-warn: [Scene] The type of "StoneController.reset_probability" must be CCFloat or CCInteger, not Number.
-2022-03-22 19:54:10-warn: [Scene] The type of "monkey_controller.NumOfHedgehogs" must be CCFloat or CCInteger, not Number.
-2022-03-22 19:54:10-warn: [Scene] The type of "BeeController.y" must be CCFloat or CCInteger, not Number.
-2022-03-22 19:54:10-warn: [Scene] The type of "BeeController.speed" must be CCFloat or CCInteger, not Number.
-2022-03-22 19:54:10-warn: [Scene] The type of "BirdController.y" must be CCFloat or CCInteger, not Number.
-2022-03-22 19:54:10-warn: [Scene] The type of "BirdController.speed" must be CCFloat or CCInteger, not Number.
-2022-03-22 19:54:10-warn: [Scene] The type of "HedgehogController.y" must be CCFloat or CCInteger, not Number.
-2022-03-22 19:54:10-warn: [Scene] The type of "HedgehogController.judge_time" must be CCFloat or CCInteger, not Number.
-2022-03-22 19:54:10-warn: [Scene] The type of "HedgehogController.run_possibility" must be CCFloat or CCInteger, not Number.
-2022-03-22 19:54:10-warn: [Scene] The type of "HedgehogController.up_possibility" must be CCFloat or CCInteger, not Number.
-2022-03-22 19:54:10-warn: [Scene] The type of "HedgehogController.revert_possibility" must be CCFloat or CCInteger, not Number.
-2022-03-22 19:54:10-warn: [Scene] The type of "HedgehogController.speed" must be CCFloat or CCInteger, not Number.
-2022-03-22 19:54:10-warn: [Scene] The type of "StoneController.speed" must be CCFloat or CCInteger, not Number.
-2022-03-22 19:54:10-warn: [Scene] The type of "StoneController.judge_time" must be CCFloat or CCInteger, not Number.
-2022-03-22 19:54:10-warn: [Scene] The type of "StoneController.reset_probability" must be CCFloat or CCInteger, not Number.
-2022-03-22 19:55:05-warn: [Scene] The type of "monkey_controller.NumOfHedgehogs" must be CCFloat or CCInteger, not Number.
-2022-03-22 19:55:05-warn: [Scene] The type of "BeeController.y" must be CCFloat or CCInteger, not Number.
-2022-03-22 19:55:05-warn: [Scene] The type of "BeeController.speed" must be CCFloat or CCInteger, not Number.
-2022-03-22 19:55:05-warn: [Scene] The type of "BirdController.y" must be CCFloat or CCInteger, not Number.
-2022-03-22 19:55:05-warn: [Scene] The type of "BirdController.speed" must be CCFloat or CCInteger, not Number.
-2022-03-22 19:55:05-warn: [Scene] The type of "HedgehogController.y" must be CCFloat or CCInteger, not Number.
-2022-03-22 19:55:05-warn: [Scene] The type of "HedgehogController.judge_time" must be CCFloat or CCInteger, not Number.
-2022-03-22 19:55:05-warn: [Scene] The type of "HedgehogController.run_possibility" must be CCFloat or CCInteger, not Number.
-2022-03-22 19:55:05-warn: [Scene] The type of "HedgehogController.up_possibility" must be CCFloat or CCInteger, not Number.
-2022-03-22 19:55:05-warn: [Scene] The type of "HedgehogController.revert_possibility" must be CCFloat or CCInteger, not Number.
-2022-03-22 19:55:05-warn: [Scene] The type of "HedgehogController.speed" must be CCFloat or CCInteger, not Number.
-2022-03-22 19:55:05-warn: [Scene] The type of "StoneController.speed" must be CCFloat or CCInteger, not Number.
-2022-03-22 19:55:05-warn: [Scene] The type of "StoneController.judge_time" must be CCFloat or CCInteger, not Number.
-2022-03-22 19:55:05-warn: [Scene] The type of "StoneController.reset_probability" must be CCFloat or CCInteger, not Number.
-2022-03-22 19:57:57-warn: [Scene] The type of "monkey_controller.NumOfHedgehogs" must be CCFloat or CCInteger, not Number.
-2022-03-22 19:57:57-warn: [Scene] The type of "BeeController.y" must be CCFloat or CCInteger, not Number.
-2022-03-22 19:57:57-warn: [Scene] The type of "BeeController.speed" must be CCFloat or CCInteger, not Number.
-2022-03-22 19:57:57-warn: [Scene] The type of "BirdController.y" must be CCFloat or CCInteger, not Number.
-2022-03-22 19:57:57-warn: [Scene] The type of "BirdController.speed" must be CCFloat or CCInteger, not Number.
-2022-03-22 19:57:57-warn: [Scene] The type of "HedgehogController.y" must be CCFloat or CCInteger, not Number.
-2022-03-22 19:57:57-warn: [Scene] The type of "HedgehogController.judge_time" must be CCFloat or CCInteger, not Number.
-2022-03-22 19:57:57-warn: [Scene] The type of "HedgehogController.run_possibility" must be CCFloat or CCInteger, not Number.
-2022-03-22 19:57:57-warn: [Scene] The type of "HedgehogController.up_possibility" must be CCFloat or CCInteger, not Number.
-2022-03-22 19:57:57-warn: [Scene] The type of "HedgehogController.revert_possibility" must be CCFloat or CCInteger, not Number.
-2022-03-22 19:57:57-warn: [Scene] The type of "HedgehogController.speed" must be CCFloat or CCInteger, not Number.
-2022-03-22 19:57:57-warn: [Scene] The type of "StoneController.speed" must be CCFloat or CCInteger, not Number.
-2022-03-22 19:57:57-warn: [Scene] The type of "StoneController.judge_time" must be CCFloat or CCInteger, not Number.
-2022-03-22 19:57:57-warn: [Scene] The type of "StoneController.reset_probability" must be CCFloat or CCInteger, not Number.
-2022-03-22 19:58:49-warn: [Scene] The type of "monkey_controller.NumOfHedgehogs" must be CCFloat or CCInteger, not Number.
-2022-03-22 19:58:49-warn: [Scene] The type of "BeeController.y" must be CCFloat or CCInteger, not Number.
-2022-03-22 19:58:49-warn: [Scene] The type of "BeeController.speed" must be CCFloat or CCInteger, not Number.
-2022-03-22 19:58:49-warn: [Scene] The type of "BirdController.y" must be CCFloat or CCInteger, not Number.
-2022-03-22 19:58:49-warn: [Scene] The type of "BirdController.speed" must be CCFloat or CCInteger, not Number.
-2022-03-22 19:58:49-warn: [Scene] The type of "HedgehogController.y" must be CCFloat or CCInteger, not Number.
-2022-03-22 19:58:49-warn: [Scene] The type of "HedgehogController.judge_time" must be CCFloat or CCInteger, not Number.
-2022-03-22 19:58:49-warn: [Scene] The type of "HedgehogController.run_possibility" must be CCFloat or CCInteger, not Number.
-2022-03-22 19:58:49-warn: [Scene] The type of "HedgehogController.up_possibility" must be CCFloat or CCInteger, not Number.
-2022-03-22 19:58:49-warn: [Scene] The type of "HedgehogController.revert_possibility" must be CCFloat or CCInteger, not Number.
-2022-03-22 19:58:49-warn: [Scene] The type of "HedgehogController.speed" must be CCFloat or CCInteger, not Number.
-2022-03-22 19:58:49-warn: [Scene] The type of "StoneController.speed" must be CCFloat or CCInteger, not Number.
-2022-03-22 19:58:49-warn: [Scene] The type of "StoneController.judge_time" must be CCFloat or CCInteger, not Number.
-2022-03-22 19:58:49-warn: [Scene] The type of "StoneController.reset_probability" must be CCFloat or CCInteger, not Number.
-2022-03-22 20:01:08-warn: [Scene] The type of "monkey_controller.NumOfHedgehogs" must be CCFloat or CCInteger, not Number.
-2022-03-22 20:01:08-warn: [Scene] The type of "BeeController.y" must be CCFloat or CCInteger, not Number.
-2022-03-22 20:01:08-warn: [Scene] The type of "BeeController.speed" must be CCFloat or CCInteger, not Number.
-2022-03-22 20:01:08-warn: [Scene] The type of "BirdController.y" must be CCFloat or CCInteger, not Number.
-2022-03-22 20:01:08-warn: [Scene] The type of "BirdController.speed" must be CCFloat or CCInteger, not Number.
-2022-03-22 20:01:08-warn: [Scene] The type of "HedgehogController.y" must be CCFloat or CCInteger, not Number.
-2022-03-22 20:01:08-warn: [Scene] The type of "HedgehogController.judge_time" must be CCFloat or CCInteger, not Number.
-2022-03-22 20:01:08-warn: [Scene] The type of "HedgehogController.run_possibility" must be CCFloat or CCInteger, not Number.
-2022-03-22 20:01:08-warn: [Scene] The type of "HedgehogController.up_possibility" must be CCFloat or CCInteger, not Number.
-2022-03-22 20:01:08-warn: [Scene] The type of "HedgehogController.revert_possibility" must be CCFloat or CCInteger, not Number.
-2022-03-22 20:01:08-warn: [Scene] The type of "HedgehogController.speed" must be CCFloat or CCInteger, not Number.
-2022-03-22 20:01:08-warn: [Scene] The type of "StoneController.speed" must be CCFloat or CCInteger, not Number.
-2022-03-22 20:01:08-warn: [Scene] The type of "StoneController.judge_time" must be CCFloat or CCInteger, not Number.
-2022-03-22 20:01:08-warn: [Scene] The type of "StoneController.reset_probability" must be CCFloat or CCInteger, not Number.
-2022-03-22 20:31:39-warn: [Scene] The type of "monkey_controller.NumOfHedgehogs" must be CCFloat or CCInteger, not Number.
-2022-03-22 20:31:39-warn: [Scene] The type of "BeeController.y" must be CCFloat or CCInteger, not Number.
-2022-03-22 20:31:39-warn: [Scene] The type of "BeeController.speed" must be CCFloat or CCInteger, not Number.
-2022-03-22 20:31:39-warn: [Scene] The type of "BirdController.y" must be CCFloat or CCInteger, not Number.
-2022-03-22 20:31:39-warn: [Scene] The type of "BirdController.speed" must be CCFloat or CCInteger, not Number.
-2022-03-22 20:31:39-warn: [Scene] The type of "HedgehogController.y" must be CCFloat or CCInteger, not Number.
-2022-03-22 20:31:39-warn: [Scene] The type of "HedgehogController.judge_time" must be CCFloat or CCInteger, not Number.
-2022-03-22 20:31:39-warn: [Scene] The type of "HedgehogController.run_possibility" must be CCFloat or CCInteger, not Number.
-2022-03-22 20:31:39-warn: [Scene] The type of "HedgehogController.up_possibility" must be CCFloat or CCInteger, not Number.
-2022-03-22 20:31:39-warn: [Scene] The type of "HedgehogController.revert_possibility" must be CCFloat or CCInteger, not Number.
-2022-03-22 20:31:39-warn: [Scene] The type of "HedgehogController.speed" must be CCFloat or CCInteger, not Number.
-2022-03-22 20:31:39-warn: [Scene] The type of "StoneController.speed" must be CCFloat or CCInteger, not Number.
-2022-03-22 20:31:39-warn: [Scene] The type of "StoneController.judge_time" must be CCFloat or CCInteger, not Number.
-2022-03-22 20:31:39-warn: [Scene] The type of "StoneController.reset_probability" must be CCFloat or CCInteger, not Number.
-2022-03-22 21:12:05-warn: [Scene] The type of "monkey_controller.NumOfHedgehogs" must be CCFloat or CCInteger, not Number.
-2022-03-22 21:12:05-warn: [Scene] The type of "BeeController.y" must be CCFloat or CCInteger, not Number.
-2022-03-22 21:12:05-warn: [Scene] The type of "BeeController.speed" must be CCFloat or CCInteger, not Number.
-2022-03-22 21:12:05-warn: [Scene] The type of "BirdController.y" must be CCFloat or CCInteger, not Number.
-2022-03-22 21:12:05-warn: [Scene] The type of "BirdController.speed" must be CCFloat or CCInteger, not Number.
-2022-03-22 21:12:05-warn: [Scene] The type of "HedgehogController.y" must be CCFloat or CCInteger, not Number.
-2022-03-22 21:12:05-warn: [Scene] The type of "HedgehogController.judge_time" must be CCFloat or CCInteger, not Number.
-2022-03-22 21:12:05-warn: [Scene] The type of "HedgehogController.run_possibility" must be CCFloat or CCInteger, not Number.
-2022-03-22 21:12:05-warn: [Scene] The type of "HedgehogController.up_possibility" must be CCFloat or CCInteger, not Number.
-2022-03-22 21:12:05-warn: [Scene] The type of "HedgehogController.revert_possibility" must be CCFloat or CCInteger, not Number.
-2022-03-22 21:12:05-warn: [Scene] The type of "HedgehogController.speed" must be CCFloat or CCInteger, not Number.
-2022-03-22 21:12:05-warn: [Scene] The type of "StoneController.speed" must be CCFloat or CCInteger, not Number.
-2022-03-22 21:12:05-warn: [Scene] The type of "StoneController.judge_time" must be CCFloat or CCInteger, not Number.
-2022-03-22 21:12:05-warn: [Scene] The type of "StoneController.reset_probability" must be CCFloat or CCInteger, not Number.
-2022-03-22 21:12:17-warn: [Scene] The type of "monkey_controller.NumOfHedgehogs" must be CCFloat or CCInteger, not Number.
-2022-03-22 21:12:17-warn: [Scene] The type of "BeeController.y" must be CCFloat or CCInteger, not Number.
-2022-03-22 21:12:17-warn: [Scene] The type of "BeeController.speed" must be CCFloat or CCInteger, not Number.
-2022-03-22 21:12:17-warn: [Scene] The type of "BirdController.y" must be CCFloat or CCInteger, not Number.
-2022-03-22 21:12:17-warn: [Scene] The type of "BirdController.speed" must be CCFloat or CCInteger, not Number.
-2022-03-22 21:12:17-warn: [Scene] The type of "HedgehogController.y" must be CCFloat or CCInteger, not Number.
-2022-03-22 21:12:17-warn: [Scene] The type of "HedgehogController.judge_time" must be CCFloat or CCInteger, not Number.
-2022-03-22 21:12:17-warn: [Scene] The type of "HedgehogController.run_possibility" must be CCFloat or CCInteger, not Number.
-2022-03-22 21:12:17-warn: [Scene] The type of "HedgehogController.up_possibility" must be CCFloat or CCInteger, not Number.
-2022-03-22 21:12:17-warn: [Scene] The type of "HedgehogController.revert_possibility" must be CCFloat or CCInteger, not Number.
-2022-03-22 21:12:17-warn: [Scene] The type of "HedgehogController.speed" must be CCFloat or CCInteger, not Number.
-2022-03-22 21:12:17-warn: [Scene] The type of "StoneController.speed" must be CCFloat or CCInteger, not Number.
-2022-03-22 21:12:17-warn: [Scene] The type of "StoneController.judge_time" must be CCFloat or CCInteger, not Number.
-2022-03-22 21:12:17-warn: [Scene] The type of "StoneController.reset_probability" must be CCFloat or CCInteger, not Number.
-2022-03-22 21:13:24-warn: [Scene] The type of "monkey_controller.NumOfHedgehogs" must be CCFloat or CCInteger, not Number.
-2022-03-22 21:13:24-warn: [Scene] The type of "BeeController.y" must be CCFloat or CCInteger, not Number.
-2022-03-22 21:13:24-warn: [Scene] The type of "BeeController.speed" must be CCFloat or CCInteger, not Number.
-2022-03-22 21:13:24-warn: [Scene] The type of "BirdController.y" must be CCFloat or CCInteger, not Number.
-2022-03-22 21:13:24-warn: [Scene] The type of "BirdController.speed" must be CCFloat or CCInteger, not Number.
-2022-03-22 21:13:24-warn: [Scene] The type of "HedgehogController.y" must be CCFloat or CCInteger, not Number.
-2022-03-22 21:13:24-warn: [Scene] The type of "HedgehogController.judge_time" must be CCFloat or CCInteger, not Number.
-2022-03-22 21:13:24-warn: [Scene] The type of "HedgehogController.run_possibility" must be CCFloat or CCInteger, not Number.
-2022-03-22 21:13:24-warn: [Scene] The type of "HedgehogController.up_possibility" must be CCFloat or CCInteger, not Number.
-2022-03-22 21:13:24-warn: [Scene] The type of "HedgehogController.revert_possibility" must be CCFloat or CCInteger, not Number.
-2022-03-22 21:13:24-warn: [Scene] The type of "HedgehogController.speed" must be CCFloat or CCInteger, not Number.
-2022-03-22 21:13:24-warn: [Scene] The type of "StoneController.speed" must be CCFloat or CCInteger, not Number.
-2022-03-22 21:13:24-warn: [Scene] The type of "StoneController.judge_time" must be CCFloat or CCInteger, not Number.
-2022-03-22 21:13:24-warn: [Scene] The type of "StoneController.reset_probability" must be CCFloat or CCInteger, not Number.
-2022-03-22 21:13:33-warn: [Scene] The type of "monkey_controller.NumOfHedgehogs" must be CCFloat or CCInteger, not Number.
-2022-03-22 21:13:33-warn: [Scene] The type of "BeeController.y" must be CCFloat or CCInteger, not Number.
-2022-03-22 21:13:33-warn: [Scene] The type of "BeeController.speed" must be CCFloat or CCInteger, not Number.
-2022-03-22 21:13:33-warn: [Scene] The type of "BirdController.y" must be CCFloat or CCInteger, not Number.
-2022-03-22 21:13:33-warn: [Scene] The type of "BirdController.speed" must be CCFloat or CCInteger, not Number.
-2022-03-22 21:13:33-warn: [Scene] The type of "HedgehogController.y" must be CCFloat or CCInteger, not Number.
-2022-03-22 21:13:33-warn: [Scene] The type of "HedgehogController.judge_time" must be CCFloat or CCInteger, not Number.
-2022-03-22 21:13:33-warn: [Scene] The type of "HedgehogController.run_possibility" must be CCFloat or CCInteger, not Number.
-2022-03-22 21:13:33-warn: [Scene] The type of "HedgehogController.up_possibility" must be CCFloat or CCInteger, not Number.
-2022-03-22 21:13:33-warn: [Scene] The type of "HedgehogController.revert_possibility" must be CCFloat or CCInteger, not Number.
-2022-03-22 21:13:33-warn: [Scene] The type of "HedgehogController.speed" must be CCFloat or CCInteger, not Number.
-2022-03-22 21:13:33-warn: [Scene] The type of "StoneController.speed" must be CCFloat or CCInteger, not Number.
-2022-03-22 21:13:33-warn: [Scene] The type of "StoneController.judge_time" must be CCFloat or CCInteger, not Number.
-2022-03-22 21:13:33-warn: [Scene] The type of "StoneController.reset_probability" must be CCFloat or CCInteger, not Number.
-2022-03-22 21:16:43-warn: [Scene] The type of "monkey_controller.NumOfHedgehogs" must be CCFloat or CCInteger, not Number.
-2022-03-22 21:16:43-warn: [Scene] The type of "BeeController.y" must be CCFloat or CCInteger, not Number.
-2022-03-22 21:16:43-warn: [Scene] The type of "BeeController.speed" must be CCFloat or CCInteger, not Number.
-2022-03-22 21:16:43-warn: [Scene] The type of "BirdController.y" must be CCFloat or CCInteger, not Number.
-2022-03-22 21:16:43-warn: [Scene] The type of "BirdController.speed" must be CCFloat or CCInteger, not Number.
-2022-03-22 21:16:43-warn: [Scene] The type of "HedgehogController.y" must be CCFloat or CCInteger, not Number.
-2022-03-22 21:16:43-warn: [Scene] The type of "HedgehogController.judge_time" must be CCFloat or CCInteger, not Number.
-2022-03-22 21:16:43-warn: [Scene] The type of "HedgehogController.run_possibility" must be CCFloat or CCInteger, not Number.
-2022-03-22 21:16:43-warn: [Scene] The type of "HedgehogController.up_possibility" must be CCFloat or CCInteger, not Number.
-2022-03-22 21:16:43-warn: [Scene] The type of "HedgehogController.revert_possibility" must be CCFloat or CCInteger, not Number.
-2022-03-22 21:16:43-warn: [Scene] The type of "HedgehogController.speed" must be CCFloat or CCInteger, not Number.
-2022-03-22 21:16:43-warn: [Scene] The type of "StoneController.speed" must be CCFloat or CCInteger, not Number.
-2022-03-22 21:16:43-warn: [Scene] The type of "StoneController.judge_time" must be CCFloat or CCInteger, not Number.
-2022-03-22 21:16:43-warn: [Scene] The type of "StoneController.reset_probability" must be CCFloat or CCInteger, not Number.
+2022-03-23 08:12:20-log: [Im-plugin] No online info of im-plugin.
+2022-03-23 08:12:21-log: [Scene] begin init
+2022-03-23 08:12:21-log: [Scene] require engine end
+2022-03-23 08:12:21-log: [Scene] Serialize end
+2022-03-23 08:12:21-log: [Scene] configureStartup end
+2022-03-23 08:12:21-log: [Scene] Cocos Creator v3.4.1
+2022-03-23 08:12:21-warn: [Scene] The type of "monkey_controller.NumOfHedgehogs" must be CCFloat or CCInteger, not Number.
+2022-03-23 08:12:21-warn: [Scene] The type of "BeeController.y" must be CCFloat or CCInteger, not Number.
+2022-03-23 08:12:21-warn: [Scene] The type of "BeeController.speed" must be CCFloat or CCInteger, not Number.
+2022-03-23 08:12:21-warn: [Scene] The type of "BirdController.y" must be CCFloat or CCInteger, not Number.
+2022-03-23 08:12:21-warn: [Scene] The type of "BirdController.speed" must be CCFloat or CCInteger, not Number.
+2022-03-23 08:12:21-warn: [Scene] The type of "HedgehogController.y" must be CCFloat or CCInteger, not Number.
+2022-03-23 08:12:21-warn: [Scene] The type of "HedgehogController.judge_time" must be CCFloat or CCInteger, not Number.
+2022-03-23 08:12:21-warn: [Scene] The type of "HedgehogController.run_possibility" must be CCFloat or CCInteger, not Number.
+2022-03-23 08:12:21-warn: [Scene] The type of "HedgehogController.up_possibility" must be CCFloat or CCInteger, not Number.
+2022-03-23 08:12:21-warn: [Scene] The type of "HedgehogController.revert_possibility" must be CCFloat or CCInteger, not Number.
+2022-03-23 08:12:21-warn: [Scene] The type of "HedgehogController.speed" must be CCFloat or CCInteger, not Number.
+2022-03-23 08:12:21-warn: [Scene] The type of "StoneController.speed" must be CCFloat or CCInteger, not Number.
+2022-03-23 08:12:21-warn: [Scene] The type of "StoneController.judge_time" must be CCFloat or CCInteger, not Number.
+2022-03-23 08:12:21-warn: [Scene] The type of "StoneController.reset_probability" must be CCFloat or CCInteger, not Number.
+2022-03-23 08:12:21-info: [Scene] Forward render pipeline initialized.
+2022-03-23 08:12:22-log: [Scene] openEngine end
+2022-03-23 08:12:22-log: [Scene] configureEngine end
+2022-03-23 08:12:23-warn: [Scene] The type of "monkey_controller.NumOfHedgehogs" must be CCFloat or CCInteger, not Number.
+2022-03-23 08:12:23-warn: [Scene] The type of "BeeController.y" must be CCFloat or CCInteger, not Number.
+2022-03-23 08:12:23-warn: [Scene] The type of "BeeController.speed" must be CCFloat or CCInteger, not Number.
+2022-03-23 08:12:23-warn: [Scene] The type of "BirdController.y" must be CCFloat or CCInteger, not Number.
+2022-03-23 08:12:23-warn: [Scene] The type of "BirdController.speed" must be CCFloat or CCInteger, not Number.
+2022-03-23 08:12:23-warn: [Scene] The type of "HedgehogController.y" must be CCFloat or CCInteger, not Number.
+2022-03-23 08:12:23-warn: [Scene] The type of "HedgehogController.judge_time" must be CCFloat or CCInteger, not Number.
+2022-03-23 08:12:23-warn: [Scene] The type of "HedgehogController.run_possibility" must be CCFloat or CCInteger, not Number.
+2022-03-23 08:12:23-warn: [Scene] The type of "HedgehogController.up_possibility" must be CCFloat or CCInteger, not Number.
+2022-03-23 08:12:23-warn: [Scene] The type of "HedgehogController.revert_possibility" must be CCFloat or CCInteger, not Number.
+2022-03-23 08:12:23-warn: [Scene] The type of "HedgehogController.speed" must be CCFloat or CCInteger, not Number.
+2022-03-23 08:12:23-warn: [Scene] The type of "StoneController.speed" must be CCFloat or CCInteger, not Number.
+2022-03-23 08:12:23-warn: [Scene] The type of "StoneController.judge_time" must be CCFloat or CCInteger, not Number.
+2022-03-23 08:12:23-warn: [Scene] The type of "StoneController.reset_probability" must be CCFloat or CCInteger, not Number.
+2022-03-23 08:14:35-warn: [Scene] The type of "monkey_controller.NumOfHedgehogs" must be CCFloat or CCInteger, not Number.
+2022-03-23 08:14:35-warn: [Scene] The type of "BeeController.y" must be CCFloat or CCInteger, not Number.
+2022-03-23 08:14:35-warn: [Scene] The type of "BeeController.speed" must be CCFloat or CCInteger, not Number.
+2022-03-23 08:14:35-warn: [Scene] The type of "BirdController.y" must be CCFloat or CCInteger, not Number.
+2022-03-23 08:14:35-warn: [Scene] The type of "BirdController.speed" must be CCFloat or CCInteger, not Number.
+2022-03-23 08:14:35-warn: [Scene] The type of "HedgehogController.y" must be CCFloat or CCInteger, not Number.
+2022-03-23 08:14:35-warn: [Scene] The type of "HedgehogController.judge_time" must be CCFloat or CCInteger, not Number.
+2022-03-23 08:14:35-warn: [Scene] The type of "HedgehogController.run_possibility" must be CCFloat or CCInteger, not Number.
+2022-03-23 08:14:35-warn: [Scene] The type of "HedgehogController.up_possibility" must be CCFloat or CCInteger, not Number.
+2022-03-23 08:14:35-warn: [Scene] The type of "HedgehogController.revert_possibility" must be CCFloat or CCInteger, not Number.
+2022-03-23 08:14:35-warn: [Scene] The type of "HedgehogController.speed" must be CCFloat or CCInteger, not Number.
+2022-03-23 08:14:35-warn: [Scene] The type of "StoneController.speed" must be CCFloat or CCInteger, not Number.
+2022-03-23 08:14:35-warn: [Scene] The type of "StoneController.judge_time" must be CCFloat or CCInteger, not Number.
+2022-03-23 08:14:35-warn: [Scene] The type of "StoneController.reset_probability" must be CCFloat or CCInteger, not Number.
+2022-03-23 08:31:26-warn: [Scene] The type of "monkey_controller.NumOfHedgehogs" must be CCFloat or CCInteger, not Number.
+2022-03-23 08:31:26-warn: [Scene] The type of "BeeController.y" must be CCFloat or CCInteger, not Number.
+2022-03-23 08:31:26-warn: [Scene] The type of "BeeController.speed" must be CCFloat or CCInteger, not Number.
+2022-03-23 08:31:26-warn: [Scene] The type of "BirdController.y" must be CCFloat or CCInteger, not Number.
+2022-03-23 08:31:26-warn: [Scene] The type of "BirdController.speed" must be CCFloat or CCInteger, not Number.
+2022-03-23 08:31:26-warn: [Scene] The type of "HedgehogController.y" must be CCFloat or CCInteger, not Number.
+2022-03-23 08:31:26-warn: [Scene] The type of "HedgehogController.judge_time" must be CCFloat or CCInteger, not Number.
+2022-03-23 08:31:26-warn: [Scene] The type of "HedgehogController.run_possibility" must be CCFloat or CCInteger, not Number.
+2022-03-23 08:31:26-warn: [Scene] The type of "HedgehogController.up_possibility" must be CCFloat or CCInteger, not Number.
+2022-03-23 08:31:26-warn: [Scene] The type of "HedgehogController.revert_possibility" must be CCFloat or CCInteger, not Number.
+2022-03-23 08:31:26-warn: [Scene] The type of "HedgehogController.speed" must be CCFloat or CCInteger, not Number.
+2022-03-23 08:31:26-warn: [Scene] The type of "StoneController.speed" must be CCFloat or CCInteger, not Number.
+2022-03-23 08:31:26-warn: [Scene] The type of "StoneController.judge_time" must be CCFloat or CCInteger, not Number.
+2022-03-23 08:31:26-warn: [Scene] The type of "StoneController.reset_probability" must be CCFloat or CCInteger, not Number.
+2022-03-23 09:18:37-warn: [Scene] The type of "monkey_controller.NumOfHedgehogs" must be CCFloat or CCInteger, not Number.
+2022-03-23 09:18:37-warn: [Scene] The type of "BeeController.y" must be CCFloat or CCInteger, not Number.
+2022-03-23 09:18:37-warn: [Scene] The type of "BeeController.speed" must be CCFloat or CCInteger, not Number.
+2022-03-23 09:18:37-warn: [Scene] The type of "BirdController.y" must be CCFloat or CCInteger, not Number.
+2022-03-23 09:18:37-warn: [Scene] The type of "BirdController.speed" must be CCFloat or CCInteger, not Number.
+2022-03-23 09:18:37-warn: [Scene] The type of "HedgehogController.y" must be CCFloat or CCInteger, not Number.
+2022-03-23 09:18:37-warn: [Scene] The type of "HedgehogController.judge_time" must be CCFloat or CCInteger, not Number.
+2022-03-23 09:18:37-warn: [Scene] The type of "HedgehogController.run_possibility" must be CCFloat or CCInteger, not Number.
+2022-03-23 09:18:37-warn: [Scene] The type of "HedgehogController.up_possibility" must be CCFloat or CCInteger, not Number.
+2022-03-23 09:18:37-warn: [Scene] The type of "HedgehogController.revert_possibility" must be CCFloat or CCInteger, not Number.
+2022-03-23 09:18:37-warn: [Scene] The type of "HedgehogController.speed" must be CCFloat or CCInteger, not Number.
+2022-03-23 09:18:37-warn: [Scene] The type of "StoneController.speed" must be CCFloat or CCInteger, not Number.
+2022-03-23 09:18:37-warn: [Scene] The type of "StoneController.judge_time" must be CCFloat or CCInteger, not Number.
+2022-03-23 09:18:37-warn: [Scene] The type of "StoneController.reset_probability" must be CCFloat or CCInteger, not Number.
+2022-03-23 09:45:11-warn: [Scene] The type of "monkey_controller.NumOfHedgehogs" must be CCFloat or CCInteger, not Number.
+2022-03-23 09:45:11-warn: [Scene] The type of "BeeController.y" must be CCFloat or CCInteger, not Number.
+2022-03-23 09:45:11-warn: [Scene] The type of "BeeController.speed" must be CCFloat or CCInteger, not Number.
+2022-03-23 09:45:11-warn: [Scene] The type of "BirdController.y" must be CCFloat or CCInteger, not Number.
+2022-03-23 09:45:11-warn: [Scene] The type of "BirdController.speed" must be CCFloat or CCInteger, not Number.
+2022-03-23 09:45:11-warn: [Scene] The type of "HedgehogController.y" must be CCFloat or CCInteger, not Number.
+2022-03-23 09:45:11-warn: [Scene] The type of "HedgehogController.judge_time" must be CCFloat or CCInteger, not Number.
+2022-03-23 09:45:11-warn: [Scene] The type of "HedgehogController.run_possibility" must be CCFloat or CCInteger, not Number.
+2022-03-23 09:45:11-warn: [Scene] The type of "HedgehogController.up_possibility" must be CCFloat or CCInteger, not Number.
+2022-03-23 09:45:11-warn: [Scene] The type of "HedgehogController.revert_possibility" must be CCFloat or CCInteger, not Number.
+2022-03-23 09:45:11-warn: [Scene] The type of "HedgehogController.speed" must be CCFloat or CCInteger, not Number.
+2022-03-23 09:45:11-warn: [Scene] The type of "StoneController.speed" must be CCFloat or CCInteger, not Number.
+2022-03-23 09:45:11-warn: [Scene] The type of "StoneController.judge_time" must be CCFloat or CCInteger, not Number.
+2022-03-23 09:45:11-warn: [Scene] The type of "StoneController.reset_probability" must be CCFloat or CCInteger, not Number.
+2022-03-23 09:50:32-warn: [Scene] The type of "monkey_controller.NumOfHedgehogs" must be CCFloat or CCInteger, not Number.
+2022-03-23 09:50:32-warn: [Scene] The type of "BeeController.y" must be CCFloat or CCInteger, not Number.
+2022-03-23 09:50:32-warn: [Scene] The type of "BeeController.speed" must be CCFloat or CCInteger, not Number.
+2022-03-23 09:50:32-warn: [Scene] The type of "BirdController.y" must be CCFloat or CCInteger, not Number.
+2022-03-23 09:50:32-warn: [Scene] The type of "BirdController.speed" must be CCFloat or CCInteger, not Number.
+2022-03-23 09:50:32-warn: [Scene] The type of "HedgehogController.y" must be CCFloat or CCInteger, not Number.
+2022-03-23 09:50:32-warn: [Scene] The type of "HedgehogController.judge_time" must be CCFloat or CCInteger, not Number.
+2022-03-23 09:50:32-warn: [Scene] The type of "HedgehogController.run_possibility" must be CCFloat or CCInteger, not Number.
+2022-03-23 09:50:32-warn: [Scene] The type of "HedgehogController.up_possibility" must be CCFloat or CCInteger, not Number.
+2022-03-23 09:50:32-warn: [Scene] The type of "HedgehogController.revert_possibility" must be CCFloat or CCInteger, not Number.
+2022-03-23 09:50:32-warn: [Scene] The type of "HedgehogController.speed" must be CCFloat or CCInteger, not Number.
+2022-03-23 09:50:32-warn: [Scene] The type of "StoneController.speed" must be CCFloat or CCInteger, not Number.
+2022-03-23 09:50:32-warn: [Scene] The type of "StoneController.judge_time" must be CCFloat or CCInteger, not Number.
+2022-03-23 09:50:32-warn: [Scene] The type of "StoneController.reset_probability" must be CCFloat or CCInteger, not Number.
+2022-03-23 09:52:11-warn: [Scene] The type of "monkey_controller.NumOfHedgehogs" must be CCFloat or CCInteger, not Number.
+2022-03-23 09:52:11-warn: [Scene] The type of "BeeController.y" must be CCFloat or CCInteger, not Number.
+2022-03-23 09:52:11-warn: [Scene] The type of "BeeController.speed" must be CCFloat or CCInteger, not Number.
+2022-03-23 09:52:11-warn: [Scene] The type of "BirdController.y" must be CCFloat or CCInteger, not Number.
+2022-03-23 09:52:11-warn: [Scene] The type of "BirdController.speed" must be CCFloat or CCInteger, not Number.
+2022-03-23 09:52:11-warn: [Scene] The type of "HedgehogController.y" must be CCFloat or CCInteger, not Number.
+2022-03-23 09:52:11-warn: [Scene] The type of "HedgehogController.judge_time" must be CCFloat or CCInteger, not Number.
+2022-03-23 09:52:11-warn: [Scene] The type of "HedgehogController.run_possibility" must be CCFloat or CCInteger, not Number.
+2022-03-23 09:52:11-warn: [Scene] The type of "HedgehogController.up_possibility" must be CCFloat or CCInteger, not Number.
+2022-03-23 09:52:11-warn: [Scene] The type of "HedgehogController.revert_possibility" must be CCFloat or CCInteger, not Number.
+2022-03-23 09:52:11-warn: [Scene] The type of "HedgehogController.speed" must be CCFloat or CCInteger, not Number.
+2022-03-23 09:52:11-warn: [Scene] The type of "StoneController.speed" must be CCFloat or CCInteger, not Number.
+2022-03-23 09:52:11-warn: [Scene] The type of "StoneController.judge_time" must be CCFloat or CCInteger, not Number.
+2022-03-23 09:52:11-warn: [Scene] The type of "StoneController.reset_probability" must be CCFloat or CCInteger, not Number.
+2022-03-23 09:52:46-warn: [Scene] The type of "monkey_controller.NumOfHedgehogs" must be CCFloat or CCInteger, not Number.
+2022-03-23 09:52:46-warn: [Scene] The type of "BeeController.y" must be CCFloat or CCInteger, not Number.
+2022-03-23 09:52:46-warn: [Scene] The type of "BeeController.speed" must be CCFloat or CCInteger, not Number.
+2022-03-23 09:52:46-warn: [Scene] The type of "BirdController.y" must be CCFloat or CCInteger, not Number.
+2022-03-23 09:52:46-warn: [Scene] The type of "BirdController.speed" must be CCFloat or CCInteger, not Number.
+2022-03-23 09:52:46-warn: [Scene] The type of "HedgehogController.y" must be CCFloat or CCInteger, not Number.
+2022-03-23 09:52:46-warn: [Scene] The type of "HedgehogController.judge_time" must be CCFloat or CCInteger, not Number.
+2022-03-23 09:52:46-warn: [Scene] The type of "HedgehogController.run_possibility" must be CCFloat or CCInteger, not Number.
+2022-03-23 09:52:46-warn: [Scene] The type of "HedgehogController.up_possibility" must be CCFloat or CCInteger, not Number.
+2022-03-23 09:52:46-warn: [Scene] The type of "HedgehogController.revert_possibility" must be CCFloat or CCInteger, not Number.
+2022-03-23 09:52:46-warn: [Scene] The type of "HedgehogController.speed" must be CCFloat or CCInteger, not Number.
+2022-03-23 09:52:46-warn: [Scene] The type of "StoneController.speed" must be CCFloat or CCInteger, not Number.
+2022-03-23 09:52:46-warn: [Scene] The type of "StoneController.judge_time" must be CCFloat or CCInteger, not Number.
+2022-03-23 09:52:46-warn: [Scene] The type of "StoneController.reset_probability" must be CCFloat or CCInteger, not Number.
+2022-03-23 10:02:39-warn: [Scene] The type of "monkey_controller.NumOfHedgehogs" must be CCFloat or CCInteger, not Number.
+2022-03-23 10:02:39-warn: [Scene] The type of "BeeController.y" must be CCFloat or CCInteger, not Number.
+2022-03-23 10:02:39-warn: [Scene] The type of "BeeController.speed" must be CCFloat or CCInteger, not Number.
+2022-03-23 10:02:39-warn: [Scene] The type of "BirdController.y" must be CCFloat or CCInteger, not Number.
+2022-03-23 10:02:39-warn: [Scene] The type of "BirdController.speed" must be CCFloat or CCInteger, not Number.
+2022-03-23 10:02:39-warn: [Scene] The type of "HedgehogController.y" must be CCFloat or CCInteger, not Number.
+2022-03-23 10:02:39-warn: [Scene] The type of "HedgehogController.judge_time" must be CCFloat or CCInteger, not Number.
+2022-03-23 10:02:39-warn: [Scene] The type of "HedgehogController.run_possibility" must be CCFloat or CCInteger, not Number.
+2022-03-23 10:02:39-warn: [Scene] The type of "HedgehogController.up_possibility" must be CCFloat or CCInteger, not Number.
+2022-03-23 10:02:39-warn: [Scene] The type of "HedgehogController.revert_possibility" must be CCFloat or CCInteger, not Number.
+2022-03-23 10:02:39-warn: [Scene] The type of "HedgehogController.speed" must be CCFloat or CCInteger, not Number.
+2022-03-23 10:02:39-warn: [Scene] The type of "StoneController.speed" must be CCFloat or CCInteger, not Number.
+2022-03-23 10:02:39-warn: [Scene] The type of "StoneController.judge_time" must be CCFloat or CCInteger, not Number.
+2022-03-23 10:02:39-warn: [Scene] The type of "StoneController.reset_probability" must be CCFloat or CCInteger, not Number.
+2022-03-23 10:05:58-error: [Scene] Can't add component 'cc.Sprite' to BuffSign because it conflicts with the existing 'cc.Graphics' derived component.
+2022-03-23 10:06:07-error: [Scene] Can't add component 'cc.Sprite' to BuffSign because it conflicts with the existing 'cc.Graphics' derived component.
+2022-03-23 10:14:06-warn: [Scene] The type of "monkey_controller.NumOfHedgehogs" must be CCFloat or CCInteger, not Number.
+2022-03-23 10:14:06-warn: [Scene] The type of "BeeController.y" must be CCFloat or CCInteger, not Number.
+2022-03-23 10:14:06-warn: [Scene] The type of "BeeController.speed" must be CCFloat or CCInteger, not Number.
+2022-03-23 10:14:06-warn: [Scene] The type of "BirdController.y" must be CCFloat or CCInteger, not Number.
+2022-03-23 10:14:06-warn: [Scene] The type of "BirdController.speed" must be CCFloat or CCInteger, not Number.
+2022-03-23 10:14:06-warn: [Scene] The type of "HedgehogController.y" must be CCFloat or CCInteger, not Number.
+2022-03-23 10:14:06-warn: [Scene] The type of "HedgehogController.judge_time" must be CCFloat or CCInteger, not Number.
+2022-03-23 10:14:06-warn: [Scene] The type of "HedgehogController.run_possibility" must be CCFloat or CCInteger, not Number.
+2022-03-23 10:14:06-warn: [Scene] The type of "HedgehogController.up_possibility" must be CCFloat or CCInteger, not Number.
+2022-03-23 10:14:06-warn: [Scene] The type of "HedgehogController.revert_possibility" must be CCFloat or CCInteger, not Number.
+2022-03-23 10:14:06-warn: [Scene] The type of "HedgehogController.speed" must be CCFloat or CCInteger, not Number.
+2022-03-23 10:14:06-warn: [Scene] The type of "StoneController.speed" must be CCFloat or CCInteger, not Number.
+2022-03-23 10:14:06-warn: [Scene] The type of "StoneController.judge_time" must be CCFloat or CCInteger, not Number.
+2022-03-23 10:14:06-warn: [Scene] The type of "StoneController.reset_probability" must be CCFloat or CCInteger, not Number.
+2022-03-23 10:16:34-warn: [Scene] The type of "monkey_controller.NumOfHedgehogs" must be CCFloat or CCInteger, not Number.
+2022-03-23 10:16:34-warn: [Scene] The type of "BeeController.y" must be CCFloat or CCInteger, not Number.
+2022-03-23 10:16:34-warn: [Scene] The type of "BeeController.speed" must be CCFloat or CCInteger, not Number.
+2022-03-23 10:16:34-warn: [Scene] The type of "BirdController.y" must be CCFloat or CCInteger, not Number.
+2022-03-23 10:16:34-warn: [Scene] The type of "BirdController.speed" must be CCFloat or CCInteger, not Number.
+2022-03-23 10:16:34-warn: [Scene] The type of "HedgehogController.y" must be CCFloat or CCInteger, not Number.
+2022-03-23 10:16:34-warn: [Scene] The type of "HedgehogController.judge_time" must be CCFloat or CCInteger, not Number.
+2022-03-23 10:16:34-warn: [Scene] The type of "HedgehogController.run_possibility" must be CCFloat or CCInteger, not Number.
+2022-03-23 10:16:34-warn: [Scene] The type of "HedgehogController.up_possibility" must be CCFloat or CCInteger, not Number.
+2022-03-23 10:16:34-warn: [Scene] The type of "HedgehogController.revert_possibility" must be CCFloat or CCInteger, not Number.
+2022-03-23 10:16:34-warn: [Scene] The type of "HedgehogController.speed" must be CCFloat or CCInteger, not Number.
+2022-03-23 10:16:34-warn: [Scene] The type of "StoneController.speed" must be CCFloat or CCInteger, not Number.
+2022-03-23 10:16:34-warn: [Scene] The type of "StoneController.judge_time" must be CCFloat or CCInteger, not Number.
+2022-03-23 10:16:34-warn: [Scene] The type of "StoneController.reset_probability" must be CCFloat or CCInteger, not Number.
+2022-03-23 10:28:09-warn: [Scene] The type of "monkey_controller.NumOfHedgehogs" must be CCFloat or CCInteger, not Number.
+2022-03-23 10:28:09-warn: [Scene] The type of "BeeController.y" must be CCFloat or CCInteger, not Number.
+2022-03-23 10:28:09-warn: [Scene] The type of "BeeController.speed" must be CCFloat or CCInteger, not Number.
+2022-03-23 10:28:09-warn: [Scene] The type of "BirdController.y" must be CCFloat or CCInteger, not Number.
+2022-03-23 10:28:09-warn: [Scene] The type of "BirdController.speed" must be CCFloat or CCInteger, not Number.
+2022-03-23 10:28:09-warn: [Scene] The type of "HedgehogController.y" must be CCFloat or CCInteger, not Number.
+2022-03-23 10:28:09-warn: [Scene] The type of "HedgehogController.judge_time" must be CCFloat or CCInteger, not Number.
+2022-03-23 10:28:09-warn: [Scene] The type of "HedgehogController.run_possibility" must be CCFloat or CCInteger, not Number.
+2022-03-23 10:28:09-warn: [Scene] The type of "HedgehogController.up_possibility" must be CCFloat or CCInteger, not Number.
+2022-03-23 10:28:09-warn: [Scene] The type of "HedgehogController.revert_possibility" must be CCFloat or CCInteger, not Number.
+2022-03-23 10:28:09-warn: [Scene] The type of "HedgehogController.speed" must be CCFloat or CCInteger, not Number.
+2022-03-23 10:28:09-warn: [Scene] The type of "StoneController.speed" must be CCFloat or CCInteger, not Number.
+2022-03-23 10:28:09-warn: [Scene] The type of "StoneController.judge_time" must be CCFloat or CCInteger, not Number.
+2022-03-23 10:28:09-warn: [Scene] The type of "StoneController.reset_probability" must be CCFloat or CCInteger, not Number.
+2022-03-23 10:36:37-warn: [Scene] The type of "monkey_controller.NumOfHedgehogs" must be CCFloat or CCInteger, not Number.
+2022-03-23 10:36:37-warn: [Scene] The type of "BeeController.y" must be CCFloat or CCInteger, not Number.
+2022-03-23 10:36:37-warn: [Scene] The type of "BeeController.speed" must be CCFloat or CCInteger, not Number.
+2022-03-23 10:36:37-warn: [Scene] The type of "BirdController.y" must be CCFloat or CCInteger, not Number.
+2022-03-23 10:36:37-warn: [Scene] The type of "BirdController.speed" must be CCFloat or CCInteger, not Number.
+2022-03-23 10:36:37-warn: [Scene] The type of "HedgehogController.y" must be CCFloat or CCInteger, not Number.
+2022-03-23 10:36:37-warn: [Scene] The type of "HedgehogController.judge_time" must be CCFloat or CCInteger, not Number.
+2022-03-23 10:36:37-warn: [Scene] The type of "HedgehogController.run_possibility" must be CCFloat or CCInteger, not Number.
+2022-03-23 10:36:37-warn: [Scene] The type of "HedgehogController.up_possibility" must be CCFloat or CCInteger, not Number.
+2022-03-23 10:36:37-warn: [Scene] The type of "HedgehogController.revert_possibility" must be CCFloat or CCInteger, not Number.
+2022-03-23 10:36:37-warn: [Scene] The type of "HedgehogController.speed" must be CCFloat or CCInteger, not Number.
+2022-03-23 10:36:37-warn: [Scene] The type of "StoneController.speed" must be CCFloat or CCInteger, not Number.
+2022-03-23 10:36:37-warn: [Scene] The type of "StoneController.judge_time" must be CCFloat or CCInteger, not Number.
+2022-03-23 10:36:37-warn: [Scene] The type of "StoneController.reset_probability" must be CCFloat or CCInteger, not Number.
+2022-03-23 10:37:10-warn: [Scene] The type of "monkey_controller.NumOfHedgehogs" must be CCFloat or CCInteger, not Number.
+2022-03-23 10:37:10-warn: [Scene] The type of "BeeController.y" must be CCFloat or CCInteger, not Number.
+2022-03-23 10:37:10-warn: [Scene] The type of "BeeController.speed" must be CCFloat or CCInteger, not Number.
+2022-03-23 10:37:10-warn: [Scene] The type of "BirdController.y" must be CCFloat or CCInteger, not Number.
+2022-03-23 10:37:10-warn: [Scene] The type of "BirdController.speed" must be CCFloat or CCInteger, not Number.
+2022-03-23 10:37:10-warn: [Scene] The type of "HedgehogController.y" must be CCFloat or CCInteger, not Number.
+2022-03-23 10:37:10-warn: [Scene] The type of "HedgehogController.judge_time" must be CCFloat or CCInteger, not Number.
+2022-03-23 10:37:10-warn: [Scene] The type of "HedgehogController.run_possibility" must be CCFloat or CCInteger, not Number.
+2022-03-23 10:37:10-warn: [Scene] The type of "HedgehogController.up_possibility" must be CCFloat or CCInteger, not Number.
+2022-03-23 10:37:10-warn: [Scene] The type of "HedgehogController.revert_possibility" must be CCFloat or CCInteger, not Number.
+2022-03-23 10:37:10-warn: [Scene] The type of "HedgehogController.speed" must be CCFloat or CCInteger, not Number.
+2022-03-23 10:37:10-warn: [Scene] The type of "StoneController.speed" must be CCFloat or CCInteger, not Number.
+2022-03-23 10:37:10-warn: [Scene] The type of "StoneController.judge_time" must be CCFloat or CCInteger, not Number.
+2022-03-23 10:37:10-warn: [Scene] The type of "StoneController.reset_probability" must be CCFloat or CCInteger, not Number.
+2022-03-23 10:43:50-warn: [Scene] The type of "monkey_controller.NumOfHedgehogs" must be CCFloat or CCInteger, not Number.
+2022-03-23 10:43:50-warn: [Scene] The type of "BeeController.y" must be CCFloat or CCInteger, not Number.
+2022-03-23 10:43:50-warn: [Scene] The type of "BeeController.speed" must be CCFloat or CCInteger, not Number.
+2022-03-23 10:43:50-warn: [Scene] The type of "BirdController.y" must be CCFloat or CCInteger, not Number.
+2022-03-23 10:43:50-warn: [Scene] The type of "BirdController.speed" must be CCFloat or CCInteger, not Number.
+2022-03-23 10:43:50-warn: [Scene] The type of "HedgehogController.y" must be CCFloat or CCInteger, not Number.
+2022-03-23 10:43:50-warn: [Scene] The type of "HedgehogController.judge_time" must be CCFloat or CCInteger, not Number.
+2022-03-23 10:43:50-warn: [Scene] The type of "HedgehogController.run_possibility" must be CCFloat or CCInteger, not Number.
+2022-03-23 10:43:50-warn: [Scene] The type of "HedgehogController.up_possibility" must be CCFloat or CCInteger, not Number.
+2022-03-23 10:43:50-warn: [Scene] The type of "HedgehogController.revert_possibility" must be CCFloat or CCInteger, not Number.
+2022-03-23 10:43:50-warn: [Scene] The type of "HedgehogController.speed" must be CCFloat or CCInteger, not Number.
+2022-03-23 10:43:50-warn: [Scene] The type of "StoneController.speed" must be CCFloat or CCInteger, not Number.
+2022-03-23 10:43:50-warn: [Scene] The type of "StoneController.judge_time" must be CCFloat or CCInteger, not Number.
+2022-03-23 10:43:50-warn: [Scene] The type of "StoneController.reset_probability" must be CCFloat or CCInteger, not Number.

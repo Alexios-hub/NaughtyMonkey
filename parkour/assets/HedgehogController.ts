@@ -15,7 +15,7 @@ const { ccclass, property } = _decorator;
  * ManualUrl = https://docs.cocos.com/creator/3.4/manual/zh/
  *
  */
-enum HedgehogSTATE{
+export enum HedgehogSTATE{
     UPRUNNING,
     DOWNRUNNING,
     IDLE,

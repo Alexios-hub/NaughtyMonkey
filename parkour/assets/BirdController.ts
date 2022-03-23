@@ -15,7 +15,7 @@ const { ccclass, property } = _decorator;
  *
  */
 
-enum BIRDSTATE {
+export enum BIRDSTATE {
     ALIVE,
     DEAD
 }

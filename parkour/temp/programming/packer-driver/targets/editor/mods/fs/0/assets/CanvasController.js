@@ -1,7 +1,7 @@
-System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2", "__unresolved_3", "__unresolved_4", "__unresolved_5"], function (_export, _context) {
+System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2", "__unresolved_3", "__unresolved_4", "__unresolved_5", "__unresolved_6", "__unresolved_7"], function (_export, _context) {
   "use strict";
 
-  var _reporterNs, _cclegacy, v2, find, _decorator, Component, Label, RigidBody2D, BeeController, HedgehogController, monkey_controller, TreeController, BirdController, _dec, _dec2, _dec3, _dec4, _dec5, _dec6, _dec7, _dec8, _dec9, _dec10, _dec11, _dec12, _dec13, _class, _class2, _descriptor, _descriptor2, _descriptor3, _descriptor4, _descriptor5, _descriptor6, _descriptor7, _descriptor8, _descriptor9, _descriptor10, _descriptor11, _descriptor12, _temp, _crd, ccclass, property, LEVEL, CanvasController;
+  var _reporterNs, _cclegacy, v2, find, _decorator, Component, Label, RigidBody2D, Animation, BeeController, BEESTATE, HedgehogController, HedgehogSTATE, monkey_controller, monkey_state, TreeController, BirdController, HugeBirdController, StoneController, _dec, _dec2, _dec3, _dec4, _dec5, _dec6, _dec7, _dec8, _dec9, _dec10, _dec11, _dec12, _dec13, _dec14, _dec15, _dec16, _class, _class2, _descriptor, _descriptor2, _descriptor3, _descriptor4, _descriptor5, _descriptor6, _descriptor7, _descriptor8, _descriptor9, _descriptor10, _descriptor11, _descriptor12, _descriptor13, _descriptor14, _descriptor15, _temp, _crd, ccclass, property, LEVEL, CanvasController;
 
   function _initializerDefineProperty(target, property, descriptor, context) { if (!descriptor) return; Object.defineProperty(target, property, { enumerable: descriptor.enumerable, configurable: descriptor.configurable, writable: descriptor.writable, value: descriptor.initializer ? descriptor.initializer.call(context) : void 0 }); }
 
@@ -15,12 +15,24 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2", "__
     _reporterNs.report("BeeController", "./BeeController", _context.meta, extras);
   }
 
+  function _reportPossibleCrUseOfBEESTATE(extras) {
+    _reporterNs.report("BEESTATE", "./BeeController", _context.meta, extras);
+  }
+
   function _reportPossibleCrUseOfHedgehogController(extras) {
     _reporterNs.report("HedgehogController", "./HedgehogController", _context.meta, extras);
   }
 
+  function _reportPossibleCrUseOfHedgehogSTATE(extras) {
+    _reporterNs.report("HedgehogSTATE", "./HedgehogController", _context.meta, extras);
+  }
+
   function _reportPossibleCrUseOfmonkey_controller(extras) {
     _reporterNs.report("monkey_controller", "./monkey_controller", _context.meta, extras);
+  }
+
+  function _reportPossibleCrUseOfmonkey_state(extras) {
+    _reporterNs.report("monkey_state", "./monkey_controller", _context.meta, extras);
   }
 
   function _reportPossibleCrUseOfTreeController(extras) {
@@ -29,6 +41,14 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2", "__
 
   function _reportPossibleCrUseOfBirdController(extras) {
     _reporterNs.report("BirdController", "./BirdController", _context.meta, extras);
+  }
+
+  function _reportPossibleCrUseOfHugeBirdController(extras) {
+    _reporterNs.report("HugeBirdController", "./HugeBirdController", _context.meta, extras);
+  }
+
+  function _reportPossibleCrUseOfStoneController(extras) {
+    _reporterNs.report("StoneController", "./StoneController", _context.meta, extras);
   }
 
   return {
@@ -42,16 +62,24 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2", "__
       Component = _cc.Component;
       Label = _cc.Label;
       RigidBody2D = _cc.RigidBody2D;
+      Animation = _cc.Animation;
     }, function (_unresolved_2) {
       BeeController = _unresolved_2.BeeController;
+      BEESTATE = _unresolved_2.BEESTATE;
     }, function (_unresolved_3) {
       HedgehogController = _unresolved_3.HedgehogController;
+      HedgehogSTATE = _unresolved_3.HedgehogSTATE;
     }, function (_unresolved_4) {
       monkey_controller = _unresolved_4.monkey_controller;
+      monkey_state = _unresolved_4.monkey_state;
     }, function (_unresolved_5) {
       TreeController = _unresolved_5.TreeController;
     }, function (_unresolved_6) {
       BirdController = _unresolved_6.BirdController;
+    }, function (_unresolved_7) {
+      HugeBirdController = _unresolved_7.HugeBirdController;
+    }, function (_unresolved_8) {
+      StoneController = _unresolved_8.StoneController;
     }],
     execute: function () {
       _crd = true;
@@ -82,29 +110,33 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2", "__
         LEVEL[LEVEL["LEVEL5"] = 4] = "LEVEL5";
       })(LEVEL || (LEVEL = {}));
 
-      _export("CanvasController", CanvasController = (_dec = ccclass('CanvasController'), _dec2 = property(Label), _dec3 = property(_crd && monkey_controller === void 0 ? (_reportPossibleCrUseOfmonkey_controller({
+      _export("CanvasController", CanvasController = (_dec = ccclass('CanvasController'), _dec2 = property(Label), _dec3 = property(Label), _dec4 = property(_crd && monkey_controller === void 0 ? (_reportPossibleCrUseOfmonkey_controller({
         error: Error()
-      }), monkey_controller) : monkey_controller), _dec4 = property(_crd && HedgehogController === void 0 ? (_reportPossibleCrUseOfHedgehogController({
-        error: Error()
-      }), HedgehogController) : HedgehogController), _dec5 = property(_crd && HedgehogController === void 0 ? (_reportPossibleCrUseOfHedgehogController({
+      }), monkey_controller) : monkey_controller), _dec5 = property(_crd && HedgehogController === void 0 ? (_reportPossibleCrUseOfHedgehogController({
         error: Error()
       }), HedgehogController) : HedgehogController), _dec6 = property(_crd && HedgehogController === void 0 ? (_reportPossibleCrUseOfHedgehogController({
         error: Error()
       }), HedgehogController) : HedgehogController), _dec7 = property(_crd && HedgehogController === void 0 ? (_reportPossibleCrUseOfHedgehogController({
         error: Error()
-      }), HedgehogController) : HedgehogController), _dec8 = property(_crd && BeeController === void 0 ? (_reportPossibleCrUseOfBeeController({
+      }), HedgehogController) : HedgehogController), _dec8 = property(_crd && HedgehogController === void 0 ? (_reportPossibleCrUseOfHedgehogController({
         error: Error()
-      }), BeeController) : BeeController), _dec9 = property(_crd && TreeController === void 0 ? (_reportPossibleCrUseOfTreeController({
+      }), HedgehogController) : HedgehogController), _dec9 = property(_crd && BeeController === void 0 ? (_reportPossibleCrUseOfBeeController({
         error: Error()
-      }), TreeController) : TreeController), _dec10 = property(_crd && TreeController === void 0 ? (_reportPossibleCrUseOfTreeController({
+      }), BeeController) : BeeController), _dec10 = property(_crd && TreeController === void 0 ? (_reportPossibleCrUseOfTreeController({
         error: Error()
       }), TreeController) : TreeController), _dec11 = property(_crd && TreeController === void 0 ? (_reportPossibleCrUseOfTreeController({
         error: Error()
       }), TreeController) : TreeController), _dec12 = property(_crd && TreeController === void 0 ? (_reportPossibleCrUseOfTreeController({
         error: Error()
-      }), TreeController) : TreeController), _dec13 = property(_crd && BirdController === void 0 ? (_reportPossibleCrUseOfBirdController({
+      }), TreeController) : TreeController), _dec13 = property(_crd && TreeController === void 0 ? (_reportPossibleCrUseOfTreeController({
         error: Error()
-      }), BirdController) : BirdController), _dec(_class = (_class2 = (_temp = class CanvasController extends Component {
+      }), TreeController) : TreeController), _dec14 = property(_crd && StoneController === void 0 ? (_reportPossibleCrUseOfStoneController({
+        error: Error()
+      }), StoneController) : StoneController), _dec15 = property(_crd && BirdController === void 0 ? (_reportPossibleCrUseOfBirdController({
+        error: Error()
+      }), BirdController) : BirdController), _dec16 = property(_crd && HugeBirdController === void 0 ? (_reportPossibleCrUseOfHugeBirdController({
+        error: Error()
+      }), HugeBirdController) : HugeBirdController), _dec(_class = (_class2 = (_temp = class CanvasController extends Component {
         constructor(...args) {
           super(...args);
 
@@ -112,31 +144,39 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2", "__
 
           _defineProperty(this, "score_during_time", 0);
 
+          _defineProperty(this, "buff_count_number", void 0);
+
           _defineProperty(this, "level", LEVEL.LEVEL1);
 
           _initializerDefineProperty(this, "score", _descriptor, this);
 
-          _initializerDefineProperty(this, "mk_controller", _descriptor2, this);
+          _initializerDefineProperty(this, "buff_count", _descriptor2, this);
 
-          _initializerDefineProperty(this, "hedgehog1", _descriptor3, this);
+          _initializerDefineProperty(this, "mk_controller", _descriptor3, this);
 
-          _initializerDefineProperty(this, "hedgehog2", _descriptor4, this);
+          _initializerDefineProperty(this, "hedgehog1", _descriptor4, this);
 
-          _initializerDefineProperty(this, "hedgehog3", _descriptor5, this);
+          _initializerDefineProperty(this, "hedgehog2", _descriptor5, this);
 
-          _initializerDefineProperty(this, "hedgehog4", _descriptor6, this);
+          _initializerDefineProperty(this, "hedgehog3", _descriptor6, this);
 
-          _initializerDefineProperty(this, "bee", _descriptor7, this);
+          _initializerDefineProperty(this, "hedgehog4", _descriptor7, this);
 
-          _initializerDefineProperty(this, "ltree", _descriptor8, this);
+          _initializerDefineProperty(this, "bee", _descriptor8, this);
 
-          _initializerDefineProperty(this, "ltree2", _descriptor9, this);
+          _initializerDefineProperty(this, "ltree", _descriptor9, this);
 
-          _initializerDefineProperty(this, "rtree", _descriptor10, this);
+          _initializerDefineProperty(this, "ltree2", _descriptor10, this);
 
-          _initializerDefineProperty(this, "rtree2", _descriptor11, this);
+          _initializerDefineProperty(this, "rtree", _descriptor11, this);
 
-          _initializerDefineProperty(this, "bird", _descriptor12, this);
+          _initializerDefineProperty(this, "rtree2", _descriptor12, this);
+
+          _initializerDefineProperty(this, "stone", _descriptor13, this);
+
+          _initializerDefineProperty(this, "bird", _descriptor14, this);
+
+          _initializerDefineProperty(this, "huge_bird", _descriptor15, this);
         }
 
         // [1]
@@ -145,15 +185,157 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2", "__
         // @property
         // serializableDummy = 0;
         start() {
-          this.score.string = "0"; // [3]
+          this.score.string = "0";
+          this.buff_count_number = this.mk_controller.buff_count;
+          this.buff_count.string = "Buff: " + this.buff_count_number; // [3]
         }
 
         update(deltaTime) {
-          if (this.mk_controller.mk_state == 0) {
+          let ltree = find("Canvas/ltree");
+          let ltree_rgd = ltree.getComponent(RigidBody2D);
+          let ltree_speed = ltree_rgd.linearVelocity.y;
+          this.buff_count.string = "Buff: " + this.mk_controller.buff_count;
+
+          if (this.mk_controller.buff_count == 1) {
+            // 标志无敌状态，monkey的buff清零
+            this.buff_count.string = "INVINCIBLE";
+            this.mk_controller.buff_count = 0; // 激发huge_bird节点
+
+            this.huge_bird.node.active = true;
+            let huge_bird_animation = this.huge_bird.getComponent(Animation);
+            huge_bird_animation.play("huge_bird_idle_blinking"); // 暂时隐藏monnkey节点
+
+            this.mk_controller.node.active = false;
             this.score_during_time += deltaTime;
-            let ltree = find("Canvas/ltree");
-            let ltree_rgd = ltree.getComponent(RigidBody2D);
-            let ltree_speed = ltree_rgd.linearVelocity.y; // let rtree = find("Canvas/rtree");
+
+            if (this.score_during_time > this.score_improve_timeline) {
+              this.score_during_time = 0;
+              this.score.string = parseInt(this.score.string) + Math.ceil(-ltree_speed * deltaTime) + "";
+            }
+
+            let ltree_rgd = this.ltree.getComponent(RigidBody2D);
+            let ltree2_rgd = this.ltree2.getComponent(RigidBody2D);
+            let rtree_rgd = this.rtree.getComponent(RigidBody2D);
+            let rtree2_rgd = this.rtree2.getComponent(RigidBody2D);
+            let monkey_rgd = this.mk_controller.getComponent(RigidBody2D);
+            let original_speed_ltree = ltree_rgd.linearVelocity.y;
+            let original_speed_ltree2 = ltree2_rgd.linearVelocity.y;
+            let original_speed_rtree = rtree_rgd.linearVelocity.y;
+            let original_speed_rtree2 = rtree2_rgd.linearVelocity.y;
+            let original_speed_monkey = monkey_rgd.linearVelocity.y; // 超高速移动
+
+            ltree_rgd.linearVelocity = v2(0, -100);
+            ltree2_rgd.linearVelocity = v2(0, -100);
+            rtree_rgd.linearVelocity = v2(0, -100);
+            rtree2_rgd.linearVelocity = v2(0, -100);
+            monkey_rgd.linearVelocity = v2(0, -100);
+
+            switch (this.level) {
+              case LEVEL.LEVEL1:
+                if (parseInt(this.score.string) > 40) {
+                  this.level = LEVEL.LEVEL2;
+                }
+
+                break;
+
+              case LEVEL.LEVEL2:
+                if (parseInt(this.score.string) > 80) {
+                  this.level = LEVEL.LEVEL3;
+                }
+
+                break;
+
+              case LEVEL.LEVEL3:
+                if (parseInt(this.score.string) > 120) {
+                  this.level = LEVEL.LEVEL4;
+                }
+
+                break;
+
+              case LEVEL.LEVEL4:
+                if (parseInt(this.score.string) > 150) {
+                  this.level = LEVEL.LEVEL5;
+                }
+
+                break;
+            }
+
+            if (this.hedgehog1.node.getPosition().y < 800) {
+              this.hedgehog1.state = (_crd && HedgehogSTATE === void 0 ? (_reportPossibleCrUseOfHedgehogSTATE({
+                error: Error()
+              }), HedgehogSTATE) : HedgehogSTATE).DEAD;
+              let rgd = this.hedgehog1.getComponent(RigidBody2D); // rgd.linearVelocity = v2(0, this.hedgehog1.speed);
+
+              rgd.linearVelocity = v2(0, -100);
+              let animation = this.hedgehog1.getComponent(Animation);
+              animation.play("Hedgehog_Smoke");
+            }
+
+            if (this.hedgehog2.node.getPosition().y < 800) {
+              this.hedgehog2.state = (_crd && HedgehogSTATE === void 0 ? (_reportPossibleCrUseOfHedgehogSTATE({
+                error: Error()
+              }), HedgehogSTATE) : HedgehogSTATE).DEAD;
+              let rgd = this.hedgehog2.getComponent(RigidBody2D); // rgd.linearVelocity = v2(0, this.hedgehog1.speed);
+
+              rgd.linearVelocity = v2(0, -100);
+              let animation = this.hedgehog2.getComponent(Animation);
+              animation.play("Hedgehog_Smoke");
+            }
+
+            if (this.hedgehog3.node.getPosition().y < 800) {
+              this.hedgehog3.state = (_crd && HedgehogSTATE === void 0 ? (_reportPossibleCrUseOfHedgehogSTATE({
+                error: Error()
+              }), HedgehogSTATE) : HedgehogSTATE).DEAD;
+              let rgd = this.hedgehog3.getComponent(RigidBody2D); // rgd.linearVelocity = v2(0, this.hedgehog1.speed);
+
+              rgd.linearVelocity = v2(0, -100);
+              let animation = this.hedgehog3.getComponent(Animation);
+              animation.play("Hedgehog_Smoke");
+            }
+
+            if (this.hedgehog4.node.getPosition().y < 800) {
+              this.hedgehog4.state = (_crd && HedgehogSTATE === void 0 ? (_reportPossibleCrUseOfHedgehogSTATE({
+                error: Error()
+              }), HedgehogSTATE) : HedgehogSTATE).DEAD;
+              let rgd = this.hedgehog4.getComponent(RigidBody2D); // rgd.linearVelocity = v2(0, this.hedgehog1.speed);
+
+              rgd.linearVelocity = v2(0, -100);
+              let animation = this.hedgehog4.getComponent(Animation);
+              animation.play("Hedgehog_Smoke");
+            }
+
+            if (this.bee.node.getPosition().y < 800) {
+              this.bee.state = (_crd && BEESTATE === void 0 ? (_reportPossibleCrUseOfBEESTATE({
+                error: Error()
+              }), BEESTATE) : BEESTATE).DEAD;
+              let rgd = this.bee.getComponent(RigidBody2D);
+              rgd.linearVelocity = v2(0, -100);
+              let animation = this.bee.getComponent(Animation);
+              animation.play("Bee_Smoke");
+            }
+
+            if (this.stone.node.getPosition().y < 800) {
+              let animation = this.stone.getComponent(Animation);
+              animation.play("stone_vanish");
+              this.stone.reset();
+            }
+
+            setTimeout(() => {
+              this.mk_controller.mk_state = (_crd && monkey_state === void 0 ? (_reportPossibleCrUseOfmonkey_state({
+                error: Error()
+              }), monkey_state) : monkey_state).ALIVE;
+              this.huge_bird.node.active = false;
+              this.mk_controller.node.active = true;
+              ltree_rgd.linearVelocity = v2(0, original_speed_ltree);
+              ltree2_rgd.linearVelocity = v2(0, original_speed_ltree2);
+              rtree_rgd.linearVelocity = v2(0, original_speed_rtree);
+              rtree2_rgd.linearVelocity = v2(0, original_speed_rtree2);
+              monkey_rgd.linearVelocity = v2(0, original_speed_monkey);
+            }, 3000);
+          } else if (this.mk_controller.mk_state == (_crd && monkey_state === void 0 ? (_reportPossibleCrUseOfmonkey_state({
+            error: Error()
+          }), monkey_state) : monkey_state).ALIVE) {
+            this.score_during_time += deltaTime; // let rtree = find("Canvas/rtree");
             // let rtree_rgd = rtree.getComponent(RigidBody2D);
             // rtree_rgd.linearVelocity = ltree_rgd.linearVelocity;
             // let ltree2 = find("Canvas/ltree2");
@@ -240,57 +422,72 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2", "__
         enumerable: true,
         writable: true,
         initializer: null
-      }), _descriptor2 = _applyDecoratedDescriptor(_class2.prototype, "mk_controller", [_dec3], {
+      }), _descriptor2 = _applyDecoratedDescriptor(_class2.prototype, "buff_count", [_dec3], {
         configurable: true,
         enumerable: true,
         writable: true,
         initializer: null
-      }), _descriptor3 = _applyDecoratedDescriptor(_class2.prototype, "hedgehog1", [_dec4], {
+      }), _descriptor3 = _applyDecoratedDescriptor(_class2.prototype, "mk_controller", [_dec4], {
         configurable: true,
         enumerable: true,
         writable: true,
         initializer: null
-      }), _descriptor4 = _applyDecoratedDescriptor(_class2.prototype, "hedgehog2", [_dec5], {
+      }), _descriptor4 = _applyDecoratedDescriptor(_class2.prototype, "hedgehog1", [_dec5], {
         configurable: true,
         enumerable: true,
         writable: true,
         initializer: null
-      }), _descriptor5 = _applyDecoratedDescriptor(_class2.prototype, "hedgehog3", [_dec6], {
+      }), _descriptor5 = _applyDecoratedDescriptor(_class2.prototype, "hedgehog2", [_dec6], {
         configurable: true,
         enumerable: true,
         writable: true,
         initializer: null
-      }), _descriptor6 = _applyDecoratedDescriptor(_class2.prototype, "hedgehog4", [_dec7], {
+      }), _descriptor6 = _applyDecoratedDescriptor(_class2.prototype, "hedgehog3", [_dec7], {
         configurable: true,
         enumerable: true,
         writable: true,
         initializer: null
-      }), _descriptor7 = _applyDecoratedDescriptor(_class2.prototype, "bee", [_dec8], {
+      }), _descriptor7 = _applyDecoratedDescriptor(_class2.prototype, "hedgehog4", [_dec8], {
         configurable: true,
         enumerable: true,
         writable: true,
         initializer: null
-      }), _descriptor8 = _applyDecoratedDescriptor(_class2.prototype, "ltree", [_dec9], {
+      }), _descriptor8 = _applyDecoratedDescriptor(_class2.prototype, "bee", [_dec9], {
         configurable: true,
         enumerable: true,
         writable: true,
         initializer: null
-      }), _descriptor9 = _applyDecoratedDescriptor(_class2.prototype, "ltree2", [_dec10], {
+      }), _descriptor9 = _applyDecoratedDescriptor(_class2.prototype, "ltree", [_dec10], {
         configurable: true,
         enumerable: true,
         writable: true,
         initializer: null
-      }), _descriptor10 = _applyDecoratedDescriptor(_class2.prototype, "rtree", [_dec11], {
+      }), _descriptor10 = _applyDecoratedDescriptor(_class2.prototype, "ltree2", [_dec11], {
         configurable: true,
         enumerable: true,
         writable: true,
         initializer: null
-      }), _descriptor11 = _applyDecoratedDescriptor(_class2.prototype, "rtree2", [_dec12], {
+      }), _descriptor11 = _applyDecoratedDescriptor(_class2.prototype, "rtree", [_dec12], {
         configurable: true,
         enumerable: true,
         writable: true,
         initializer: null
-      }), _descriptor12 = _applyDecoratedDescriptor(_class2.prototype, "bird", [_dec13], {
+      }), _descriptor12 = _applyDecoratedDescriptor(_class2.prototype, "rtree2", [_dec13], {
+        configurable: true,
+        enumerable: true,
+        writable: true,
+        initializer: null
+      }), _descriptor13 = _applyDecoratedDescriptor(_class2.prototype, "stone", [_dec14], {
+        configurable: true,
+        enumerable: true,
+        writable: true,
+        initializer: null
+      }), _descriptor14 = _applyDecoratedDescriptor(_class2.prototype, "bird", [_dec15], {
+        configurable: true,
+        enumerable: true,
+        writable: true,
+        initializer: null
+      }), _descriptor15 = _applyDecoratedDescriptor(_class2.prototype, "huge_bird", [_dec16], {
         configurable: true,
         enumerable: true,
         writable: true,

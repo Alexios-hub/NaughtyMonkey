@@ -1,6 +1,6 @@
 {
   "cce:/internal/x/cc": {
-    "mTimestamp": 9825.076707988977,
+    "mTimestamp": 10089.577583998442,
     "chunkId": "quick-pack:/cce/internal/x/cc.js",
     "imports": [
       {
@@ -317,7 +317,7 @@
     ]
   },
   "cce:/internal/x/prerequisite-imports": {
-    "mTimestamp": 20437032.177125007,
+    "mTimestamp": 9122609.435042001,
     "chunkId": "quick-pack:/cce/internal/x/prerequisite-imports.js",
     "imports": [
       {
@@ -984,7 +984,7 @@
     ]
   },
   "cce:/internal/code-quality/cr.mjs": {
-    "mTimestamp": 1647934566992,
+    "mTimestamp": 1647994308542,
     "chunkId": "quick-pack:/cce/internal/code-quality/cr.js",
     "imports": [],
     "modLoMetadata": {
@@ -1158,7 +1158,7 @@
   },
   "file:///Users/frederickmo/Documents/GitHub/NaughtyMonkey/parkour/assets/BeeController.ts": {
     "mTimestamp": {
-      "mtime": 1647931572338.6982,
+      "mtime": 1647996956082.9385,
       "uuid": "f39ca659-3bca-465d-9e0a-7bccfa479020"
     },
     "chunkId": "assets/BeeController.js",
@@ -1222,7 +1222,7 @@
   },
   "file:///Users/frederickmo/Documents/GitHub/NaughtyMonkey/parkour/assets/TreeController.ts": {
     "mTimestamp": {
-      "mtime": 1647931572340.0515,
+      "mtime": 1647995480632.6443,
       "uuid": "83fbc867-da7f-4e91-ac56-a782e4271da2"
     },
     "chunkId": "assets/TreeController.js",
@@ -1298,7 +1298,7 @@
   },
   "file:///Users/frederickmo/Documents/GitHub/NaughtyMonkey/parkour/assets/CanvasController.ts": {
     "mTimestamp": {
-      "mtime": 1647946188862.681,
+      "mtime": 1648003427525.6816,
       "uuid": "7686de7d-b4be-4264-a6e7-a76bfb1da3b8"
     },
     "chunkId": "assets/CanvasController.js",
@@ -1315,11 +1315,11 @@
         "loc": {
           "start": {
             "line": 2,
-            "column": 103
+            "column": 114
           },
           "end": {
             "line": 2,
-            "column": 107
+            "column": 118
           }
         }
       },
@@ -1329,11 +1329,11 @@
         "loc": {
           "start": {
             "line": 3,
-            "column": 30
+            "column": 40
           },
           "end": {
             "line": 3,
-            "column": 47
+            "column": 57
           }
         }
       },
@@ -1343,11 +1343,11 @@
         "loc": {
           "start": {
             "line": 4,
-            "column": 35
+            "column": 50
           },
           "end": {
             "line": 4,
-            "column": 57
+            "column": 72
           }
         }
       },
@@ -1357,11 +1357,11 @@
         "loc": {
           "start": {
             "line": 5,
-            "column": 34
+            "column": 48
           },
           "end": {
             "line": 5,
-            "column": 55
+            "column": 69
           }
         }
       },
@@ -1385,11 +1385,39 @@
         "loc": {
           "start": {
             "line": 7,
-            "column": 31
+            "column": 42
           },
           "end": {
             "line": 7,
-            "column": 49
+            "column": 60
+          }
+        }
+      },
+      {
+        "value": "./HugeBirdController",
+        "rewritten": "__unresolved_6",
+        "loc": {
+          "start": {
+            "line": 8,
+            "column": 35
+          },
+          "end": {
+            "line": 8,
+            "column": 57
+          }
+        }
+      },
+      {
+        "value": "./StoneController",
+        "rewritten": "__unresolved_7",
+        "loc": {
+          "start": {
+            "line": 9,
+            "column": 32
+          },
+          "end": {
+            "line": 9,
+            "column": 51
           }
         }
       }
@@ -1429,12 +1457,20 @@
       {
         "isExternal": false,
         "url": "file:///Users/frederickmo/Documents/GitHub/NaughtyMonkey/parkour/assets/BirdController.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///Users/frederickmo/Documents/GitHub/NaughtyMonkey/parkour/assets/HugeBirdController.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///Users/frederickmo/Documents/GitHub/NaughtyMonkey/parkour/assets/StoneController.ts"
       }
     ]
   },
   "file:///Users/frederickmo/Documents/GitHub/NaughtyMonkey/parkour/assets/HedgehogController.ts": {
     "mTimestamp": {
-      "mtime": 1647949642781.6755,
+      "mtime": 1647996956089.8652,
       "uuid": "70304e2d-ac44-4508-9e28-b3b7536e09e5"
     },
     "chunkId": "assets/HedgehogController.js",
@@ -1536,7 +1572,7 @@
   },
   "file:///Users/frederickmo/Documents/GitHub/NaughtyMonkey/parkour/assets/BirdController.ts": {
     "mTimestamp": {
-      "mtime": 1647950048106.477,
+      "mtime": 1647996956072.4333,
       "uuid": "74604e0e-b926-4cce-884a-add504661f67"
     },
     "chunkId": "assets/BirdController.js",
@@ -1638,11 +1674,15 @@
   },
   "file:///Users/frederickmo/Documents/GitHub/NaughtyMonkey/parkour/assets/HugeBirdController.ts": {
     "mTimestamp": {
-      "mtime": 1647954813518.7268,
+      "mtime": 1648000366528.5146,
       "uuid": "6110dcbf-b538-4ec7-ac23-2b5a11d069c4"
     },
     "chunkId": "assets/HugeBirdController.js",
     "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
       {
         "value": "cc"
       },
@@ -1651,11 +1691,25 @@
         "loc": {
           "start": {
             "line": 2,
-            "column": 44
+            "column": 55
           },
           "end": {
             "line": 2,
+            "column": 59
+          }
+        }
+      },
+      {
+        "value": "./monkey_controller",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 3,
             "column": 48
+          },
+          "end": {
+            "line": 3,
+            "column": 69
           }
         }
       }
@@ -1666,11 +1720,19 @@
     "resolvedImports": [
       {
         "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
         "url": "cce:/internal/x/cc"
       },
       {
         "isExternal": false,
         "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///Users/frederickmo/Documents/GitHub/NaughtyMonkey/parkour/assets/monkey_controller.ts"
       }
     ]
   }
