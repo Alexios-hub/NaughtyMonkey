@@ -1,18 +1,18 @@
-debug: Wed, 23 Mar 2022 08:07:15 GMT
+debug: Thu, 24 Mar 2022 04:08:47 GMT
 debug: Project: D:\ProjectFiles\cocosCreater\NaughtyMonkey\parkour
 debug: Targets: editor,preview
 debug: Incremental file seems great.
 debug: Engine path: D:\Software\cocosCreater\CocosDashboard\resources\.editors\Creator\3.4.1\resources\resources\3d\engine
 debug: Initializing target [Editor]
 debug: Loading cache
-debug: Loading cache costs 2.718800000846386ms.
+debug: Loading cache costs 1.6910999999963678ms.
 debug: Engine features shipped in editor: base,gfx-webgl,gfx-webgl2,3d,2d,ui,particle,particle-2d,physics-framework,physics-2d-framework,intersection-2d,primitive,profiler,audio,video,terrain,webview,tween,tiled-map,spine,dragon-bones,marionette
 debug: Initializing target [Preview]
 debug: Loading cache
-debug: Loading cache costs 1.700799997895956ms.
+debug: Loading cache costs 1.3957999999984168ms.
 debug: Sync engine features: base,gfx-webgl,gfx-webgl2,2d,ui,physics-2d-box2d,intersection-2d,profiler,particle-2d,audio,video,webview,tween,tiled-map,spine,dragon-bones,marionette
 debug: Pulling asset-db.
-debug: Fetch asset-db cost: 44.3310999982059ms.
+debug: Fetch asset-db cost: 48.15230000001611ms.
 debug: Build iteration starts.
 Number of accumulated asset changes: 9
 Feature changed: false
@@ -40,20 +40,20 @@ debug: Resolve cce:/internal/x/cc-fu/tween from cce:/internal/x/cc as external d
 debug: Resolve cce:/internal/x/cc-fu/tiled-map from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/tiled-map.
 debug: Resolve cce:/internal/x/cc-fu/spine from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/spine.
 debug: Resolve cce:/internal/x/cc-fu/dragon-bones from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/dragon-bones.
-debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 11:42:56 GMT+0800 (GMT+08:00), Current mtime: Thu Jan 01 1970 08:00:14 GMT+0800 (GMT+08:00)
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:40:50 GMT+0800 (GMT+08:00), Current mtime: Thu Jan 01 1970 08:00:14 GMT+0800 (GMT+08:00)
 debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/HedgehogController.ts from cce:/internal/x/prerequisite-imports as file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/HedgehogController.ts.
 debug: Resolve file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/BeeController.ts from cce:/internal/x/prerequisite-imports as file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/BeeController.ts.
 debug: Resolve file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/CanvasController.ts from cce:/internal/x/prerequisite-imports as file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/CanvasController.ts.
-debug: Resolve file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/HedgehogController.ts from cce:/internal/x/prerequisite-imports as file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/HedgehogController.ts.
 debug: Resolve file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/TreeController.ts from cce:/internal/x/prerequisite-imports as file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/TreeController.ts.
 debug: Resolve file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/monkey_controller.ts from cce:/internal/x/prerequisite-imports as file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/monkey_controller.ts.
-debug: Resolve file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/script/bananaControl.ts from cce:/internal/x/prerequisite-imports as file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/script/bananaControl.ts.
 debug: Resolve file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/script/bananaManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/script/bananaManager.ts.
 debug: Resolve file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/script/shieldControl.ts from cce:/internal/x/prerequisite-imports as file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/script/shieldControl.ts.
+debug: Resolve file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/script/bananaControl.ts from cce:/internal/x/prerequisite-imports as file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/script/bananaControl.ts.
 debug: Resolve file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/script/shieldManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/script/shieldManager.ts.
-debug: Detected change: cce:/internal/code-quality/cr.mjs. Last mtime: Wed Mar 23 2022 12:10:57 GMT+0800 (GMT+08:00), Current mtime: Wed Mar 23 2022 16:07:08 GMT+0800 (GMT+08:00)
+debug: Detected change: cce:/internal/code-quality/cr.mjs. Last mtime: Wed Mar 23 2022 16:07:08 GMT+0800 (GMT+08:00), Current mtime: Thu Mar 24 2022 12:08:40 GMT+0800 (GMT+08:00)
 debug: Inspect cce:/internal/code-quality/cr.mjs
-debug: Target(editor) ends with cost 151.826400000602ms.
+debug: Target(editor) ends with cost 139.5910000000149ms.
 debug: Target(preview) build started.
 debug: Detected change: cce:/internal/x/cc. Last mtime: Thu Jan 01 1970 08:00:07 GMT+0800 (GMT+08:00), Current mtime: Thu Jan 01 1970 08:00:07 GMT+0800 (GMT+08:00)
 debug: Inspect cce:/internal/x/cc
@@ -74,255 +74,17 @@ debug: Resolve cce:/internal/x/cc-fu/tween from cce:/internal/x/cc as external d
 debug: Resolve cce:/internal/x/cc-fu/tiled-map from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/tiled-map.
 debug: Resolve cce:/internal/x/cc-fu/spine from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/spine.
 debug: Resolve cce:/internal/x/cc-fu/dragon-bones from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/dragon-bones.
-debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 11:42:56 GMT+0800 (GMT+08:00), Current mtime: Thu Jan 01 1970 08:00:14 GMT+0800 (GMT+08:00)
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:40:50 GMT+0800 (GMT+08:00), Current mtime: Thu Jan 01 1970 08:00:14 GMT+0800 (GMT+08:00)
 debug: Inspect cce:/internal/x/prerequisite-imports
-debug: Resolve file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/BeeController.ts from cce:/internal/x/prerequisite-imports as file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/BeeController.ts.
 debug: Resolve file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/CanvasController.ts from cce:/internal/x/prerequisite-imports as file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/CanvasController.ts.
+debug: Resolve file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/BeeController.ts from cce:/internal/x/prerequisite-imports as file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/BeeController.ts.
 debug: Resolve file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/HedgehogController.ts from cce:/internal/x/prerequisite-imports as file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/HedgehogController.ts.
 debug: Resolve file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/TreeController.ts from cce:/internal/x/prerequisite-imports as file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/TreeController.ts.
 debug: Resolve file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/monkey_controller.ts from cce:/internal/x/prerequisite-imports as file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/monkey_controller.ts.
 debug: Resolve file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/script/bananaControl.ts from cce:/internal/x/prerequisite-imports as file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/script/bananaControl.ts.
-debug: Resolve file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/script/bananaManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/script/bananaManager.ts.
 debug: Resolve file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/script/shieldControl.ts from cce:/internal/x/prerequisite-imports as file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/script/shieldControl.ts.
+debug: Resolve file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/script/bananaManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/script/bananaManager.ts.
 debug: Resolve file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/script/shieldManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/script/shieldManager.ts.
-debug: Detected change: cce:/internal/code-quality/cr.mjs. Last mtime: Wed Mar 23 2022 12:10:57 GMT+0800 (GMT+08:00), Current mtime: Wed Mar 23 2022 16:07:08 GMT+0800 (GMT+08:00)
+debug: Detected change: cce:/internal/code-quality/cr.mjs. Last mtime: Wed Mar 23 2022 16:07:08 GMT+0800 (GMT+08:00), Current mtime: Thu Mar 24 2022 12:08:40 GMT+0800 (GMT+08:00)
 debug: Inspect cce:/internal/code-quality/cr.mjs
-debug: Target(preview) ends with cost 138.56349999830127ms.
-debug: Dispatch build request for time accumulated 1 asset changes.
-debug: Build iteration starts.
-Number of accumulated asset changes: 1
-Feature changed: false
-debug: Target(editor) build started.
-debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:00:14 GMT+0800 (GMT+08:00), Current mtime: Thu Jan 01 1970 08:02:03 GMT+0800 (GMT+08:00)
-debug: Inspect cce:/internal/x/prerequisite-imports
-debug: Resolve file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/BeeController.ts from cce:/internal/x/prerequisite-imports as file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/BeeController.ts.
-debug: Resolve file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/CanvasController.ts from cce:/internal/x/prerequisite-imports as file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/CanvasController.ts.
-debug: Resolve file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/HedgehogController.ts from cce:/internal/x/prerequisite-imports as file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/HedgehogController.ts.
-debug: Resolve file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/TreeController.ts from cce:/internal/x/prerequisite-imports as file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/TreeController.ts.
-debug: Resolve file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/monkey_controller.ts from cce:/internal/x/prerequisite-imports as file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/monkey_controller.ts.
-debug: Resolve file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/script/bananaControl.ts from cce:/internal/x/prerequisite-imports as file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/script/bananaControl.ts.
-debug: Resolve file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/script/bananaManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/script/bananaManager.ts.
-debug: Resolve file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/script/shieldControl.ts from cce:/internal/x/prerequisite-imports as file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/script/shieldControl.ts.
-debug: Resolve file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/script/shieldManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/script/shieldManager.ts.
-debug: Detected change: file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/script/bananaControl.ts. Last mtime: Wed Mar 23 2022 15:53:50 GMT+0800 (GMT+08:00)@a3b87581-97b2-4df7-932f-1c163c401965, Current mtime: Wed Mar 23 2022 16:09:07 GMT+0800 (GMT+08:00)@a3b87581-97b2-4df7-932f-1c163c401965
-debug: Inspect file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/script/bananaControl.ts
-debug: Resolve cc from file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/script/bananaControl.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/script/bananaControl.ts as cce:/internal/x/cc.
-debug: Target(editor) ends with cost 208.91070000082254ms.
-debug: Target(preview) build started.
-debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:00:14 GMT+0800 (GMT+08:00), Current mtime: Thu Jan 01 1970 08:02:03 GMT+0800 (GMT+08:00)
-debug: Inspect cce:/internal/x/prerequisite-imports
-debug: Resolve file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/BeeController.ts from cce:/internal/x/prerequisite-imports as file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/BeeController.ts.
-debug: Resolve file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/CanvasController.ts from cce:/internal/x/prerequisite-imports as file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/CanvasController.ts.
-debug: Resolve file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/HedgehogController.ts from cce:/internal/x/prerequisite-imports as file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/HedgehogController.ts.
-debug: Resolve file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/TreeController.ts from cce:/internal/x/prerequisite-imports as file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/TreeController.ts.
-debug: Resolve file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/monkey_controller.ts from cce:/internal/x/prerequisite-imports as file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/monkey_controller.ts.
-debug: Resolve file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/script/bananaControl.ts from cce:/internal/x/prerequisite-imports as file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/script/bananaControl.ts.
-debug: Resolve file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/script/bananaManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/script/bananaManager.ts.
-debug: Resolve file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/script/shieldControl.ts from cce:/internal/x/prerequisite-imports as file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/script/shieldControl.ts.
-debug: Resolve file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/script/shieldManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/script/shieldManager.ts.
-debug: Detected change: file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/script/bananaControl.ts. Last mtime: Wed Mar 23 2022 15:53:50 GMT+0800 (GMT+08:00)@a3b87581-97b2-4df7-932f-1c163c401965, Current mtime: Wed Mar 23 2022 16:09:07 GMT+0800 (GMT+08:00)@a3b87581-97b2-4df7-932f-1c163c401965
-debug: Inspect file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/script/bananaControl.ts
-debug: Resolve cc from file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/script/bananaControl.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/script/bananaControl.ts as cce:/internal/x/cc.
-debug: Target(preview) ends with cost 104.89800000190735ms.
-debug: Dispatch build request for time accumulated 1 asset changes.
-debug: Build iteration starts.
-Number of accumulated asset changes: 1
-Feature changed: false
-debug: Target(editor) build started.
-debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:02:03 GMT+0800 (GMT+08:00), Current mtime: Thu Jan 01 1970 08:04:17 GMT+0800 (GMT+08:00)
-debug: Inspect cce:/internal/x/prerequisite-imports
-debug: Resolve file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/BeeController.ts from cce:/internal/x/prerequisite-imports as file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/BeeController.ts.
-debug: Resolve file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/CanvasController.ts from cce:/internal/x/prerequisite-imports as file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/CanvasController.ts.
-debug: Resolve file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/HedgehogController.ts from cce:/internal/x/prerequisite-imports as file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/HedgehogController.ts.
-debug: Resolve file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/TreeController.ts from cce:/internal/x/prerequisite-imports as file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/TreeController.ts.
-debug: Resolve file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/monkey_controller.ts from cce:/internal/x/prerequisite-imports as file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/monkey_controller.ts.
-debug: Resolve file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/script/bananaControl.ts from cce:/internal/x/prerequisite-imports as file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/script/bananaControl.ts.
-debug: Resolve file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/script/shieldControl.ts from cce:/internal/x/prerequisite-imports as file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/script/shieldControl.ts.
-debug: Resolve file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/script/bananaManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/script/bananaManager.ts.
-debug: Resolve file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/script/shieldManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/script/shieldManager.ts.
-debug: Detected change: file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/monkey_controller.ts. Last mtime: Wed Mar 23 2022 14:58:29 GMT+0800 (GMT+08:00)@1f9f6b59-7d89-4590-b13c-b5d27fd69ae0, Current mtime: Wed Mar 23 2022 16:11:22 GMT+0800 (GMT+08:00)@1f9f6b59-7d89-4590-b13c-b5d27fd69ae0
-debug: Inspect file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/monkey_controller.ts
-debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/monkey_controller.ts as cce:/internal/code-quality/cr.mjs.
-debug: Resolve cc from file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/monkey_controller.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/monkey_controller.ts as cce:/internal/x/cc.
-debug: Resolve ./script/bananaControl from file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/monkey_controller.ts as file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/script/bananaControl.ts.
-debug: Resolve ./HedgehogController from file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/monkey_controller.ts as file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/HedgehogController.ts.
-debug: Resolve ./script/shieldControl from file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/monkey_controller.ts as file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/script/shieldControl.ts.
-debug: Resolve ./script/bananaManager from file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/monkey_controller.ts as file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/script/bananaManager.ts.
-debug: Resolve ./BeeController from file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/monkey_controller.ts as file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/BeeController.ts.
-debug: Target(editor) ends with cost 146.34270000085235ms.
-debug: Target(preview) build started.
-debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:02:03 GMT+0800 (GMT+08:00), Current mtime: Thu Jan 01 1970 08:04:17 GMT+0800 (GMT+08:00)
-debug: Inspect cce:/internal/x/prerequisite-imports
-debug: Resolve file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/BeeController.ts from cce:/internal/x/prerequisite-imports as file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/BeeController.ts.
-debug: Resolve file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/CanvasController.ts from cce:/internal/x/prerequisite-imports as file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/CanvasController.ts.
-debug: Resolve file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/HedgehogController.ts from cce:/internal/x/prerequisite-imports as file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/HedgehogController.ts.
-debug: Resolve file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/TreeController.ts from cce:/internal/x/prerequisite-imports as file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/TreeController.ts.
-debug: Resolve file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/monkey_controller.ts from cce:/internal/x/prerequisite-imports as file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/monkey_controller.ts.
-debug: Resolve file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/script/bananaControl.ts from cce:/internal/x/prerequisite-imports as file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/script/bananaControl.ts.
-debug: Resolve file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/script/bananaManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/script/bananaManager.ts.
-debug: Resolve file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/script/shieldControl.ts from cce:/internal/x/prerequisite-imports as file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/script/shieldControl.ts.
-debug: Resolve file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/script/shieldManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/script/shieldManager.ts.
-debug: Detected change: file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/monkey_controller.ts. Last mtime: Wed Mar 23 2022 14:58:29 GMT+0800 (GMT+08:00)@1f9f6b59-7d89-4590-b13c-b5d27fd69ae0, Current mtime: Wed Mar 23 2022 16:11:22 GMT+0800 (GMT+08:00)@1f9f6b59-7d89-4590-b13c-b5d27fd69ae0
-debug: Inspect file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/monkey_controller.ts
-debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/monkey_controller.ts as cce:/internal/code-quality/cr.mjs.
-debug: Resolve cc from file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/monkey_controller.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/monkey_controller.ts as cce:/internal/x/cc.
-debug: Resolve ./HedgehogController from file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/monkey_controller.ts as file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/HedgehogController.ts.
-debug: Resolve ./script/bananaControl from file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/monkey_controller.ts as file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/script/bananaControl.ts.
-debug: Resolve ./BeeController from file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/monkey_controller.ts as file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/BeeController.ts.
-debug: Resolve ./script/shieldControl from file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/monkey_controller.ts as file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/script/shieldControl.ts.
-debug: Resolve ./script/bananaManager from file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/monkey_controller.ts as file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/script/bananaManager.ts.
-debug: Target(preview) ends with cost 143.52549999952316ms.
-debug: Dispatch build request for time accumulated 1 asset changes.
-debug: Build iteration starts.
-Number of accumulated asset changes: 1
-Feature changed: false
-debug: Target(editor) build started.
-debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:04:17 GMT+0800 (GMT+08:00), Current mtime: Thu Jan 01 1970 08:07:25 GMT+0800 (GMT+08:00)
-debug: Inspect cce:/internal/x/prerequisite-imports
-debug: Resolve file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/BeeController.ts from cce:/internal/x/prerequisite-imports as file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/BeeController.ts.
-debug: Resolve file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/HedgehogController.ts from cce:/internal/x/prerequisite-imports as file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/HedgehogController.ts.
-debug: Resolve file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/CanvasController.ts from cce:/internal/x/prerequisite-imports as file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/CanvasController.ts.
-debug: Resolve file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/TreeController.ts from cce:/internal/x/prerequisite-imports as file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/TreeController.ts.
-debug: Resolve file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/monkey_controller.ts from cce:/internal/x/prerequisite-imports as file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/monkey_controller.ts.
-debug: Resolve file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/script/bananaControl.ts from cce:/internal/x/prerequisite-imports as file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/script/bananaControl.ts.
-debug: Resolve file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/script/bananaManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/script/bananaManager.ts.
-debug: Resolve file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/script/shieldControl.ts from cce:/internal/x/prerequisite-imports as file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/script/shieldControl.ts.
-debug: Resolve file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/script/shieldManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/script/shieldManager.ts.
-debug: Detected change: file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/monkey_controller.ts. Last mtime: Wed Mar 23 2022 16:11:22 GMT+0800 (GMT+08:00)@1f9f6b59-7d89-4590-b13c-b5d27fd69ae0, Current mtime: Wed Mar 23 2022 16:12:48 GMT+0800 (GMT+08:00)@1f9f6b59-7d89-4590-b13c-b5d27fd69ae0
-debug: Inspect file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/monkey_controller.ts
-debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/monkey_controller.ts as cce:/internal/code-quality/cr.mjs.
-debug: Resolve cc from file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/monkey_controller.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/monkey_controller.ts as cce:/internal/x/cc.
-debug: Resolve ./HedgehogController from file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/monkey_controller.ts as file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/HedgehogController.ts.
-debug: Resolve ./script/bananaControl from file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/monkey_controller.ts as file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/script/bananaControl.ts.
-debug: Resolve ./script/shieldControl from file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/monkey_controller.ts as file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/script/shieldControl.ts.
-debug: Resolve ./BeeController from file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/monkey_controller.ts as file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/BeeController.ts.
-debug: Resolve ./script/bananaManager from file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/monkey_controller.ts as file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/script/bananaManager.ts.
-debug: Target(editor) ends with cost 165.31859999895096ms.
-debug: Target(preview) build started.
-debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:04:17 GMT+0800 (GMT+08:00), Current mtime: Thu Jan 01 1970 08:07:25 GMT+0800 (GMT+08:00)
-debug: Inspect cce:/internal/x/prerequisite-imports
-debug: Resolve file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/BeeController.ts from cce:/internal/x/prerequisite-imports as file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/BeeController.ts.
-debug: Resolve file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/CanvasController.ts from cce:/internal/x/prerequisite-imports as file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/CanvasController.ts.
-debug: Resolve file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/HedgehogController.ts from cce:/internal/x/prerequisite-imports as file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/HedgehogController.ts.
-debug: Resolve file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/TreeController.ts from cce:/internal/x/prerequisite-imports as file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/TreeController.ts.
-debug: Resolve file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/monkey_controller.ts from cce:/internal/x/prerequisite-imports as file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/monkey_controller.ts.
-debug: Resolve file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/script/bananaControl.ts from cce:/internal/x/prerequisite-imports as file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/script/bananaControl.ts.
-debug: Resolve file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/script/bananaManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/script/bananaManager.ts.
-debug: Resolve file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/script/shieldControl.ts from cce:/internal/x/prerequisite-imports as file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/script/shieldControl.ts.
-debug: Resolve file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/script/shieldManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/script/shieldManager.ts.
-debug: Detected change: file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/monkey_controller.ts. Last mtime: Wed Mar 23 2022 16:11:22 GMT+0800 (GMT+08:00)@1f9f6b59-7d89-4590-b13c-b5d27fd69ae0, Current mtime: Wed Mar 23 2022 16:12:48 GMT+0800 (GMT+08:00)@1f9f6b59-7d89-4590-b13c-b5d27fd69ae0
-debug: Inspect file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/monkey_controller.ts
-debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/monkey_controller.ts as cce:/internal/code-quality/cr.mjs.
-debug: Resolve cc from file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/monkey_controller.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/monkey_controller.ts as cce:/internal/x/cc.
-debug: Resolve ./HedgehogController from file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/monkey_controller.ts as file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/HedgehogController.ts.
-debug: Resolve ./script/bananaControl from file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/monkey_controller.ts as file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/script/bananaControl.ts.
-debug: Resolve ./script/shieldControl from file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/monkey_controller.ts as file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/script/shieldControl.ts.
-debug: Resolve ./script/bananaManager from file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/monkey_controller.ts as file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/script/bananaManager.ts.
-debug: Resolve ./BeeController from file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/monkey_controller.ts as file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/BeeController.ts.
-debug: Target(preview) ends with cost 149.2276000007987ms.
-debug: Dispatch build request for time accumulated 1 asset changes.
-debug: Build iteration starts.
-Number of accumulated asset changes: 1
-Feature changed: false
-debug: Target(editor) build started.
-debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:07:25 GMT+0800 (GMT+08:00), Current mtime: Thu Jan 01 1970 08:16:50 GMT+0800 (GMT+08:00)
-debug: Inspect cce:/internal/x/prerequisite-imports
-debug: Resolve file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/BeeController.ts from cce:/internal/x/prerequisite-imports as file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/BeeController.ts.
-debug: Resolve file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/CanvasController.ts from cce:/internal/x/prerequisite-imports as file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/CanvasController.ts.
-debug: Resolve file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/HedgehogController.ts from cce:/internal/x/prerequisite-imports as file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/HedgehogController.ts.
-debug: Resolve file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/TreeController.ts from cce:/internal/x/prerequisite-imports as file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/TreeController.ts.
-debug: Resolve file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/monkey_controller.ts from cce:/internal/x/prerequisite-imports as file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/monkey_controller.ts.
-debug: Resolve file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/script/bananaControl.ts from cce:/internal/x/prerequisite-imports as file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/script/bananaControl.ts.
-debug: Resolve file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/script/bananaManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/script/bananaManager.ts.
-debug: Resolve file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/script/shieldControl.ts from cce:/internal/x/prerequisite-imports as file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/script/shieldControl.ts.
-debug: Resolve file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/script/shieldManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/script/shieldManager.ts.
-debug: Detected change: file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/monkey_controller.ts. Last mtime: Wed Mar 23 2022 16:12:48 GMT+0800 (GMT+08:00)@1f9f6b59-7d89-4590-b13c-b5d27fd69ae0, Current mtime: Wed Mar 23 2022 16:23:56 GMT+0800 (GMT+08:00)@1f9f6b59-7d89-4590-b13c-b5d27fd69ae0
-debug: Inspect file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/monkey_controller.ts
-debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/monkey_controller.ts as cce:/internal/code-quality/cr.mjs.
-debug: Resolve cc from file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/monkey_controller.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/monkey_controller.ts as cce:/internal/x/cc.
-debug: Resolve ./HedgehogController from file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/monkey_controller.ts as file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/HedgehogController.ts.
-debug: Resolve ./script/shieldControl from file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/monkey_controller.ts as file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/script/shieldControl.ts.
-debug: Resolve ./script/bananaControl from file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/monkey_controller.ts as file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/script/bananaControl.ts.
-debug: Resolve ./script/bananaManager from file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/monkey_controller.ts as file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/script/bananaManager.ts.
-debug: Resolve ./BeeController from file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/monkey_controller.ts as file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/BeeController.ts.
-debug: Target(editor) ends with cost 131.88030000030994ms.
-debug: Target(preview) build started.
-debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:07:25 GMT+0800 (GMT+08:00), Current mtime: Thu Jan 01 1970 08:16:50 GMT+0800 (GMT+08:00)
-debug: Inspect cce:/internal/x/prerequisite-imports
-debug: Resolve file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/BeeController.ts from cce:/internal/x/prerequisite-imports as file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/BeeController.ts.
-debug: Resolve file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/CanvasController.ts from cce:/internal/x/prerequisite-imports as file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/CanvasController.ts.
-debug: Resolve file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/HedgehogController.ts from cce:/internal/x/prerequisite-imports as file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/HedgehogController.ts.
-debug: Resolve file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/TreeController.ts from cce:/internal/x/prerequisite-imports as file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/TreeController.ts.
-debug: Resolve file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/monkey_controller.ts from cce:/internal/x/prerequisite-imports as file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/monkey_controller.ts.
-debug: Resolve file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/script/bananaControl.ts from cce:/internal/x/prerequisite-imports as file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/script/bananaControl.ts.
-debug: Resolve file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/script/bananaManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/script/bananaManager.ts.
-debug: Resolve file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/script/shieldManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/script/shieldManager.ts.
-debug: Resolve file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/script/shieldControl.ts from cce:/internal/x/prerequisite-imports as file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/script/shieldControl.ts.
-debug: Detected change: file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/monkey_controller.ts. Last mtime: Wed Mar 23 2022 16:12:48 GMT+0800 (GMT+08:00)@1f9f6b59-7d89-4590-b13c-b5d27fd69ae0, Current mtime: Wed Mar 23 2022 16:23:56 GMT+0800 (GMT+08:00)@1f9f6b59-7d89-4590-b13c-b5d27fd69ae0
-debug: Inspect file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/monkey_controller.ts
-debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/monkey_controller.ts as cce:/internal/code-quality/cr.mjs.
-debug: Resolve cc from file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/monkey_controller.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/monkey_controller.ts as cce:/internal/x/cc.
-debug: Resolve ./HedgehogController from file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/monkey_controller.ts as file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/HedgehogController.ts.
-debug: Resolve ./script/shieldControl from file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/monkey_controller.ts as file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/script/shieldControl.ts.
-debug: Resolve ./script/bananaControl from file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/monkey_controller.ts as file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/script/bananaControl.ts.
-debug: Resolve ./script/bananaManager from file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/monkey_controller.ts as file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/script/bananaManager.ts.
-debug: Resolve ./BeeController from file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/monkey_controller.ts as file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/BeeController.ts.
-debug: Target(preview) ends with cost 130.90520000085235ms.
-debug: Dispatch build request for time accumulated 1 asset changes.
-debug: Build iteration starts.
-Number of accumulated asset changes: 1
-Feature changed: false
-debug: Target(editor) build started.
-debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:16:50 GMT+0800 (GMT+08:00), Current mtime: Thu Jan 01 1970 08:20:07 GMT+0800 (GMT+08:00)
-debug: Inspect cce:/internal/x/prerequisite-imports
-debug: Resolve file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/BeeController.ts from cce:/internal/x/prerequisite-imports as file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/BeeController.ts.
-debug: Resolve file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/CanvasController.ts from cce:/internal/x/prerequisite-imports as file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/CanvasController.ts.
-debug: Resolve file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/HedgehogController.ts from cce:/internal/x/prerequisite-imports as file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/HedgehogController.ts.
-debug: Resolve file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/TreeController.ts from cce:/internal/x/prerequisite-imports as file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/TreeController.ts.
-debug: Resolve file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/script/bananaControl.ts from cce:/internal/x/prerequisite-imports as file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/script/bananaControl.ts.
-debug: Resolve file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/monkey_controller.ts from cce:/internal/x/prerequisite-imports as file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/monkey_controller.ts.
-debug: Resolve file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/script/bananaManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/script/bananaManager.ts.
-debug: Resolve file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/script/shieldControl.ts from cce:/internal/x/prerequisite-imports as file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/script/shieldControl.ts.
-debug: Resolve file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/script/shieldManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/script/shieldManager.ts.
-debug: Detected change: file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/monkey_controller.ts. Last mtime: Wed Mar 23 2022 16:23:56 GMT+0800 (GMT+08:00)@1f9f6b59-7d89-4590-b13c-b5d27fd69ae0, Current mtime: Wed Mar 23 2022 16:25:17 GMT+0800 (GMT+08:00)@1f9f6b59-7d89-4590-b13c-b5d27fd69ae0
-debug: Inspect file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/monkey_controller.ts
-debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/monkey_controller.ts as cce:/internal/code-quality/cr.mjs.
-debug: Resolve cc from file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/monkey_controller.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/monkey_controller.ts as cce:/internal/x/cc.
-debug: Resolve ./HedgehogController from file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/monkey_controller.ts as file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/HedgehogController.ts.
-debug: Resolve ./BeeController from file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/monkey_controller.ts as file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/BeeController.ts.
-debug: Resolve ./script/bananaControl from file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/monkey_controller.ts as file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/script/bananaControl.ts.
-debug: Resolve ./script/shieldControl from file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/monkey_controller.ts as file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/script/shieldControl.ts.
-debug: Resolve ./script/bananaManager from file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/monkey_controller.ts as file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/script/bananaManager.ts.
-debug: Target(editor) ends with cost 168.96739999949932ms.
-debug: Target(preview) build started.
-debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:16:50 GMT+0800 (GMT+08:00), Current mtime: Thu Jan 01 1970 08:20:07 GMT+0800 (GMT+08:00)
-debug: Inspect cce:/internal/x/prerequisite-imports
-debug: Resolve file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/BeeController.ts from cce:/internal/x/prerequisite-imports as file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/BeeController.ts.
-debug: Resolve file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/CanvasController.ts from cce:/internal/x/prerequisite-imports as file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/CanvasController.ts.
-debug: Resolve file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/HedgehogController.ts from cce:/internal/x/prerequisite-imports as file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/HedgehogController.ts.
-debug: Resolve file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/TreeController.ts from cce:/internal/x/prerequisite-imports as file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/TreeController.ts.
-debug: Resolve file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/monkey_controller.ts from cce:/internal/x/prerequisite-imports as file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/monkey_controller.ts.
-debug: Resolve file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/script/bananaControl.ts from cce:/internal/x/prerequisite-imports as file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/script/bananaControl.ts.
-debug: Resolve file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/script/bananaManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/script/bananaManager.ts.
-debug: Resolve file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/script/shieldControl.ts from cce:/internal/x/prerequisite-imports as file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/script/shieldControl.ts.
-debug: Resolve file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/script/shieldManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/script/shieldManager.ts.
-debug: Detected change: file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/monkey_controller.ts. Last mtime: Wed Mar 23 2022 16:23:56 GMT+0800 (GMT+08:00)@1f9f6b59-7d89-4590-b13c-b5d27fd69ae0, Current mtime: Wed Mar 23 2022 16:25:17 GMT+0800 (GMT+08:00)@1f9f6b59-7d89-4590-b13c-b5d27fd69ae0
-debug: Inspect file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/monkey_controller.ts
-debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/monkey_controller.ts as cce:/internal/code-quality/cr.mjs.
-debug: Resolve cc from file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/monkey_controller.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/monkey_controller.ts as cce:/internal/x/cc.
-debug: Resolve ./HedgehogController from file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/monkey_controller.ts as file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/HedgehogController.ts.
-debug: Resolve ./script/shieldControl from file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/monkey_controller.ts as file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/script/shieldControl.ts.
-debug: Resolve ./script/bananaManager from file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/monkey_controller.ts as file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/script/bananaManager.ts.
-debug: Resolve ./BeeController from file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/monkey_controller.ts as file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/BeeController.ts.
-debug: Resolve ./script/bananaControl from file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/monkey_controller.ts as file:///D:/ProjectFiles/cocosCreater/NaughtyMonkey/parkour/assets/script/bananaControl.ts.
-debug: Target(preview) ends with cost 159.06109999865294ms.
+debug: Target(preview) ends with cost 133.87120000005234ms.

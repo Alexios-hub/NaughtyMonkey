@@ -5,9 +5,9 @@
     "module": "ES2015",
     "strict": true,
     "types": [
-      "./temp/declarations/jsb",
-      "./temp/declarations/cc.custom-macro",
       "./temp/declarations/cc.env",
+      "./temp/declarations/cc.custom-macro",
+      "./temp/declarations/jsb",
       "./temp/declarations/cc"
     ],
     "paths": {

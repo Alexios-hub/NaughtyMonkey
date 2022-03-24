@@ -1,7 +1,7 @@
 System.register(["cc"], function (_export, _context) {
   "use strict";
 
-  var _cclegacy, _decorator, Component, PhysicsSystem2D, RigidBody2D, v2, _dec, _class, _temp, _crd, ccclass, property, shieldControl;
+  var _cclegacy, _decorator, Component, PhysicsSystem2D, RigidBody2D, v2, AudioSource, _dec, _class, _temp, _crd, ccclass, property, shieldControl;
 
   function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
 
@@ -13,6 +13,7 @@ System.register(["cc"], function (_export, _context) {
       PhysicsSystem2D = _cc.PhysicsSystem2D;
       RigidBody2D = _cc.RigidBody2D;
       v2 = _cc.v2;
+      AudioSource = _cc.AudioSource;
     }],
     execute: function () {
       _crd = true;
@@ -29,6 +30,8 @@ System.register(["cc"], function (_export, _context) {
           super(...arguments);
 
           _defineProperty(this, "hp", 1);
+
+          _defineProperty(this, "audio", null);
         }
 
         onLoad() {
@@ -38,6 +41,7 @@ System.register(["cc"], function (_export, _context) {
 
         start() {
           this.getComponent(RigidBody2D).linearVelocity = v2(0, -15);
+          this.audio = this.node.getComponent(AudioSource);
         }
 
         update(deltaTime) {
@@ -52,6 +56,7 @@ System.register(["cc"], function (_export, _context) {
 
         die() {
           this.hp--;
+          this.audio.play();
         }
 
       }, _temp)) || _class));
