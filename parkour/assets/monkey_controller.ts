@@ -45,7 +45,7 @@ export class monkey_controller extends Component {
 
     onBeginContact (selfCollider: Collider2D, otherCollider: Collider2D, contact: IPhysics2DContact | null) {
         //吃香蕉
-        if(otherCollider.tag==10) {
+        if(otherCollider.tag==12) {
             otherCollider.getComponent(bananaControl).BeEaten();
             let bMan = find('Canvas/BananaManager');
             let num = bMan.getComponent(bananaManager).num;

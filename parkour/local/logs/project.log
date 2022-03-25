@@ -176,3 +176,76 @@ myProp = 0;
 2022-03-25 10:18:11-warn: [Scene] The type of "StoneController.judge_time" must be CCFloat or CCInteger, not Number.
 2022-03-25 10:18:11-warn: [Scene] The type of "StoneController.reset_probability" must be CCFloat or CCInteger, not Number.
 2022-03-25 10:18:14-log: [Im-plugin] No online info of im-plugin.
+2022-03-25 10:31:16-error: [Preview]Uncaught TypeError: Cannot read properties of null (reading 'getComponent') in http://localhost:7456/scripting/x/mods/fs/0/assets/monkey_controller.js
+2022-03-25 10:31:36-error: [Preview]Uncaught TypeError: Cannot read properties of null (reading 'getComponent') in http://localhost:7456/scripting/x/mods/fs/0/assets/monkey_controller.js
+2022-03-25 10:32:06-error: [Preview]Uncaught TypeError: Cannot read properties of null (reading 'play') in http://localhost:7456/scripting/x/mods/fs/0/assets/script/shieldControl.js
+2022-03-25 10:33:14-error: [Preview]Uncaught Error in http://localhost:7456/scripting/engine/bin/.cache/dev/preview/external/%2540cocos/box2d.js
+2022-03-25 10:33:37-error: [Preview]Uncaught Error in http://localhost:7456/scripting/engine/bin/.cache/dev/preview/external/%2540cocos/box2d.js
+2022-03-25 10:33:53-error: [Preview]Uncaught Error in http://localhost:7456/scripting/engine/bin/.cache/dev/preview/external/%2540cocos/box2d.js
+2022-03-25 10:33:55-error: [Preview]Uncaught Error in http://localhost:7456/scripting/engine/bin/.cache/dev/preview/external/%2540cocos/box2d.js
+2022-03-25 10:34:22-error: [Preview]Uncaught Error in http://localhost:7456/scripting/engine/bin/.cache/dev/preview/external/%2540cocos/box2d.js
+2022-03-25 10:35:56-error: [Preview]Uncaught TypeError: Cannot read properties of null (reading 'BeEaten') in http://localhost:7456/scripting/x/mods/fs/0/assets/monkey_controller.js
+2022-03-25 10:37:58-warn: [Scene] Found possible circular reference in "pack:///mods/fs/0/assets/HedgehogController.js", happened when use "monkey_controller" imported from "./monkey_controller"  Error
+    at Object.execute (D:\ProjectFiles\cocosCreater\NaughtyMonkey\parkour\temp\programming\packer-driver\targets\editor\mods\fs\0\assets\HedgehogController.js:70:16)
+    at doExec (D:\Software\cocosCreater\CocosDashboard\resources\.editors\Creator\3.4.1\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:487:32)
+    at postOrderExec (D:\Software\cocosCreater\CocosDashboard\resources\.editors\Creator\3.4.1\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:483:10)
+    at D:\Software\cocosCreater\CocosDashboard\resources\.editors\Creator\3.4.1\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:469:28
+    at Array.forEach (<anonymous>)
+    at postOrderExec (D:\Software\cocosCreater\CocosDashboard\resources\.editors\Creator\3.4.1\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:467:10)
+    at D:\Software\cocosCreater\CocosDashboard\resources\.editors\Creator\3.4.1\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:469:28
+    at Array.forEach (<anonymous>)
+    at postOrderExec (D:\Software\cocosCreater\CocosDashboard\resources\.editors\Creator\3.4.1\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:467:10)
+    at D:\Software\cocosCreater\CocosDashboard\resources\.editors\Creator\3.4.1\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:440:12
+2022-03-25 10:37:58-warn: [Scene] The type of "HedgehogController.y" must be CCFloat or CCInteger, not Number.
+2022-03-25 10:37:58-warn: [Scene] The type of "HedgehogController.judge_time" must be CCFloat or CCInteger, not Number.
+2022-03-25 10:37:58-warn: [Scene] The type of "HedgehogController.run_possibility" must be CCFloat or CCInteger, not Number.
+2022-03-25 10:37:58-warn: [Scene] The type of "HedgehogController.up_possibility" must be CCFloat or CCInteger, not Number.
+2022-03-25 10:37:58-warn: [Scene] The type of "HedgehogController.revert_possibility" must be CCFloat or CCInteger, not Number.
+2022-03-25 10:37:58-warn: [Scene] The type of "HedgehogController.speed" must be CCFloat or CCInteger, not Number.
+2022-03-25 10:37:58-warn: [Scene] You are explicitly specifying `undefined` type to cc property "mk_controller" of cc class "HedgehogController".
+Is this intended? If not, this may indicate a circular reference.
+For example:
+
+ 
+// foo.ts
+import { _decorator } from 'cc';
+import { Bar } from './bar';  // Given that './bar' also reference 'foo.ts'.
+                              // When importing './bar', execution of './bar' is hung on to wait execution of 'foo.ts',
+                              // the `Bar` imported here is `undefined` until './bar' finish its execution.
+                              // It leads to that
+@_decorator.ccclass           //  ↓
+export class Foo {            //  ↓
+    @_decorator.type(Bar)     //  → is equivalent to `@_decorator.type(undefined)`
+    public bar: Bar;          // To eliminate this error, either:
+                              // - Refactor your module structure(recommended), or
+                              // - specify the type as cc class name: `@_decorator.type('Bar'/* or any name you specified for `Bar` */)`
+}
+2022-03-25 10:37:58-warn: [Scene] Please specifiy a default value for "HedgehogController.mk_controller" property at its declaration:
+
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2022-03-25 10:37:58-warn: [Scene] The type of "monkey_controller.NumOfHedgehogs" must be CCFloat or CCInteger, not Number.
+2022-03-25 10:37:58-warn: [Scene] The type of "BeeController.y" must be CCFloat or CCInteger, not Number.
+2022-03-25 10:37:58-warn: [Scene] The type of "BeeController.speed" must be CCFloat or CCInteger, not Number.
+2022-03-25 10:37:58-warn: [Scene] The type of "BirdController.y" must be CCFloat or CCInteger, not Number.
+2022-03-25 10:37:58-warn: [Scene] The type of "BirdController.speed" must be CCFloat or CCInteger, not Number.
+2022-03-25 10:37:58-warn: [Scene] The type of "StoneController.speed" must be CCFloat or CCInteger, not Number.
+2022-03-25 10:37:58-warn: [Scene] The type of "StoneController.judge_time" must be CCFloat or CCInteger, not Number.
+2022-03-25 10:37:58-warn: [Scene] The type of "StoneController.reset_probability" must be CCFloat or CCInteger, not Number.
+2022-03-25 10:41:06-error: [Preview]Uncaught TypeError: Cannot read properties of null (reading 'play') in http://localhost:7456/scripting/x/mods/fs/0/assets/script/shieldControl.js
+2022-03-25 10:41:30-error: [Preview]Uncaught TypeError: Cannot read properties of null (reading 'play') in http://localhost:7456/scripting/x/mods/fs/0/assets/script/shieldControl.js
+2022-03-25 10:41:38-error: [Preview]Uncaught Error in http://localhost:7456/scripting/engine/bin/.cache/dev/preview/external/%2540cocos/box2d.js
+2022-03-25 10:42:06-error: [Preview]Uncaught TypeError: Cannot read properties of null (reading 'die') in http://localhost:7456/scripting/x/mods/fs/0/assets/monkey_controller.js
+2022-03-25 10:42:28-error: [Preview]Uncaught TypeError: Cannot read properties of null (reading 'play') in http://localhost:7456/scripting/x/mods/fs/0/assets/script/shieldControl.js
+2022-03-25 10:44:16-error: [Preview]Uncaught Error in http://localhost:7456/scripting/engine/bin/.cache/dev/preview/external/%2540cocos/box2d.js
+2022-03-25 10:44:47-error: [Preview]Uncaught Error in http://localhost:7456/scripting/engine/bin/.cache/dev/preview/external/%2540cocos/box2d.js
+2022-03-25 10:45:18-error: [Preview]Uncaught Error in http://localhost:7456/scripting/engine/bin/.cache/dev/preview/external/%2540cocos/box2d.js
+2022-03-25 10:45:49-error: [Preview]Uncaught TypeError: Cannot read properties of null (reading 'getComponent') in http://localhost:7456/scripting/x/mods/fs/0/assets/monkey_controller.js
+2022-03-25 12:05:19-error: getImSetting failed
+2022-03-25 12:07:12-error: [Preview]Uncaught TypeError: Cannot read properties of null (reading 'getComponent') in http://localhost:7456/scripting/x/mods/fs/0/assets/monkey_controller.js
+2022-03-25 12:07:34-error: [Preview]Uncaught TypeError: Cannot read properties of null (reading 'getComponent') in http://localhost:7456/scripting/x/mods/fs/0/assets/monkey_controller.js
