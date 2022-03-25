@@ -251,6 +251,14 @@ export class HedgehogController extends Component {
       }
         // [4]
     }
+
+    die() {
+        // this.node.getComponent(RigidBody2D).linearVelocity = v2(0,0);
+        this.node.getComponent(Animation).play('Hedgehog_Hurt');
+        // tween(this.node).to((this.node.position.y+871)/50,{position: v3(this.node.position.x,-871,0)})
+        // .start();
+
+    }
 }
 
 /**

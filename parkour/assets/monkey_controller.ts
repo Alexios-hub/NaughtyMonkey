@@ -1,5 +1,10 @@
 
-import {v2, Animation,_decorator, Component, Node, Sprite, Input, systemEvent, input, Collider2D, Contact2DType, IPhysics2DContact, RealInterpolationMode, RigidBody2D, v3, find } from 'cc';
+import {v2, Animation,_decorator, Component, Node, Sprite, Input, systemEvent, input, Collider2D, Contact2DType, IPhysics2DContact, RealInterpolationMode, RigidBody2D, v3, find, Vec3 } from 'cc';
+import { HedgehogController } from './HedgehogController';
+import { bananaControl } from './script/bananaControl';
+import { shieldControl } from './script/shieldControl';
+import { bananaManager } from './script/bananaManager'
+import { BeeController } from './BeeController';
 const { ccclass, property } = _decorator;
 
 /**
@@ -36,7 +41,36 @@ export class monkey_controller extends Component {
     // serializableDummy = 0;
    
 
+    isInvincible: number = 0;
+
     onBeginContact (selfCollider: Collider2D, otherCollider: Collider2D, contact: IPhysics2DContact | null) {
+        //吃香蕉
+        if(otherCollider.tag==10) {
+            otherCollider.getComponent(bananaControl).BeEaten();
+            let bMan = find('Canvas/BananaManager');
+            let num = bMan.getComponent(bananaManager).num;
+            if(num == 0){
+                this.eatBanana();
+            }
+            
+            return;
+        }
+        else if(otherCollider.tag==11) { //吃盾
+            otherCollider.getComponent(shieldControl).die();
+            this.eatShield();
+            return;
+        }
+        
+        if(this.isInvincible>0){
+            if(otherCollider.tag==0){
+                otherCollider.getComponent(HedgehogController).die();
+            }
+            else if(otherCollider.tag==1){
+                otherCollider.getComponent(BeeController).die();
+            }
+            
+            return;
+        }
         // 只在两个碰撞体开始接触时被调用一次
 
 
@@ -93,9 +127,6 @@ export class monkey_controller extends Component {
 
         console.log("onBeginContact");
 
-
-
-
     }
     onEndContact (selfCollider: Collider2D, otherCollider: Collider2D, contact: IPhysics2DContact | null) {
         // 只在两个碰撞体结束接触时被调用一次
@@ -114,17 +145,27 @@ export class monkey_controller extends Component {
     
     start () {
         this.mk_state = monkey_state.ALIVE
+        let x1=0.3;
         input.on(Input.EventType.MOUSE_DOWN,(event)=>{
             let ani = this.node.getComponent(Animation);
             if(ani.getState("monkey_runninng").isPlaying==true)
             {
                 let x =this.node.getPosition().x
                 if(x>0){
-                 this.node.setScale(0.3,-0.3,0);
+                    if(this.isInvincible>0){
+                        this.node.setScale(2*x1,-2*x1,0);
+                    } else {
+                        this.node.setScale(0.3,-0.3,0);
+                    }
+                 
                 ani.play("monkey_jumpingtoleft");
                 }
                 else if(x<0){
-                    this.node.setScale(0.3,0.3,0);
+                    if(this.isInvincible>0){
+                        this.node.setScale(2*x1,2*x1,0)
+                    } else {
+                        this.node.setScale(0.3,0.3,0);
+                    }
                     ani.play("monkey_jumpingtoright");
 
                 }
@@ -153,10 +194,37 @@ export class monkey_controller extends Component {
         if(ani.getState("monkey_runninng").isPlaying==false&&ani.getState("monkey_jumpingtoleft").isPlaying==false&&ani.getState("monkey_jumpingtoright").isPlaying==false&&this.mk_state == monkey_state.ALIVE){
             ani.play("monkey_runninng");
         }
+        if(this.isInvincible>0) {
+            this.isInvincible-=1;
+        }else {
+            if(this.node.position.x>0){
+                this.node.setScale(0.3,0.3,1);
+            } else {
+                this.node.setScale(0.3,-0.3,1);
+            }
+            this.isInvincible=0;
+        }
         
         
         // [4]
     }
+
+    //吃到香蕉
+    eatBanana() {
+        this.isInvincible = 60*3;
+        if(this.node.position.x>0){
+            this.node.setScale(0.6,0.6,1);
+        } else {
+            this.node.setScale(0.6,-0.6,1);
+        }
+        
+    }
+
+    //吃到盾
+    eatShield() {
+        this.isInvincible = 60*3;
+    }
+
 }
 
 /**

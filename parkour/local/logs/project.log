@@ -1,158 +1,178 @@
-2022-03-23 15:17:41-log: [Package] menu@1.0.0 enable
-2022-03-23 15:17:41-log: [Package] profile@1.0.0 enable
-2022-03-23 15:17:41-log: [Package] project@1.0.1 enable
-2022-03-23 15:17:41-log: [Package] messages@1.0.0 enable
-2022-03-23 15:17:41-log: [Package] program@1.0.0 enable
-2022-03-23 15:17:41-log: [Package] device@1.0.1 enable
-2022-03-23 15:17:41-log: [Package] ui-kit@1.0.1 enable
-2022-03-23 15:17:41-log: [Package] tester@1.0.0 enable
-2022-03-23 15:17:41-log: [Package] preferences@1.0.0 enable
-2022-03-23 15:17:42-log: Setup mods mgr.: 253.015ms
-2022-03-23 15:17:42-log: [Package] engine@1.0.5 enable
-2022-03-23 15:17:45-log: [Package] programming@1.0.0 enable
-2022-03-23 15:17:46-log: [Package] engine-extends@1.0.0 enable
-2022-03-23 15:17:46-log: [Package] asset-db@1.0.0 enable
-2022-03-23 15:17:46-log: [Package] console@1.0.0 enable
-2022-03-23 15:17:46-log: [Package] scene@1.0.0 enable
-2022-03-23 15:17:46-log: [Package] about@1.0.0 enable
-2022-03-23 15:17:46-log: [Package] server@1.0.0 enable
-2022-03-23 15:17:46-log: [Package] utils@1.0.0 enable
-2022-03-23 15:17:46-log: [Package] assets@1.0.0 enable
-2022-03-23 15:17:46-log: [Package] inspector@1.0.0 enable
-2022-03-23 15:17:46-log: [Package] hierarchy@1.0.0 enable
-2022-03-23 15:17:49-log: [Package] preview@1.0.1 enable
-2022-03-23 15:17:49-log: [Package] animator@1.0.0 enable
-2022-03-23 15:17:51-log: [Package] builder@1.3.0 enable
-2022-03-23 15:17:51-log: [Package] node-library@1.0.0 enable
-2022-03-23 15:17:51-log: [Package] shortcuts@1.0.1 enable
-2022-03-23 15:17:51-log: [Package] package-asset@1.0.0 enable
-2022-03-23 15:17:51-log: [Package] reference-image@1.0.0 enable
-2022-03-23 15:17:51-log: [Package] animation-graph@1.0.0 enable
-2022-03-23 15:17:51-log: [Package] channel-upload-tools@1.0.0 enable
-2022-03-23 15:17:51-log: [Package] runtime-dev-tools@1.0.0 enable
-2022-03-23 15:17:51-log: [Package] lightmap@1.0.4 enable
-2022-03-23 15:17:51-log: [Package] alipay-mini-game@1.0.0 enable
-2022-03-23 15:17:51-log: [Package] android@1.0.0 enable
-2022-03-23 15:17:51-log: [Package] baidu-mini-game@1.0.0 enable
-2022-03-23 15:17:51-log: [Package] bytedance-mini-game@1.0.1 enable
-2022-03-23 15:17:51-log: [Package] huawei-agc@1.0.0 enable
-2022-03-23 15:17:52-log: [Package] ios@1.0.0 enable
-2022-03-23 15:17:52-log: [Package] ios-app-clip@1.0.0 enable
-2022-03-23 15:17:52-log: [Package] mac@1.0.0 enable
-2022-03-23 15:17:52-log: [Package] native@1.0.0 enable
-2022-03-23 15:17:52-log: [Package] ohos@1.0.0 enable
-2022-03-23 15:17:52-log: [Package] web-desktop@1.0.0 enable
-2022-03-23 15:17:52-log: [Package] web-mobile@1.0.0 enable
-2022-03-23 15:17:52-log: [Package] wechatgame@1.0.1 enable
-2022-03-23 15:17:52-log: [Package] windows@1.0.0 enable
-2022-03-23 15:17:52-log: [Package] xiaomi-quick-game@1.0.0 enable
-2022-03-23 15:17:52-log: [Package] cocos-play@1.0.0 enable
-2022-03-23 15:17:52-log: [Package] huawei-quick-game@1.0.0 enable
-2022-03-23 15:17:52-log: [Package] link-sure@1.0.0 enable
-2022-03-23 15:17:52-log: [Package] oppo-mini-game@1.0.0 enable
-2022-03-23 15:17:52-log: [Package] qtt@1.0.0 enable
-2022-03-23 15:17:52-log: [Package] vivo-mini-game@1.0.0 enable
-2022-03-23 15:17:53-log: [Package] cocos-service@3.0.2 enable
-2022-03-23 15:17:53-log: [Package] importer@1.0.0 enable
-2022-03-23 15:17:53-log: [Package] extension@3.0.15 enable
-2022-03-23 15:17:54-log: [Im-plugin] Check im-plugin version.
-2022-03-23 15:17:54-log: [Package] im-plugin@3.0.8 enable
-2022-03-23 15:17:54-warn: Browserslist: caniuse-lite is outdated. Please run:
+2022-03-25 10:17:59-log: [Package] menu@1.0.0 enable
+2022-03-25 10:17:59-log: [Package] profile@1.0.0 enable
+2022-03-25 10:17:59-log: [Package] project@1.0.1 enable
+2022-03-25 10:17:59-log: [Package] messages@1.0.0 enable
+2022-03-25 10:17:59-log: [Package] program@1.0.0 enable
+2022-03-25 10:17:59-log: [Package] device@1.0.1 enable
+2022-03-25 10:17:59-log: [Package] ui-kit@1.0.1 enable
+2022-03-25 10:17:59-log: [Package] tester@1.0.0 enable
+2022-03-25 10:17:59-log: [Package] preferences@1.0.0 enable
+2022-03-25 10:18:00-log: Setup mods mgr.: 278.233ms
+2022-03-25 10:18:00-log: [Package] engine@1.0.5 enable
+2022-03-25 10:18:03-log: [Package] programming@1.0.0 enable
+2022-03-25 10:18:03-log: [Package] engine-extends@1.0.0 enable
+2022-03-25 10:18:03-log: [Package] asset-db@1.0.0 enable
+2022-03-25 10:18:03-log: [Package] console@1.0.0 enable
+2022-03-25 10:18:03-log: [Package] scene@1.0.0 enable
+2022-03-25 10:18:03-log: [Package] about@1.0.0 enable
+2022-03-25 10:18:03-log: [Package] server@1.0.0 enable
+2022-03-25 10:18:03-log: [Package] utils@1.0.0 enable
+2022-03-25 10:18:03-log: [Package] assets@1.0.0 enable
+2022-03-25 10:18:03-log: [Package] inspector@1.0.0 enable
+2022-03-25 10:18:03-log: [Package] hierarchy@1.0.0 enable
+2022-03-25 10:18:05-log: [Package] preview@1.0.1 enable
+2022-03-25 10:18:05-log: [Package] animator@1.0.0 enable
+2022-03-25 10:18:06-log: Profile changed: builder (log.level: 4)
+2022-03-25 10:18:06-log: [Package] builder@1.3.0 enable
+2022-03-25 10:18:06-log: [Package] node-library@1.0.0 enable
+2022-03-25 10:18:06-log: [Package] shortcuts@1.0.1 enable
+2022-03-25 10:18:06-log: [Package] package-asset@1.0.0 enable
+2022-03-25 10:18:06-log: [Package] reference-image@1.0.0 enable
+2022-03-25 10:18:06-log: [Package] animation-graph@1.0.0 enable
+2022-03-25 10:18:06-log: [Package] channel-upload-tools@1.0.0 enable
+2022-03-25 10:18:06-log: [Package] runtime-dev-tools@1.0.0 enable
+2022-03-25 10:18:06-log: [Package] lightmap@1.0.4 enable
+2022-03-25 10:18:06-log: [Package] alipay-mini-game@1.0.0 enable
+2022-03-25 10:18:06-log: [Package] android@1.0.0 enable
+2022-03-25 10:18:06-log: [Package] baidu-mini-game@1.0.0 enable
+2022-03-25 10:18:06-log: [Package] bytedance-mini-game@1.0.1 enable
+2022-03-25 10:18:06-log: [Package] huawei-agc@1.0.0 enable
+2022-03-25 10:18:06-log: [Package] ios@1.0.0 enable
+2022-03-25 10:18:06-log: [Package] ios-app-clip@1.0.0 enable
+2022-03-25 10:18:07-log: [Package] mac@1.0.0 enable
+2022-03-25 10:18:07-log: [Package] native@1.0.0 enable
+2022-03-25 10:18:07-log: [Package] ohos@1.0.0 enable
+2022-03-25 10:18:07-log: [Package] web-desktop@1.0.0 enable
+2022-03-25 10:18:07-log: [Package] web-mobile@1.0.0 enable
+2022-03-25 10:18:07-log: [Package] wechatgame@1.0.1 enable
+2022-03-25 10:18:07-log: [Package] windows@1.0.0 enable
+2022-03-25 10:18:07-log: [Package] xiaomi-quick-game@1.0.0 enable
+2022-03-25 10:18:07-log: [Package] cocos-play@1.0.0 enable
+2022-03-25 10:18:07-log: [Package] huawei-quick-game@1.0.0 enable
+2022-03-25 10:18:07-log: [Package] link-sure@1.0.0 enable
+2022-03-25 10:18:07-log: [Package] oppo-mini-game@1.0.0 enable
+2022-03-25 10:18:07-log: [Package] qtt@1.0.0 enable
+2022-03-25 10:18:07-log: [Package] vivo-mini-game@1.0.0 enable
+2022-03-25 10:18:07-log: [Package] cocos-service@3.0.2 enable
+2022-03-25 10:18:08-log: [Package] importer@1.0.0 enable
+2022-03-25 10:18:08-log: [Package] extension@3.0.15 enable
+2022-03-25 10:18:08-log: [Im-plugin] Check im-plugin version.
+2022-03-25 10:18:08-log: [Package] im-plugin@3.0.8 enable
+2022-03-25 10:18:10-warn: Browserslist: caniuse-lite is outdated. Please run:
 npx browserslist@latest --update-db
 
 Why you should do it regularly:
 https://github.com/browserslist/browserslist#browsers-data-updating
-2022-03-23 15:17:55-log: [Im-plugin] No online info of im-plugin.
-2022-03-23 15:17:56-log: [Scene] begin init
-2022-03-23 15:17:56-log: [Scene] require engine end
-2022-03-23 15:17:56-log: [Scene] Serialize end
-2022-03-23 15:17:56-log: [Scene] configureStartup end
-2022-03-23 15:17:56-log: [Scene] Cocos Creator v3.4.1
-2022-03-23 15:17:56-warn: [Scene] The type of "monkey_controller.NumOfHedgehogs" must be CCFloat or CCInteger, not Number.
-2022-03-23 15:17:56-warn: [Scene] The type of "BeeController.y" must be CCFloat or CCInteger, not Number.
-2022-03-23 15:17:56-warn: [Scene] The type of "BeeController.speed" must be CCFloat or CCInteger, not Number.
-2022-03-23 15:17:56-warn: [Scene] The type of "BirdController.y" must be CCFloat or CCInteger, not Number.
-2022-03-23 15:17:56-warn: [Scene] The type of "BirdController.speed" must be CCFloat or CCInteger, not Number.
-2022-03-23 15:17:56-warn: [Scene] The type of "HedgehogController.y" must be CCFloat or CCInteger, not Number.
-2022-03-23 15:17:56-warn: [Scene] The type of "HedgehogController.judge_time" must be CCFloat or CCInteger, not Number.
-2022-03-23 15:17:56-warn: [Scene] The type of "HedgehogController.run_possibility" must be CCFloat or CCInteger, not Number.
-2022-03-23 15:17:56-warn: [Scene] The type of "HedgehogController.up_possibility" must be CCFloat or CCInteger, not Number.
-2022-03-23 15:17:56-warn: [Scene] The type of "HedgehogController.revert_possibility" must be CCFloat or CCInteger, not Number.
-2022-03-23 15:17:56-warn: [Scene] The type of "HedgehogController.speed" must be CCFloat or CCInteger, not Number.
-2022-03-23 15:17:56-warn: [Scene] The type of "StoneController.speed" must be CCFloat or CCInteger, not Number.
-2022-03-23 15:17:56-warn: [Scene] The type of "StoneController.judge_time" must be CCFloat or CCInteger, not Number.
-2022-03-23 15:17:56-warn: [Scene] The type of "StoneController.reset_probability" must be CCFloat or CCInteger, not Number.
-2022-03-23 15:17:56-info: [Scene] Forward render pipeline initialized.
-2022-03-23 15:17:57-log: [Scene] openEngine end
-2022-03-23 15:17:57-log: [Scene] configureEngine end
-2022-03-23 15:17:58-warn: [Scene] The type of "monkey_controller.NumOfHedgehogs" must be CCFloat or CCInteger, not Number.
-2022-03-23 15:17:58-warn: [Scene] The type of "BeeController.y" must be CCFloat or CCInteger, not Number.
-2022-03-23 15:17:58-warn: [Scene] The type of "BeeController.speed" must be CCFloat or CCInteger, not Number.
-2022-03-23 15:17:58-warn: [Scene] The type of "BirdController.y" must be CCFloat or CCInteger, not Number.
-2022-03-23 15:17:58-warn: [Scene] The type of "BirdController.speed" must be CCFloat or CCInteger, not Number.
-2022-03-23 15:17:58-warn: [Scene] The type of "HedgehogController.y" must be CCFloat or CCInteger, not Number.
-2022-03-23 15:17:58-warn: [Scene] The type of "HedgehogController.judge_time" must be CCFloat or CCInteger, not Number.
-2022-03-23 15:17:58-warn: [Scene] The type of "HedgehogController.run_possibility" must be CCFloat or CCInteger, not Number.
-2022-03-23 15:17:58-warn: [Scene] The type of "HedgehogController.up_possibility" must be CCFloat or CCInteger, not Number.
-2022-03-23 15:17:58-warn: [Scene] The type of "HedgehogController.revert_possibility" must be CCFloat or CCInteger, not Number.
-2022-03-23 15:17:58-warn: [Scene] The type of "HedgehogController.speed" must be CCFloat or CCInteger, not Number.
-2022-03-23 15:17:58-warn: [Scene] The type of "StoneController.speed" must be CCFloat or CCInteger, not Number.
-2022-03-23 15:17:58-warn: [Scene] The type of "StoneController.judge_time" must be CCFloat or CCInteger, not Number.
-2022-03-23 15:17:58-warn: [Scene] The type of "StoneController.reset_probability" must be CCFloat or CCInteger, not Number.
-2022-03-23 15:33:06-warn: [Scene] The type of "monkey_controller.NumOfHedgehogs" must be CCFloat or CCInteger, not Number.
-2022-03-23 15:33:06-warn: [Scene] The type of "BeeController.y" must be CCFloat or CCInteger, not Number.
-2022-03-23 15:33:06-warn: [Scene] The type of "BeeController.speed" must be CCFloat or CCInteger, not Number.
-2022-03-23 15:33:06-warn: [Scene] The type of "BirdController.y" must be CCFloat or CCInteger, not Number.
-2022-03-23 15:33:06-warn: [Scene] The type of "BirdController.speed" must be CCFloat or CCInteger, not Number.
-2022-03-23 15:33:06-warn: [Scene] The type of "HedgehogController.y" must be CCFloat or CCInteger, not Number.
-2022-03-23 15:33:06-warn: [Scene] The type of "HedgehogController.judge_time" must be CCFloat or CCInteger, not Number.
-2022-03-23 15:33:06-warn: [Scene] The type of "HedgehogController.run_possibility" must be CCFloat or CCInteger, not Number.
-2022-03-23 15:33:06-warn: [Scene] The type of "HedgehogController.up_possibility" must be CCFloat or CCInteger, not Number.
-2022-03-23 15:33:06-warn: [Scene] The type of "HedgehogController.revert_possibility" must be CCFloat or CCInteger, not Number.
-2022-03-23 15:33:06-warn: [Scene] The type of "HedgehogController.speed" must be CCFloat or CCInteger, not Number.
-2022-03-23 15:33:06-warn: [Scene] The type of "StoneController.speed" must be CCFloat or CCInteger, not Number.
-2022-03-23 15:33:06-warn: [Scene] The type of "StoneController.judge_time" must be CCFloat or CCInteger, not Number.
-2022-03-23 15:33:06-warn: [Scene] The type of "StoneController.reset_probability" must be CCFloat or CCInteger, not Number.
-2022-03-23 15:33:15-warn: [Scene] The type of "monkey_controller.NumOfHedgehogs" must be CCFloat or CCInteger, not Number.
-2022-03-23 15:33:15-warn: [Scene] The type of "BeeController.y" must be CCFloat or CCInteger, not Number.
-2022-03-23 15:33:15-warn: [Scene] The type of "BeeController.speed" must be CCFloat or CCInteger, not Number.
-2022-03-23 15:33:15-warn: [Scene] The type of "BirdController.y" must be CCFloat or CCInteger, not Number.
-2022-03-23 15:33:15-warn: [Scene] The type of "BirdController.speed" must be CCFloat or CCInteger, not Number.
-2022-03-23 15:33:15-warn: [Scene] The type of "HedgehogController.y" must be CCFloat or CCInteger, not Number.
-2022-03-23 15:33:15-warn: [Scene] The type of "HedgehogController.judge_time" must be CCFloat or CCInteger, not Number.
-2022-03-23 15:33:15-warn: [Scene] The type of "HedgehogController.run_possibility" must be CCFloat or CCInteger, not Number.
-2022-03-23 15:33:15-warn: [Scene] The type of "HedgehogController.up_possibility" must be CCFloat or CCInteger, not Number.
-2022-03-23 15:33:15-warn: [Scene] The type of "HedgehogController.revert_possibility" must be CCFloat or CCInteger, not Number.
-2022-03-23 15:33:15-warn: [Scene] The type of "HedgehogController.speed" must be CCFloat or CCInteger, not Number.
-2022-03-23 15:33:15-warn: [Scene] The type of "StoneController.speed" must be CCFloat or CCInteger, not Number.
-2022-03-23 15:33:15-warn: [Scene] The type of "StoneController.judge_time" must be CCFloat or CCInteger, not Number.
-2022-03-23 15:33:15-warn: [Scene] The type of "StoneController.reset_probability" must be CCFloat or CCInteger, not Number.
-2022-03-23 15:38:40-warn: [Scene] The type of "monkey_controller.NumOfHedgehogs" must be CCFloat or CCInteger, not Number.
-2022-03-23 15:38:40-warn: [Scene] The type of "BeeController.y" must be CCFloat or CCInteger, not Number.
-2022-03-23 15:38:40-warn: [Scene] The type of "BeeController.speed" must be CCFloat or CCInteger, not Number.
-2022-03-23 15:38:40-warn: [Scene] The type of "BirdController.y" must be CCFloat or CCInteger, not Number.
-2022-03-23 15:38:40-warn: [Scene] The type of "BirdController.speed" must be CCFloat or CCInteger, not Number.
-2022-03-23 15:38:40-warn: [Scene] The type of "HedgehogController.y" must be CCFloat or CCInteger, not Number.
-2022-03-23 15:38:40-warn: [Scene] The type of "HedgehogController.judge_time" must be CCFloat or CCInteger, not Number.
-2022-03-23 15:38:40-warn: [Scene] The type of "HedgehogController.run_possibility" must be CCFloat or CCInteger, not Number.
-2022-03-23 15:38:40-warn: [Scene] The type of "HedgehogController.up_possibility" must be CCFloat or CCInteger, not Number.
-2022-03-23 15:38:40-warn: [Scene] The type of "HedgehogController.revert_possibility" must be CCFloat or CCInteger, not Number.
-2022-03-23 15:38:40-warn: [Scene] The type of "HedgehogController.speed" must be CCFloat or CCInteger, not Number.
-2022-03-23 15:38:40-warn: [Scene] The type of "StoneController.speed" must be CCFloat or CCInteger, not Number.
-2022-03-23 15:38:40-warn: [Scene] The type of "StoneController.judge_time" must be CCFloat or CCInteger, not Number.
-2022-03-23 15:38:40-warn: [Scene] The type of "StoneController.reset_probability" must be CCFloat or CCInteger, not Number.
-2022-03-23 15:38:51-error: [Preview]Uncaught TypeError: Cannot read properties of null (reading 'getComponent') in http://localhost:7456/scripting/x/mods/fs/0/assets/monkey_controller.js
-2022-03-23 15:41:32-warn: [Scene] The type of "monkey_controller.NumOfHedgehogs" must be CCFloat or CCInteger, not Number.
-2022-03-23 15:41:32-warn: [Scene] The type of "BeeController.y" must be CCFloat or CCInteger, not Number.
-2022-03-23 15:41:32-warn: [Scene] The type of "BeeController.speed" must be CCFloat or CCInteger, not Number.
-2022-03-23 15:41:32-warn: [Scene] The type of "BirdController.y" must be CCFloat or CCInteger, not Number.
-2022-03-23 15:41:32-warn: [Scene] The type of "BirdController.speed" must be CCFloat or CCInteger, not Number.
-2022-03-23 15:41:32-warn: [Scene] The type of "HedgehogController.y" must be CCFloat or CCInteger, not Number.
-2022-03-23 15:41:32-warn: [Scene] The type of "HedgehogController.judge_time" must be CCFloat or CCInteger, not Number.
-2022-03-23 15:41:32-warn: [Scene] The type of "HedgehogController.run_possibility" must be CCFloat or CCInteger, not Number.
-2022-03-23 15:41:32-warn: [Scene] The type of "HedgehogController.up_possibility" must be CCFloat or CCInteger, not Number.
-2022-03-23 15:41:32-warn: [Scene] The type of "HedgehogController.revert_possibility" must be CCFloat or CCInteger, not Number.
-2022-03-23 15:41:32-warn: [Scene] The type of "HedgehogController.speed" must be CCFloat or CCInteger, not Number.
-2022-03-23 15:41:32-warn: [Scene] The type of "StoneController.speed" must be CCFloat or CCInteger, not Number.
-2022-03-23 15:41:32-warn: [Scene] The type of "StoneController.judge_time" must be CCFloat or CCInteger, not Number.
-2022-03-23 15:41:32-warn: [Scene] The type of "StoneController.reset_probability" must be CCFloat or CCInteger, not Number.
+2022-03-25 10:18:10-log: [Scene] begin init
+2022-03-25 10:18:10-log: [Scene] require engine end
+2022-03-25 10:18:10-log: [Scene] Serialize end
+2022-03-25 10:18:10-log: [Scene] configureStartup end
+2022-03-25 10:18:10-log: [Scene] Cocos Creator v3.4.1
+2022-03-25 10:18:10-warn: [Scene] Found possible circular reference in "pack:///mods/fs/0/assets/HedgehogController.js", happened when use "monkey_controller" imported from "./monkey_controller"  Error
+    at Object.execute (D:\ProjectFiles\cocosCreater\NaughtyMonkey\parkour\temp\programming\packer-driver\targets\editor\mods\fs\0\assets\HedgehogController.js:70:16)
+    at doExec (D:\Software\cocosCreater\CocosDashboard\resources\.editors\Creator\3.4.1\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:487:32)
+    at postOrderExec (D:\Software\cocosCreater\CocosDashboard\resources\.editors\Creator\3.4.1\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:483:10)
+    at D:\Software\cocosCreater\CocosDashboard\resources\.editors\Creator\3.4.1\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:469:28
+    at Array.forEach (<anonymous>)
+    at postOrderExec (D:\Software\cocosCreater\CocosDashboard\resources\.editors\Creator\3.4.1\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:467:10)
+    at D:\Software\cocosCreater\CocosDashboard\resources\.editors\Creator\3.4.1\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:469:28
+    at Array.forEach (<anonymous>)
+    at postOrderExec (D:\Software\cocosCreater\CocosDashboard\resources\.editors\Creator\3.4.1\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:467:10)
+    at D:\Software\cocosCreater\CocosDashboard\resources\.editors\Creator\3.4.1\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:440:12
+2022-03-25 10:18:10-warn: [Scene] The type of "HedgehogController.y" must be CCFloat or CCInteger, not Number.
+2022-03-25 10:18:10-warn: [Scene] The type of "HedgehogController.judge_time" must be CCFloat or CCInteger, not Number.
+2022-03-25 10:18:10-warn: [Scene] The type of "HedgehogController.run_possibility" must be CCFloat or CCInteger, not Number.
+2022-03-25 10:18:10-warn: [Scene] The type of "HedgehogController.up_possibility" must be CCFloat or CCInteger, not Number.
+2022-03-25 10:18:10-warn: [Scene] The type of "HedgehogController.revert_possibility" must be CCFloat or CCInteger, not Number.
+2022-03-25 10:18:10-warn: [Scene] The type of "HedgehogController.speed" must be CCFloat or CCInteger, not Number.
+2022-03-25 10:18:10-warn: [Scene] You are explicitly specifying `undefined` type to cc property "mk_controller" of cc class "HedgehogController".
+Is this intended? If not, this may indicate a circular reference.
+For example:
+
+ 
+// foo.ts
+import { _decorator } from 'cc';
+import { Bar } from './bar';  // Given that './bar' also reference 'foo.ts'.
+                              // When importing './bar', execution of './bar' is hung on to wait execution of 'foo.ts',
+                              // the `Bar` imported here is `undefined` until './bar' finish its execution.
+                              // It leads to that
+@_decorator.ccclass           //  ↓
+export class Foo {            //  ↓
+    @_decorator.type(Bar)     //  → is equivalent to `@_decorator.type(undefined)`
+    public bar: Bar;          // To eliminate this error, either:
+                              // - Refactor your module structure(recommended), or
+                              // - specify the type as cc class name: `@_decorator.type('Bar'/* or any name you specified for `Bar` */)`
+}
+2022-03-25 10:18:10-warn: [Scene] Please specifiy a default value for "HedgehogController.mk_controller" property at its declaration:
+
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2022-03-25 10:18:10-warn: [Scene] The type of "monkey_controller.NumOfHedgehogs" must be CCFloat or CCInteger, not Number.
+2022-03-25 10:18:10-warn: [Scene] The type of "BeeController.y" must be CCFloat or CCInteger, not Number.
+2022-03-25 10:18:10-warn: [Scene] The type of "BeeController.speed" must be CCFloat or CCInteger, not Number.
+2022-03-25 10:18:10-warn: [Scene] The type of "BirdController.y" must be CCFloat or CCInteger, not Number.
+2022-03-25 10:18:10-warn: [Scene] The type of "BirdController.speed" must be CCFloat or CCInteger, not Number.
+2022-03-25 10:18:10-warn: [Scene] The type of "StoneController.speed" must be CCFloat or CCInteger, not Number.
+2022-03-25 10:18:10-warn: [Scene] The type of "StoneController.judge_time" must be CCFloat or CCInteger, not Number.
+2022-03-25 10:18:10-warn: [Scene] The type of "StoneController.reset_probability" must be CCFloat or CCInteger, not Number.
+2022-03-25 10:18:10-info: [Scene] Forward render pipeline initialized.
+2022-03-25 10:18:10-log: [Scene] openEngine end
+2022-03-25 10:18:10-log: [Scene] configureEngine end
+2022-03-25 10:18:11-warn: [Scene] Found possible circular reference in "pack:///mods/fs/0/assets/HedgehogController.js", happened when use "monkey_controller" imported from "./monkey_controller"  Error
+    at Object.execute (D:\ProjectFiles\cocosCreater\NaughtyMonkey\parkour\temp\programming\packer-driver\targets\editor\mods\fs\0\assets\HedgehogController.js:70:16)
+    at doExec (D:\Software\cocosCreater\CocosDashboard\resources\.editors\Creator\3.4.1\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:487:32)
+    at postOrderExec (D:\Software\cocosCreater\CocosDashboard\resources\.editors\Creator\3.4.1\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:483:10)
+    at D:\Software\cocosCreater\CocosDashboard\resources\.editors\Creator\3.4.1\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:469:28
+    at Array.forEach (<anonymous>)
+    at postOrderExec (D:\Software\cocosCreater\CocosDashboard\resources\.editors\Creator\3.4.1\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:467:10)
+    at D:\Software\cocosCreater\CocosDashboard\resources\.editors\Creator\3.4.1\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:469:28
+    at Array.forEach (<anonymous>)
+    at postOrderExec (D:\Software\cocosCreater\CocosDashboard\resources\.editors\Creator\3.4.1\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:467:10)
+    at D:\Software\cocosCreater\CocosDashboard\resources\.editors\Creator\3.4.1\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:440:12
+2022-03-25 10:18:11-warn: [Scene] The type of "HedgehogController.y" must be CCFloat or CCInteger, not Number.
+2022-03-25 10:18:11-warn: [Scene] The type of "HedgehogController.judge_time" must be CCFloat or CCInteger, not Number.
+2022-03-25 10:18:11-warn: [Scene] The type of "HedgehogController.run_possibility" must be CCFloat or CCInteger, not Number.
+2022-03-25 10:18:11-warn: [Scene] The type of "HedgehogController.up_possibility" must be CCFloat or CCInteger, not Number.
+2022-03-25 10:18:11-warn: [Scene] The type of "HedgehogController.revert_possibility" must be CCFloat or CCInteger, not Number.
+2022-03-25 10:18:11-warn: [Scene] The type of "HedgehogController.speed" must be CCFloat or CCInteger, not Number.
+2022-03-25 10:18:11-warn: [Scene] You are explicitly specifying `undefined` type to cc property "mk_controller" of cc class "HedgehogController".
+Is this intended? If not, this may indicate a circular reference.
+For example:
+
+ 
+// foo.ts
+import { _decorator } from 'cc';
+import { Bar } from './bar';  // Given that './bar' also reference 'foo.ts'.
+                              // When importing './bar', execution of './bar' is hung on to wait execution of 'foo.ts',
+                              // the `Bar` imported here is `undefined` until './bar' finish its execution.
+                              // It leads to that
+@_decorator.ccclass           //  ↓
+export class Foo {            //  ↓
+    @_decorator.type(Bar)     //  → is equivalent to `@_decorator.type(undefined)`
+    public bar: Bar;          // To eliminate this error, either:
+                              // - Refactor your module structure(recommended), or
+                              // - specify the type as cc class name: `@_decorator.type('Bar'/* or any name you specified for `Bar` */)`
+}
+2022-03-25 10:18:11-warn: [Scene] Please specifiy a default value for "HedgehogController.mk_controller" property at its declaration:
+
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2022-03-25 10:18:11-warn: [Scene] The type of "monkey_controller.NumOfHedgehogs" must be CCFloat or CCInteger, not Number.
+2022-03-25 10:18:11-warn: [Scene] The type of "BeeController.y" must be CCFloat or CCInteger, not Number.
+2022-03-25 10:18:11-warn: [Scene] The type of "BeeController.speed" must be CCFloat or CCInteger, not Number.
+2022-03-25 10:18:11-warn: [Scene] The type of "BirdController.y" must be CCFloat or CCInteger, not Number.
+2022-03-25 10:18:11-warn: [Scene] The type of "BirdController.speed" must be CCFloat or CCInteger, not Number.
+2022-03-25 10:18:11-warn: [Scene] The type of "StoneController.speed" must be CCFloat or CCInteger, not Number.
+2022-03-25 10:18:11-warn: [Scene] The type of "StoneController.judge_time" must be CCFloat or CCInteger, not Number.
+2022-03-25 10:18:11-warn: [Scene] The type of "StoneController.reset_probability" must be CCFloat or CCInteger, not Number.
+2022-03-25 10:18:14-log: [Im-plugin] No online info of im-plugin.
