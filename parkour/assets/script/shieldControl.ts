@@ -30,5 +30,6 @@ export class shieldControl extends Component {
     die() {
         this.hp--;
         this.audio.play();
+        console.debug('播放盾的音效')
     }
 }

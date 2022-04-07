@@ -159,7 +159,7 @@ export class BeeController extends Component {
     }
 
     die() {
-        this.node.getComponent(Animation).play('Bee_Hurt');
+        this.node.getComponent(Animation).play('Bee_Smoke');
     }
 }
 

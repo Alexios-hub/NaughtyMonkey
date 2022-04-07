@@ -45,7 +45,7 @@ export class bananaControl extends Component {
         this.hp--;
         this.addNumOfBanana();
         this.audio.play();
-        console.debug('yy')
+        console.debug('播放香蕉的音效')
     }
 
     die() {

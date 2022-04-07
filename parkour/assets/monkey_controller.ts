@@ -61,7 +61,7 @@ export class monkey_controller extends Component {
             return;
         }
         
-        if(this.isInvincible>0){
+        if(this.isInvincible>0&&otherCollider.tag!=10){
             if(otherCollider.tag==0){
                 otherCollider.getComponent(HedgehogController).die();
             }
@@ -146,8 +146,9 @@ export class monkey_controller extends Component {
     start () {
         this.mk_state = monkey_state.ALIVE
         let x1=0.3;
+        let ani = this.node.getComponent(Animation);
         input.on(Input.EventType.MOUSE_DOWN,(event)=>{
-            let ani = this.node.getComponent(Animation);
+            
             if(ani.getState("monkey_runninng").isPlaying==true)
             {
                 let x =this.node.getPosition().x
@@ -158,7 +159,7 @@ export class monkey_controller extends Component {
                         this.node.setScale(0.3,-0.3,0);
                     }
                  
-                ani.play("monkey_jumpingtoleft");
+                ani.play("monkey_jumpLeft");
                 }
                 else if(x<0){
                     if(this.isInvincible>0){
@@ -166,7 +167,7 @@ export class monkey_controller extends Component {
                     } else {
                         this.node.setScale(0.3,0.3,0);
                     }
-                    ani.play("monkey_jumpingtoright");
+                    ani.play("monkey_jumpRight");
 
                 }
 
@@ -191,7 +192,7 @@ export class monkey_controller extends Component {
 
     update (deltaTime: number) {
         let ani = this.node.getComponent(Animation);
-        if(ani.getState("monkey_runninng").isPlaying==false&&ani.getState("monkey_jumpingtoleft").isPlaying==false&&ani.getState("monkey_jumpingtoright").isPlaying==false&&this.mk_state == monkey_state.ALIVE){
+        if(ani.getState("monkey_runninng").isPlaying==false&&ani.getState("monkey_jumpLeft").isPlaying==false&&ani.getState("monkey_jumpRight").isPlaying==false&&this.mk_state == monkey_state.ALIVE){
             ani.play("monkey_runninng");
         }
         if(this.isInvincible>0) {

@@ -26,11 +26,11 @@ export class StartButtonController extends Component {
     start () {
         // [3]
         // 预加载：在点击开始之后立刻切换到游戏场景
-        director.preloadScene("scene");
+        // director.preloadScene("scene");
     }
 
     onStartClick (e) {
-        director.loadScene("scene");
+        director.loadScene("loading_scene");
     }
 
     onRestartClick (e) {
