@@ -9,7 +9,13 @@
     "isBundle": true,
     "bundleName": "resources",
     "priority": 8,
-    "compressionType": {},
-    "isRemoteBundle": {}
+    "compressionType": {
+      "web-desktop": "none",
+      "wechatgame": "none"
+    },
+    "isRemoteBundle": {
+      "web-desktop": true,
+      "wechatgame": true
+    }
   }
 }

@@ -1,38 +1,129 @@
 {
-  "assets/NewComponent.js": {
+  "assets/BirdController.js": {
     "imports": {
-      "cc": "quick-pack:/cce/internal/x/cc.js"
+      "__unresolved_0": "quick-pack:/cce/internal/code-quality/cr.js",
+      "cc": "quick-pack:/cce/internal/x/cc.js",
+      "__unresolved_1": "assets/monkey_controller.js"
     },
-    "physicalLocation": "fs/0/assets/NewComponent.js",
-    "mTimestamp": 1647185750386
+    "physicalLocation": "fs/0/assets/BirdController.js",
+    "mTimestamp": 1649840405939
   },
-  "assets/HedgehogController1.js": {
+  "assets/CanvasController.js": {
     "imports": {
-      "cc": "quick-pack:/cce/internal/x/cc.js"
+      "__unresolved_0": "quick-pack:/cce/internal/code-quality/cr.js",
+      "cc": "quick-pack:/cce/internal/x/cc.js",
+      "__unresolved_1": "assets/BeeController.js",
+      "__unresolved_5": "assets/BirdController.js",
+      "__unresolved_2": "assets/HedgehogController.js",
+      "__unresolved_6": "assets/HugeBirdController.js",
+      "__unresolved_7": "assets/StoneController.js",
+      "__unresolved_4": "assets/TreeController.js",
+      "__unresolved_3": "assets/monkey_controller.js"
     },
-    "physicalLocation": "fs/0/assets/HedgehogController1.js",
-    "mTimestamp": 1647308982231
+    "physicalLocation": "fs/0/assets/CanvasController.js",
+    "mTimestamp": 1649840406093
   },
-  "assets/HedgehogController4.js": {
+  "assets/SceneController.js": {
     "imports": {
       "cc": "quick-pack:/cce/internal/x/cc.js"
     },
-    "physicalLocation": "fs/0/assets/HedgehogController4.js",
-    "mTimestamp": 1647500224715
+    "physicalLocation": "fs/0/assets/SceneController.js",
+    "mTimestamp": 1649840406284
   },
-  "assets/HedgehogController3.js": {
+  "assets/StoneController.js": {
     "imports": {
-      "cc": "quick-pack:/cce/internal/x/cc.js"
+      "__unresolved_0": "quick-pack:/cce/internal/code-quality/cr.js",
+      "cc": "quick-pack:/cce/internal/x/cc.js",
+      "__unresolved_2": "assets/TreeController.js",
+      "__unresolved_1": "assets/monkey_controller.js"
     },
-    "physicalLocation": "fs/0/assets/HedgehogController3.js",
-    "mTimestamp": 1647500224902
+    "physicalLocation": "fs/0/assets/StoneController.js",
+    "mTimestamp": 1649840406350
   },
-  "assets/HedgehogController2.js": {
+  "assets/TreeController.js": {
     "imports": {
       "cc": "quick-pack:/cce/internal/x/cc.js"
     },
-    "physicalLocation": "fs/0/assets/HedgehogController2.js",
-    "mTimestamp": 1647500224970
+    "physicalLocation": "fs/0/assets/TreeController.js",
+    "mTimestamp": 1649840406378
+  },
+  "assets/HugeBirdController.js": {
+    "imports": {
+      "__unresolved_0": "quick-pack:/cce/internal/code-quality/cr.js",
+      "cc": "quick-pack:/cce/internal/x/cc.js",
+      "__unresolved_1": "assets/monkey_controller.js"
+    },
+    "physicalLocation": "fs/0/assets/HugeBirdController.js",
+    "mTimestamp": 1649840406248
+  },
+  "assets/script/bananaControl.js": {
+    "imports": {
+      "cc": "quick-pack:/cce/internal/x/cc.js"
+    },
+    "physicalLocation": "fs/0/assets/script/bananaControl.js",
+    "mTimestamp": 1649840406483
+  },
+  "assets/script/shieldControl.js": {
+    "imports": {
+      "cc": "quick-pack:/cce/internal/x/cc.js"
+    },
+    "physicalLocation": "fs/0/assets/script/shieldControl.js",
+    "mTimestamp": 1649840406590
+  },
+  "assets/HedgehogController.js": {
+    "imports": {
+      "__unresolved_0": "quick-pack:/cce/internal/code-quality/cr.js",
+      "cc": "quick-pack:/cce/internal/x/cc.js",
+      "__unresolved_1": "assets/monkey_controller.js"
+    },
+    "physicalLocation": "fs/0/assets/HedgehogController.js",
+    "mTimestamp": 1649840406196
+  },
+  "assets/RestartButtonController.js": {
+    "imports": {
+      "cc": "quick-pack:/cce/internal/x/cc.js"
+    },
+    "physicalLocation": "fs/0/assets/RestartButtonController.js",
+    "mTimestamp": 1649840406274
+  },
+  "assets/script/bananaManager.js": {
+    "imports": {
+      "__unresolved_0": "quick-pack:/cce/internal/code-quality/cr.js",
+      "cc": "quick-pack:/cce/internal/x/cc.js",
+      "__unresolved_1": "assets/script/bananaControl.js"
+    },
+    "physicalLocation": "fs/0/assets/script/bananaManager.js",
+    "mTimestamp": 1649840406523
+  },
+  "assets/script/shieldManager.js": {
+    "imports": {
+      "cc": "quick-pack:/cce/internal/x/cc.js"
+    },
+    "physicalLocation": "fs/0/assets/script/shieldManager.js",
+    "mTimestamp": 1649840406611
+  },
+  "assets/script/loadingControl.js": {
+    "imports": {
+      "cc": "quick-pack:/cce/internal/x/cc.js"
+    },
+    "physicalLocation": "fs/0/assets/script/loadingControl.js",
+    "mTimestamp": 1649840406558
+  },
+  "assets/StartButtonController.js": {
+    "imports": {
+      "cc": "quick-pack:/cce/internal/x/cc.js"
+    },
+    "physicalLocation": "fs/0/assets/StartButtonController.js",
+    "mTimestamp": 1649840406300
+  },
+  "assets/BeeController.js": {
+    "imports": {
+      "cc": "quick-pack:/cce/internal/x/cc.js",
+      "__unresolved_0": "quick-pack:/cce/internal/code-quality/cr.js",
+      "__unresolved_1": "assets/monkey_controller.js"
+    },
+    "physicalLocation": "fs/0/assets/BeeController.js",
+    "mTimestamp": 1649840405883
   },
   "quick-pack:/cce/internal/x/cc.js": {
     "imports": {
@@ -106,81 +197,50 @@
       }
     },
     "physicalLocation": "cce/internal/x/cc.js",
-    "mTimestamp": 1647750704916,
+    "mTimestamp": 1649840405750,
     "isEntry": true,
     "exposeAs": "cce:/internal/x/cc"
-  },
-  "assets/monkey_controller.js": {
-    "imports": {
-      "cc": "quick-pack:/cce/internal/x/cc.js"
-    },
-    "physicalLocation": "fs/0/assets/monkey_controller.js",
-    "mTimestamp": 1647753282478
   },
   "quick-pack:/cce/internal/code-quality/cr.js": {
     "imports": {},
     "physicalLocation": "cce/internal/code-quality/cr.js",
-    "mTimestamp": 1647753282607
-  },
-  "assets/CanvasController.js": {
-    "imports": {
-      "__unresolved_0": "quick-pack:/cce/internal/code-quality/cr.js",
-      "cc": "quick-pack:/cce/internal/x/cc.js",
-      "__unresolved_1": "assets/BeeController.js",
-      "__unresolved_2": "assets/HedgehogController.js",
-      "__unresolved_3": "assets/monkey_controller.js",
-      "__unresolved_4": "assets/TreeController.js"
-    },
-    "physicalLocation": "fs/0/assets/CanvasController.js",
-    "mTimestamp": 1647864171455
-  },
-  "assets/HedgehogController.js": {
-    "imports": {
-      "__unresolved_0": "quick-pack:/cce/internal/code-quality/cr.js",
-      "cc": "quick-pack:/cce/internal/x/cc.js",
-      "__unresolved_1": "assets/monkey_controller.js"
-    },
-    "physicalLocation": "fs/0/assets/HedgehogController.js",
-    "mTimestamp": 1647864561170
-  },
-  "assets/StoneController.js": {
-    "imports": {
-      "__unresolved_0": "quick-pack:/cce/internal/code-quality/cr.js",
-      "cc": "quick-pack:/cce/internal/x/cc.js",
-      "__unresolved_1": "assets/monkey_controller.js",
-      "__unresolved_2": "assets/TreeController.js"
-    },
-    "physicalLocation": "fs/0/assets/StoneController.js",
-    "mTimestamp": 1647865260773
-  },
-  "assets/BeeController.js": {
-    "imports": {
-      "cc": "quick-pack:/cce/internal/x/cc.js",
-      "__unresolved_0": "quick-pack:/cce/internal/code-quality/cr.js",
-      "__unresolved_1": "assets/monkey_controller.js"
-    },
-    "physicalLocation": "fs/0/assets/BeeController.js",
-    "mTimestamp": 1647868564410
+    "mTimestamp": 1649840406627
   },
   "quick-pack:/cce/internal/x/prerequisite-imports.js": {
     "imports": {
       "__unresolved_0": "assets/BeeController.js",
-      "__unresolved_1": "assets/CanvasController.js",
-      "__unresolved_2": "assets/HedgehogController.js",
-      "__unresolved_3": "assets/StoneController.js",
-      "__unresolved_5": "assets/monkey_controller.js",
-      "__unresolved_4": "assets/TreeController.js"
+      "__unresolved_1": "assets/BirdController.js",
+      "__unresolved_2": "assets/CanvasController.js",
+      "__unresolved_3": "assets/HedgehogController.js",
+      "__unresolved_4": "assets/HugeBirdController.js",
+      "__unresolved_5": "assets/RestartButtonController.js",
+      "__unresolved_6": "assets/SceneController.js",
+      "__unresolved_7": "assets/StartButtonController.js",
+      "__unresolved_8": "assets/StoneController.js",
+      "__unresolved_9": "assets/TreeController.js",
+      "__unresolved_11": "assets/script/bananaControl.js",
+      "__unresolved_12": "assets/script/bananaManager.js",
+      "__unresolved_13": "assets/script/loadingControl.js",
+      "__unresolved_14": "assets/script/shieldControl.js",
+      "__unresolved_15": "assets/script/shieldManager.js",
+      "__unresolved_10": "assets/monkey_controller.js"
     },
     "physicalLocation": "cce/internal/x/prerequisite-imports.js",
-    "mTimestamp": 1647869053125,
+    "mTimestamp": 1649842406232,
     "isEntry": true,
     "exposeAs": "cce:/internal/x/prerequisite-imports"
   },
-  "assets/TreeController.js": {
+  "assets/monkey_controller.js": {
     "imports": {
-      "cc": "quick-pack:/cce/internal/x/cc.js"
+      "__unresolved_0": "quick-pack:/cce/internal/code-quality/cr.js",
+      "cc": "quick-pack:/cce/internal/x/cc.js",
+      "__unresolved_1": "assets/HedgehogController.js",
+      "__unresolved_2": "assets/script/bananaControl.js",
+      "__unresolved_3": "assets/script/shieldControl.js",
+      "__unresolved_4": "assets/script/bananaManager.js",
+      "__unresolved_5": "assets/BeeController.js"
     },
-    "physicalLocation": "fs/0/assets/TreeController.js",
-    "mTimestamp": 1647869053186
+    "physicalLocation": "fs/0/assets/monkey_controller.js",
+    "mTimestamp": 1649842406349
   }
 }

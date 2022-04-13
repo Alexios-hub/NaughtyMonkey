@@ -4,20 +4,71 @@
     "cce:/internal/x/prerequisite-imports": "./mods/cce/internal/x/prerequisite-imports.js"
   },
   "scopes": {
-    "./mods/fs/0/assets/NewComponent.js": {
+    "./mods/fs/0/assets/BirdController.js": {
+      "cc": "./mods/cce/internal/x/cc.js",
+      "__unresolved_0": "./mods/cce/internal/code-quality/cr.js",
+      "__unresolved_1": "./mods/fs/0/assets/monkey_controller.js"
+    },
+    "./mods/fs/0/assets/HugeBirdController.js": {
+      "__unresolved_0": "./mods/cce/internal/code-quality/cr.js",
+      "cc": "./mods/cce/internal/x/cc.js",
+      "__unresolved_1": "./mods/fs/0/assets/monkey_controller.js"
+    },
+    "./mods/fs/0/assets/SceneController.js": {
       "cc": "./mods/cce/internal/x/cc.js"
     },
-    "./mods/fs/0/assets/HedgehogController1.js": {
+    "./mods/fs/0/assets/CanvasController.js": {
+      "__unresolved_0": "./mods/cce/internal/code-quality/cr.js",
+      "cc": "./mods/cce/internal/x/cc.js",
+      "__unresolved_5": "./mods/fs/0/assets/BirdController.js",
+      "__unresolved_1": "./mods/fs/0/assets/BeeController.js",
+      "__unresolved_2": "./mods/fs/0/assets/HedgehogController.js",
+      "__unresolved_6": "./mods/fs/0/assets/HugeBirdController.js",
+      "__unresolved_7": "./mods/fs/0/assets/StoneController.js",
+      "__unresolved_4": "./mods/fs/0/assets/TreeController.js",
+      "__unresolved_3": "./mods/fs/0/assets/monkey_controller.js"
+    },
+    "./mods/fs/0/assets/StoneController.js": {
+      "__unresolved_0": "./mods/cce/internal/code-quality/cr.js",
+      "cc": "./mods/cce/internal/x/cc.js",
+      "__unresolved_2": "./mods/fs/0/assets/TreeController.js",
+      "__unresolved_1": "./mods/fs/0/assets/monkey_controller.js"
+    },
+    "./mods/fs/0/assets/TreeController.js": {
       "cc": "./mods/cce/internal/x/cc.js"
     },
-    "./mods/fs/0/assets/HedgehogController2.js": {
+    "./mods/fs/0/assets/script/bananaControl.js": {
       "cc": "./mods/cce/internal/x/cc.js"
     },
-    "./mods/fs/0/assets/HedgehogController3.js": {
+    "./mods/fs/0/assets/script/shieldControl.js": {
       "cc": "./mods/cce/internal/x/cc.js"
     },
-    "./mods/fs/0/assets/HedgehogController4.js": {
+    "./mods/fs/0/assets/HedgehogController.js": {
+      "__unresolved_0": "./mods/cce/internal/code-quality/cr.js",
+      "cc": "./mods/cce/internal/x/cc.js",
+      "__unresolved_1": "./mods/fs/0/assets/monkey_controller.js"
+    },
+    "./mods/fs/0/assets/RestartButtonController.js": {
       "cc": "./mods/cce/internal/x/cc.js"
+    },
+    "./mods/fs/0/assets/script/bananaManager.js": {
+      "__unresolved_0": "./mods/cce/internal/code-quality/cr.js",
+      "cc": "./mods/cce/internal/x/cc.js",
+      "__unresolved_1": "./mods/fs/0/assets/script/bananaControl.js"
+    },
+    "./mods/fs/0/assets/script/shieldManager.js": {
+      "cc": "./mods/cce/internal/x/cc.js"
+    },
+    "./mods/fs/0/assets/script/loadingControl.js": {
+      "cc": "./mods/cce/internal/x/cc.js"
+    },
+    "./mods/fs/0/assets/StartButtonController.js": {
+      "cc": "./mods/cce/internal/x/cc.js"
+    },
+    "./mods/fs/0/assets/BeeController.js": {
+      "__unresolved_0": "./mods/cce/internal/code-quality/cr.js",
+      "cc": "./mods/cce/internal/x/cc.js",
+      "__unresolved_1": "./mods/fs/0/assets/monkey_controller.js"
     },
     "./mods/cce/internal/x/cc.js": {
       "__unresolved_0": "cce:/internal/x/cc-fu/base",
@@ -42,43 +93,32 @@
       "__unresolved_19": "cce:/internal/x/cc-fu/spine",
       "__unresolved_20": "cce:/internal/x/cc-fu/dragon-bones"
     },
-    "./mods/fs/0/assets/monkey_controller.js": {
-      "cc": "./mods/cce/internal/x/cc.js"
-    },
-    "./mods/fs/0/assets/CanvasController.js": {
-      "__unresolved_0": "./mods/cce/internal/code-quality/cr.js",
-      "cc": "./mods/cce/internal/x/cc.js",
-      "__unresolved_1": "./mods/fs/0/assets/BeeController.js",
-      "__unresolved_2": "./mods/fs/0/assets/HedgehogController.js",
-      "__unresolved_3": "./mods/fs/0/assets/monkey_controller.js",
-      "__unresolved_4": "./mods/fs/0/assets/TreeController.js"
-    },
-    "./mods/fs/0/assets/HedgehogController.js": {
-      "__unresolved_0": "./mods/cce/internal/code-quality/cr.js",
-      "cc": "./mods/cce/internal/x/cc.js",
-      "__unresolved_1": "./mods/fs/0/assets/monkey_controller.js"
-    },
-    "./mods/fs/0/assets/StoneController.js": {
-      "__unresolved_0": "./mods/cce/internal/code-quality/cr.js",
-      "cc": "./mods/cce/internal/x/cc.js",
-      "__unresolved_1": "./mods/fs/0/assets/monkey_controller.js",
-      "__unresolved_2": "./mods/fs/0/assets/TreeController.js"
-    },
-    "./mods/fs/0/assets/BeeController.js": {
-      "cc": "./mods/cce/internal/x/cc.js",
-      "__unresolved_0": "./mods/cce/internal/code-quality/cr.js",
-      "__unresolved_1": "./mods/fs/0/assets/monkey_controller.js"
-    },
     "./mods/cce/internal/x/prerequisite-imports.js": {
+      "__unresolved_1": "./mods/fs/0/assets/BirdController.js",
+      "__unresolved_2": "./mods/fs/0/assets/CanvasController.js",
       "__unresolved_0": "./mods/fs/0/assets/BeeController.js",
-      "__unresolved_1": "./mods/fs/0/assets/CanvasController.js",
-      "__unresolved_2": "./mods/fs/0/assets/HedgehogController.js",
-      "__unresolved_3": "./mods/fs/0/assets/StoneController.js",
-      "__unresolved_5": "./mods/fs/0/assets/monkey_controller.js",
-      "__unresolved_4": "./mods/fs/0/assets/TreeController.js"
+      "__unresolved_3": "./mods/fs/0/assets/HedgehogController.js",
+      "__unresolved_4": "./mods/fs/0/assets/HugeBirdController.js",
+      "__unresolved_5": "./mods/fs/0/assets/RestartButtonController.js",
+      "__unresolved_6": "./mods/fs/0/assets/SceneController.js",
+      "__unresolved_7": "./mods/fs/0/assets/StartButtonController.js",
+      "__unresolved_8": "./mods/fs/0/assets/StoneController.js",
+      "__unresolved_9": "./mods/fs/0/assets/TreeController.js",
+      "__unresolved_11": "./mods/fs/0/assets/script/bananaControl.js",
+      "__unresolved_12": "./mods/fs/0/assets/script/bananaManager.js",
+      "__unresolved_13": "./mods/fs/0/assets/script/loadingControl.js",
+      "__unresolved_14": "./mods/fs/0/assets/script/shieldControl.js",
+      "__unresolved_15": "./mods/fs/0/assets/script/shieldManager.js",
+      "__unresolved_10": "./mods/fs/0/assets/monkey_controller.js"
     },
-    "./mods/fs/0/assets/TreeController.js": {
-      "cc": "./mods/cce/internal/x/cc.js"
+    "./mods/fs/0/assets/monkey_controller.js": {
+      "__unresolved_0": "./mods/cce/internal/code-quality/cr.js",
+      "cc": "./mods/cce/internal/x/cc.js",
+      "__unresolved_1": "./mods/fs/0/assets/HedgehogController.js",
+      "__unresolved_2": "./mods/fs/0/assets/script/bananaControl.js",
+      "__unresolved_3": "./mods/fs/0/assets/script/shieldControl.js",
+      "__unresolved_4": "./mods/fs/0/assets/script/bananaManager.js",
+      "__unresolved_5": "./mods/fs/0/assets/BeeController.js"
     }
   }
 }

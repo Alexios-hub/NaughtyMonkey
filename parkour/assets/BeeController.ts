@@ -15,7 +15,7 @@ const { ccclass, property } = _decorator;
  *
  */
 
-enum BEESTATE{
+export enum BEESTATE{
     ALIVE,
     DEAD
 }
@@ -138,7 +138,7 @@ export class BeeController extends Component {
             let ifreset = Math.random();
             if(ifreset<0.5&&this.judge())
             this.reset();
-    }
+        }
        let ani = this.node.getComponent(Animation);
 
     if(this.state == BEESTATE.DEAD&&ani.getState("Bee_Smoke").isPlaying==false){
@@ -152,10 +152,15 @@ export class BeeController extends Component {
             rgd.linearVelocity = v2(-rgd.linearVelocity.x,rgd.linearVelocity.y);
             this.node.setScale(-this.node.getScale().x,this.node.getScale().y,this.node.getScale().z);
         
-    }
+            }
         
+        }
+
     }
-}
+
+    die() {
+        this.node.getComponent(Animation).play('Bee_Smoke');
+    }
 }
 
 /**

@@ -1,5 +1,206 @@
 {
   "log": {
     "level": 4
+  },
+  "common": {
+    "outputName": "wechatgame",
+    "mainBundleCompressionType": "none",
+    "platform": "wechatgame",
+    "md5Cache": true,
+    "mainBundleIsRemote": true,
+    "startScene": "ae5c436b-4f5f-4aee-b875-9e3c98003ea1"
+  },
+  "BuildTaskManager": {
+    "taskMap": {
+      "1649841810248": {
+        "id": "1649841810248",
+        "progress": 1,
+        "state": "success",
+        "message": "2022-4-13 17:23 Build success in 14426 ms!",
+        "options": {
+          "name": "parkour",
+          "platform": "wechatgame",
+          "buildPath": "project://build",
+          "debug": false,
+          "md5Cache": true,
+          "sourceMaps": false,
+          "replaceSplashScreen": false,
+          "mainBundleCompressionType": "merge_dep",
+          "mainBundleIsRemote": true,
+          "mergeStartScene": false,
+          "experimentalEraseModules": false,
+          "compressTexture": true,
+          "packAutoAtlas": true,
+          "startScene": "2d4720b9-a2fc-41bb-ab62-9ad563cbfbc3",
+          "scenes": [
+            {
+              "url": "db://assets/end_scene.scene",
+              "uuid": "2d4720b9-a2fc-41bb-ab62-9ad563cbfbc3",
+              "inBundle": false
+            },
+            {
+              "url": "db://assets/loading_scene.scene",
+              "uuid": "79bc1ecc-9ef1-46f1-9d15-8e44698e867c",
+              "inBundle": false
+            },
+            {
+              "url": "db://assets/scene.scene",
+              "uuid": "e52f7624-4d19-49ca-976f-667c16768c2b",
+              "inBundle": false
+            },
+            {
+              "url": "db://assets/start_menu.scene",
+              "uuid": "ae5c436b-4f5f-4aee-b875-9e3c98003ea1",
+              "inBundle": false
+            }
+          ],
+          "outputName": "wechatgame",
+          "packages": {
+            "cocos-service": {
+              "configID": "775472",
+              "services": []
+            },
+            "wechatgame": {
+              "startSceneAssetBundle": true,
+              "orientation": "portrait",
+              "appid": "",
+              "separateEngine": false,
+              "wasm": "wasm",
+              "enabelWebGL2": "off",
+              "remoteServerAddress": "https://nasty-monkey-1309598780.cos.ap-shanghai.myqcloud.com",
+              "buildOpenDataContextTemplate": false
+            }
+          }
+        },
+        "time": "2022-4-13 17:23",
+        "dirty": false
+      },
+      "1649842205578": {
+        "id": "1649842205578",
+        "progress": 1,
+        "state": "success",
+        "message": "2022-4-13 17:30 Build success in 12833 ms!",
+        "options": {
+          "name": "parkour",
+          "platform": "wechatgame",
+          "buildPath": "project://build",
+          "debug": false,
+          "md5Cache": true,
+          "sourceMaps": false,
+          "replaceSplashScreen": false,
+          "mainBundleCompressionType": "none",
+          "mainBundleIsRemote": true,
+          "mergeStartScene": false,
+          "experimentalEraseModules": false,
+          "compressTexture": true,
+          "packAutoAtlas": true,
+          "startScene": "ae5c436b-4f5f-4aee-b875-9e3c98003ea1",
+          "scenes": [
+            {
+              "url": "db://assets/end_scene.scene",
+              "uuid": "2d4720b9-a2fc-41bb-ab62-9ad563cbfbc3",
+              "inBundle": false
+            },
+            {
+              "url": "db://assets/loading_scene.scene",
+              "uuid": "79bc1ecc-9ef1-46f1-9d15-8e44698e867c",
+              "inBundle": false
+            },
+            {
+              "url": "db://assets/scene.scene",
+              "uuid": "e52f7624-4d19-49ca-976f-667c16768c2b",
+              "inBundle": false
+            },
+            {
+              "url": "db://assets/start_menu.scene",
+              "uuid": "ae5c436b-4f5f-4aee-b875-9e3c98003ea1",
+              "inBundle": false
+            }
+          ],
+          "outputName": "wechatgame-001",
+          "packages": {
+            "cocos-service": {
+              "configID": "775472",
+              "services": []
+            },
+            "wechatgame": {
+              "startSceneAssetBundle": true,
+              "orientation": "portrait",
+              "appid": "",
+              "separateEngine": false,
+              "wasm": "wasm",
+              "enabelWebGL2": "off",
+              "remoteServerAddress": "https://nasty-monkey-1309598780.cos.ap-shanghai.myqcloud.com",
+              "buildOpenDataContextTemplate": false
+            }
+          }
+        },
+        "time": "2022-4-13 17:30",
+        "dirty": false
+      },
+      "1649842444197": {
+        "id": "1649842444197",
+        "progress": 1,
+        "state": "success",
+        "message": "2022-4-13 17:34 Build success in 13036 ms!",
+        "options": {
+          "name": "parkour",
+          "platform": "wechatgame",
+          "buildPath": "project://build",
+          "debug": false,
+          "md5Cache": true,
+          "sourceMaps": false,
+          "replaceSplashScreen": false,
+          "mainBundleCompressionType": "none",
+          "mainBundleIsRemote": true,
+          "mergeStartScene": false,
+          "experimentalEraseModules": false,
+          "compressTexture": true,
+          "packAutoAtlas": true,
+          "startScene": "ae5c436b-4f5f-4aee-b875-9e3c98003ea1",
+          "scenes": [
+            {
+              "url": "db://assets/end_scene.scene",
+              "uuid": "2d4720b9-a2fc-41bb-ab62-9ad563cbfbc3",
+              "inBundle": false
+            },
+            {
+              "url": "db://assets/loading_scene.scene",
+              "uuid": "79bc1ecc-9ef1-46f1-9d15-8e44698e867c",
+              "inBundle": false
+            },
+            {
+              "url": "db://assets/scene.scene",
+              "uuid": "e52f7624-4d19-49ca-976f-667c16768c2b",
+              "inBundle": false
+            },
+            {
+              "url": "db://assets/start_menu.scene",
+              "uuid": "ae5c436b-4f5f-4aee-b875-9e3c98003ea1",
+              "inBundle": false
+            }
+          ],
+          "outputName": "wechatgame-002",
+          "packages": {
+            "cocos-service": {
+              "configID": "775472",
+              "services": []
+            },
+            "wechatgame": {
+              "startSceneAssetBundle": true,
+              "orientation": "portrait",
+              "appid": "",
+              "separateEngine": false,
+              "wasm": "wasm",
+              "enabelWebGL2": "off",
+              "remoteServerAddress": "https://nasty-monkey-1309598780.cos.ap-shanghai.myqcloud.com",
+              "buildOpenDataContextTemplate": false
+            }
+          }
+        },
+        "time": "2022-4-13 17:34",
+        "dirty": false
+      }
+    }
   }
 }

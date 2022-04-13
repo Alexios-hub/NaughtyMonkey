@@ -1,7 +1,7 @@
 
 import { Animation,_decorator, Component, Node, find, RigidBody2D, v2, TypeScript, Collider2D, IPhysics2DContact, Contact2DType, director } from 'cc';
 import { CanvasController } from './CanvasController';
-import { monkey_controller } from './monkey_controller';
+import { monkey_controller, monkey_state } from './monkey_controller';
 const { ccclass, property } = _decorator;
 
 /**
@@ -15,7 +15,7 @@ const { ccclass, property } = _decorator;
  * ManualUrl = https://docs.cocos.com/creator/3.4/manual/zh/
  *
  */
-enum HedgehogSTATE{
+export enum HedgehogSTATE{
     UPRUNNING,
     DOWNRUNNING,
     IDLE,
@@ -163,7 +163,7 @@ export class HedgehogController extends Component {
 
     update (deltaTime: number) {
         
-      if(this.mk_controller.mk_state == 0){
+      if(this.mk_controller.mk_state == monkey_state.ALIVE){
         let ltree = find("Canvas/ltree");
         let ltree_rgd = ltree.getComponent(RigidBody2D);
        
@@ -250,6 +250,14 @@ export class HedgehogController extends Component {
 
       }
         // [4]
+    }
+
+    die() {
+        // this.node.getComponent(RigidBody2D).linearVelocity = v2(0,0);
+        this.node.getComponent(Animation).play('Hedgehog_Smoke');
+        // tween(this.node).to((this.node.position.y+871)/50,{position: v3(this.node.position.x,-871,0)})
+        // .start();
+
     }
 }
 

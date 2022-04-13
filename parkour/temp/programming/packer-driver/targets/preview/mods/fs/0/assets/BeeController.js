@@ -15,6 +15,8 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
     _reporterNs.report("monkey_controller", "./monkey_controller", _context.meta, extras);
   }
 
+  _export("BEESTATE", void 0);
+
   return {
     setters: [function (_unresolved_) {
       _reporterNs = _unresolved_;
@@ -55,7 +57,7 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
       (function (BEESTATE) {
         BEESTATE[BEESTATE["ALIVE"] = 0] = "ALIVE";
         BEESTATE[BEESTATE["DEAD"] = 1] = "DEAD";
-      })(BEESTATE || (BEESTATE = {}));
+      })(BEESTATE || _export("BEESTATE", BEESTATE = {}));
 
       _export("BeeController", BeeController = (_dec = ccclass('BeeController'), _dec2 = property(Number), _dec3 = property(_crd && monkey_controller === void 0 ? (_reportPossibleCrUseOfmonkey_controller({
         error: Error()
@@ -164,6 +166,10 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
               this.node.setScale(-this.node.getScale().x, this.node.getScale().y, this.node.getScale().z);
             }
           }
+        }
+
+        die() {
+          this.node.getComponent(Animation).play('Bee_Smoke');
         }
 
       }, _temp), (_descriptor = _applyDecoratedDescriptor(_class2.prototype, "y", [_dec2], {

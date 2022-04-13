@@ -5,9 +5,9 @@
     "module": "ES2015",
     "strict": true,
     "types": [
-      "./temp/declarations/cc.custom-macro",
       "./temp/declarations/jsb",
       "./temp/declarations/cc.env",
+      "./temp/declarations/cc.custom-macro",
       "./temp/declarations/cc"
     ],
     "paths": {
@@ -15,7 +15,7 @@
         "/Applications/CocosCreator/Creator/3.4.1/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/*"
       ],
       "db://assets/*": [
-        "/Users/liuhongbo/parkour/assets/*"
+        "/Users/liuhongbo/Downloads/NaughtyMonkey/parkour/assets/*"
       ]
     },
     "experimentalDecorators": true,
